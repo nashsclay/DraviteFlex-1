@@ -55,11 +55,11 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 
 static Checkpoints::MapCheckpoints mapCheckpoints =
-    boost::assign::map_list_of(0, uint256("0x00000711a403866ce72d5c3633b93a0269495f34a091a1507bd04cdb71abafe1"));
+    boost::assign::map_list_of(0, uint256("0x"));
 ;
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1529089192, // * UNIX timestamp of last checkpoint block
+    1541086397, // * UNIX timestamp of last checkpoint block
     1,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     720        // * estimated number of transactions per day after checkpoint
@@ -93,10 +93,10 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0x64;
-        pchMessageStart[1] = 0x75;
-        pchMessageStart[2] = 0x29;
-        pchMessageStart[3] = 0x22;
+        pchMessageStart[0] = 0x34;
+        pchMessageStart[1] = 0x25;
+        pchMessageStart[2] = 0x24;
+        pchMessageStart[3] = 0x42;
         vAlertPubKey = ParseHex("04266db20be5c52b94818e2e41c9def7af38197280c65e813f682adf2ed501ac186022562dbdf2ce3204d07432660fb61ecad8e78b6b8d39c568fb892db8ecb736");
         nDefaultPort = 25793;
         bnProofOfWorkLimit = ~uint256(0) >> 20;
@@ -118,7 +118,7 @@ public:
         nMinMnCollateral = 10000 * COIN;
         nMaxMnCollateral = 2600000 * COIN;
 
-        const char* pszTimestamp = "NyTimes.com 15th June 2018 - U.S. Imposes China Tariffs, Escalating Trade Fight.";
+        const char* pszTimestamp = "Its time to Flex the Competition";
         CMutableTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -129,9 +129,9 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1529089192;
+        genesis.nTime = 1541086397;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 27257850;
+        genesis.nNonce = 0;
 
         uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
         while (genesis.GetHash() > hashTarget)
@@ -147,20 +147,16 @@ public:
 				printf("nonce %08u: hash = %s \n", genesis.nNonce, genesis.GetHash().ToString().c_str());
 			}
         }
-		
+
         hashGenesisBlock = genesis.GetHash();
-        /*printf("MN nNonce %u\n", genesis.nNonce);
-	    printf("MN hashGenesisBlock %s\n", hashGenesisBlock.ToString().c_str());
-	    printf("MN hashMerkleRoot %s\n", genesis.hashMerkleRoot.ToString().c_str());
-        printf("MN nTime %u\n", genesis.nTime); */
-        assert(hashGenesisBlock == uint256("0x00000711a403866ce72d5c3633b93a0269495f34a091a1507bd04cdb71abafe1"));
-        assert(genesis.hashMerkleRoot == uint256("0x58e6ef05a528902e903b261900d95e314d2412bf1276e6fe80625a9d0e20835a"));
-        
-        vSeeds.push_back(CDNSSeedData("flexinodes-seednode-1.dynu.net:25793", "flexinodes-seednode-1.dynu.net:25793"));
-        vSeeds.push_back(CDNSSeedData("flexinodes-seednode-1.dynu.net:25794", "flexinodes-seednode-1.dynu.net:25794"));
-        vSeeds.push_back(CDNSSeedData("flexinodes-seednode-1.dynu.net:25795", "flexinodes-seednode-1.dynu.net:25795"));
-        vSeeds.push_back(CDNSSeedData("flexinodes-seednode-2.dynu.net:25793", "flexinodes-seednode-2.dynu.net:25793"));
-        vSeeds.push_back(CDNSSeedData("flexinodes-seednode-2.dynu.net:25794", "flexinodes-seednode-2.dynu.net:25794"));
+        printf("MN nNonce %u\n", genesis.nNonce);
+	      printf("MN hashGenesisBlock %s\n", hashGenesisBlock.ToString().c_str());
+	      printf("MN hashMerkleRoot %s\n", genesis.hashMerkleRoot.ToString().c_str());
+        printf("MN nTime %u\n", genesis.nTime);
+        assert(hashGenesisBlock == uint256("0x"));
+        assert(genesis.hashMerkleRoot == uint256("0x"));
+
+        vSeeds.push_back(CDNSSeedData("0.0.0.0.", "0.0.0.0"));
 
         //vFixedSeeds.clear();
         //vSeeds.clear();
@@ -188,7 +184,7 @@ public:
         nPoolMaxTransactions = 3;
         strSporkKey = "0278c3e932fbe183b2f665de901966cb1cfc5ed3b0bf733b72286f265ffc03ff52dfd669fbb3f77d630e5393da65c721a9a891d2c4c6aa515dfd25ffe545582357";
         strDarksendPoolDummyAddress = "AcmpqXViWUXNroqVNYRdKjKrFM6PNa1oTM";
-        nStartMasternodePayments = 1523967685; 
+        nStartMasternodePayments = 1523967685;
     }
 
     const Checkpoints::CCheckpointData& Checkpoints() const
@@ -334,7 +330,7 @@ public:
 	    printf("RT hashGenesisBlock %s\n", hashGenesisBlock.ToString().c_str());
 	    printf("RT hashMerkleRoot %s\n", genesis.hashMerkleRoot.ToString().c_str());
         printf("RT nTime %u\n", genesis.nTime);*/
-		
+
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 22988;
         assert(hashGenesisBlock == uint256("0x24904b56f3bb5bc48a4973cde58f7c16d8a4a9e78195061c5511b262e35d4a2e"));
