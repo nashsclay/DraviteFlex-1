@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
-// Copyright (c) 2015-2017 The PIVX developers 
+// Copyright (c) 2015-2017 The PIVX developers
 // Copyright (c) 2018 The DraviteCoins developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -1621,16 +1621,34 @@ double ConvertBitsToDouble(unsigned int nBits)
 int64_t GetBlockValue(int nHeight)
 {
 
-	if (nHeight == 1) return 200000000 * COIN;
+	if (nHeight == 1) return 150000000 * COIN;
 
 	int64_t nSubsidy = 0;
 
-	if(nHeight+1 <= 21900) {
-		nSubsidy = 4  * COIN;
-	} else {
-	    nSubsidy = 2 * COIN;
+   if (nHeight < 200) {
+       nSubsidy = 0 * COIN;
+}
+  else if (nHeight < 201 && nHeight > 200) {
+        nSubsidy = 40 * COIN;
+    }
+  else if (nHeight <= 50001 && nHeight >= 201) {
+        nSubsidy = 1808 * COIN;
+    }
+  else if (nHeight <= 150001 && nHeight >= 50001) {
+        nSubsidy = 1356 * COIN;
+    }
+  else if (nHeight <= 500001 && nHeight >= 150001) {
+        nSubsidy = 1220.4 * COIN;
+    }
+  else if (nHeight <= 1000000 && nHeight >= 500001) {
+        nSubsidy = 1098.36 * COIN;
+    }
+
+   else {
+	    nSubsidy = 988.524 * COIN;
 	    nSubsidy >>= (nHeight / Params().SubsidyHalvingInterval());
 	}
+
 
 	return nSubsidy;
 
@@ -3168,7 +3186,7 @@ bool CheckWork(const CBlock block, CBlockIndex* const pindexPrev)
         return error("%s : null pindexPrev for block %s", __func__, block.GetHash().ToString().c_str());
 
     unsigned int nBitsRequired = GetNextWorkRequired(pindexPrev, &block, block.IsProofOfStake());
-	
+
     if (block.nBits != nBitsRequired)
         return error("%s : incorrect proof of work at %d", __func__, pindexPrev->nHeight + 1);
 
@@ -5338,7 +5356,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
 }
 
 // Note: whenever a protocol update is needed toggle between both implementations (comment out the formerly active one)
-//       so we can leave the existing clients untouched (old SPORK will stay on so they don't see even older clients). 
+//       so we can leave the existing clients untouched (old SPORK will stay on so they don't see even older clients).
 //       Those old clients won't react to the changes of the other (new) SPORK because at the time of their implementation
 //       it was the one which was commented out
 int ActiveProtocol()
@@ -5356,9 +5374,9 @@ int ActiveProtocol()
 */
 
 
-    // SPORK_15 is used for 70910. Nodes < 70910 don't see it and still get their protocol version via SPORK_14 and their 
+    // SPORK_15 is used for 70910. Nodes < 70910 don't see it and still get their protocol version via SPORK_14 and their
     // own ModifierUpgradeBlock()
- 
+
     if (IsSporkActive(SPORK_15_NEW_PROTOCOL_ENFORCEMENT_2))
             return MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT;
 
