@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/Darksend-relay.h \
            src/Darksend.h \
-           src/flexinodes-config.h \
+           src/dravitecoins-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/flexinodes-config.h \
+           src/config/dravitecoins-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -334,7 +334,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/flexinodes.moc \
+           src/qt/dravitecoins.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
 		   src/qt/coinmix.moc \
@@ -377,9 +377,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/Darksend-relay.cpp \
            src/Darksend.cpp \
-           src/flexinodes-cli.cpp \
-           src/flexinodes-tx.cpp \
-           src/flexinodes.cpp \
+           src/dravitecoins-cli.cpp \
+           src/dravitecoins-tx.cpp \
+           src/dravitecoins.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -474,8 +474,8 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/Darksendconfig.cpp \
-           src/qt/flexinodes.cpp \
-           src/qt/flexinodesstrings.cpp \
+           src/qt/dravitecoins.cpp \
+           src/qt/dravitecoinsstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -554,7 +554,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_flexinodes.cpp \
+           src/test/test_dravitecoins.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -645,21 +645,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/flexinodes.qrc src/qt/flexinodes_locale.qrc
+RESOURCES += src/qt/dravitecoins.qrc src/qt/dravitecoins_locale.qrc
 
-TRANSLATIONS += src/qt/locale/flexinodes_bg.ts \
-                src/qt/locale/flexinodes_de.ts \
-                src/qt/locale/flexinodes_en.ts \
-                src/qt/locale/flexinodes_es.ts \
-                src/qt/locale/flexinodes_fi.ts \
-                src/qt/locale/flexinodes_fr.ts \
-                src/qt/locale/flexinodes_it.ts \
-                src/qt/locale/flexinodes_ja.ts \
-                src/qt/locale/flexinodes_pl.ts \
-                src/qt/locale/flexinodes_pt.ts \
-                src/qt/locale/flexinodes_ru.ts \
-                src/qt/locale/flexinodes_sk.ts \
-                src/qt/locale/flexinodes_sv.ts \
-                src/qt/locale/flexinodes_vi.ts \
-                src/qt/locale/flexinodes_zh_CN.ts \
-                src/qt/locale/flexinodes_zh_TW.ts
+TRANSLATIONS += src/qt/locale/dravitecoins_bg.ts \
+                src/qt/locale/dravitecoins_de.ts \
+                src/qt/locale/dravitecoins_en.ts \
+                src/qt/locale/dravitecoins_es.ts \
+                src/qt/locale/dravitecoins_fi.ts \
+                src/qt/locale/dravitecoins_fr.ts \
+                src/qt/locale/dravitecoins_it.ts \
+                src/qt/locale/dravitecoins_ja.ts \
+                src/qt/locale/dravitecoins_pl.ts \
+                src/qt/locale/dravitecoins_pt.ts \
+                src/qt/locale/dravitecoins_ru.ts \
+                src/qt/locale/dravitecoins_sk.ts \
+                src/qt/locale/dravitecoins_sv.ts \
+                src/qt/locale/dravitecoins_vi.ts \
+                src/qt/locale/dravitecoins_zh_CN.ts \
+                src/qt/locale/dravitecoins_zh_TW.ts

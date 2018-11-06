@@ -43,7 +43,7 @@ static std::string ValueToString(int64_t nValue, bool AllowNegative = false)
     if (nValue < 0 && !AllowNegative)
         return "<span>" + _("unknown") + "</span>";
 
-    QString Str = BitcoinUnits::formatWithUnit(BitcoinUnits::FLX, nValue);
+    QString Str = BitcoinUnits::formatWithUnit(BitcoinUnits::DRV, nValue);
     if (AllowNegative && nValue > 0)
         Str = '+' + Str;
     return std::string("<span>") + Str.toUtf8().data() + "</span>";
@@ -470,8 +470,8 @@ void BlockExplorer::showEvent(QShowEvent*)
         updateNavButtons();
 
         if (!GetBoolArg("-txindex", false)) {
-            QString Warning = tr("Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (flexinodes.conf).");
-            QMessageBox::warning(this, "Flexinodes Core Blockchain Explorer", Warning, QMessageBox::Ok);
+            QString Warning = tr("Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (dravitecoins.conf).");
+            QMessageBox::warning(this, "DraviteCoins Core Blockchain Explorer", Warning, QMessageBox::Ok);
         }
     }
 }

@@ -62,12 +62,12 @@
         <translation>Endereços para recepção</translation>
     </message>
     <message>
-        <source>These are your FLX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os endereços FLX para envio de pagamentos. Confirme sempre a quantia e o endereço antes de enviar as moedas.</translation>
+        <source>These are your DRV addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes são os endereços DRV para envio de pagamentos. Confirme sempre a quantia e o endereço antes de enviar as moedas.</translation>
     </message>
     <message>
-        <source>These are your FLX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estes são os seus endereços FLX para receber pagamentos. É recomendado que seja usado um novo endereço para cada transacção.</translation>
+        <source>These are your DRV addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estes são os seus endereços DRV para receber pagamentos. É recomendado que seja usado um novo endereço para cada transacção.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Carteira cifrada</translation>
     </message>
     <message>
-        <source>FLX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your capracoins from being stolen by malware infecting your computer.</source>
-        <translation>O cliente FLX irá fechar para finalizar o processo de cifra. Lembre-se que cifrar a sua carteira não consegue proteger totalmente as suas capracoins contra roubos feitos por malware presente no seu computador.</translation>
+        <source>DRV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your capracoins from being stolen by malware infecting your computer.</source>
+        <translation>O cliente DRV irá fechar para finalizar o processo de cifra. Lembre-se que cifrar a sua carteira não consegue proteger totalmente as suas capracoins contra roubos feitos por malware presente no seu computador.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Flexinodes Core</source>
-        <translation>Flexinodes Core</translation>
+        <source>DraviteCoins Core</source>
+        <translation>DraviteCoins Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,8 +255,8 @@
         <translation>&amp;Enviar</translation>
     </message>
     <message>
-        <source>Send coins to a FLX address</source>
-        <translation>Enviar moedas para um endereço FLX</translation>
+        <source>Send coins to a DRV address</source>
+        <translation>Enviar moedas para um endereço DRV</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -283,12 +283,12 @@
         <translation>Sair da aplicação</translation>
     </message>
     <message>
-        <source>&amp;About Flexinodes Core</source>
-        <translation>&amp;Acerca do Flexinodes Core</translation>
+        <source>&amp;About DraviteCoins Core</source>
+        <translation>&amp;Acerca do DraviteCoins Core</translation>
     </message>
     <message>
-        <source>Show information about Flexinodes Core</source>
-        <translation>Mostra informação acerca do Flexinodes Core</translation>
+        <source>Show information about DraviteCoins Core</source>
+        <translation>Mostra informação acerca do DraviteCoins Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Opções...</translation>
     </message>
     <message>
-        <source>Modify configuration options for FLX</source>
-        <translation>Modificar opções de configuração do FLX</translation>
+        <source>Modify configuration options for DRV</source>
+        <translation>Modificar opções de configuração do DRV</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>&amp;Assinar Mensagem</translation>
     </message>
     <message>
-        <source>Sign messages with your FLX addresses to prove you own them</source>
-        <translation>Assine mensagens com os seus endereços FLX para provar que são seus</translation>
+        <source>Sign messages with your DRV addresses to prove you own them</source>
+        <translation>Assine mensagens com os seus endereços DRV para provar que são seus</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verificar Mensagem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified FLX addresses</source>
-        <translation>Verifica mensagens para garantir que foram assinadas com um endereço FLX específico</translation>
+        <source>Verify messages to ensure they were signed with specified DRV addresses</source>
+        <translation>Verifica mensagens para garantir que foram assinadas com um endereço DRV específico</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -451,16 +451,16 @@
         <translation>Opções de linha de &amp;comandos</translation>
     </message>
     <message>
-        <source>Flexinodes Core client</source>
-        <translation>Cliente Flexinodes Core</translation>
+        <source>DraviteCoins Core client</source>
+        <translation>Cliente DraviteCoins Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
         <translation><numerusform>%n bloco do histórico de transacções processado.</numerusform><numerusform>%n blocos do histórico de transacções processados.</numerusform></translation>
     </message>
     <message>
-        <source>Show the Flexinodes Core help message to get a list with possible FLX command-line options</source>
-        <translation>Mostra a mensagem de ajuda do Flexinodes Core para obter a lista com as possíveis opções de linha de comandos</translation>
+        <source>Show the DraviteCoins Core help message to get a list with possible DRV command-line options</source>
+        <translation>Mostra a mensagem de ajuda do DraviteCoins Core para obter a lista com as possíveis opções de linha de comandos</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -483,8 +483,8 @@
         <translation>Barra de ferramentas</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to FLX network</source>
-        <translation><numerusform>%n ligação activa à rede FLX</numerusform><numerusform>%n ligações activas à rede FLX</numerusform></translation>
+        <source>%n active connection(s) to DRV network</source>
+        <translation><numerusform>%n ligação activa à rede DRV</numerusform><numerusform>%n ligações activas à rede DRV</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -892,16 +892,16 @@ Endereço: %4
         <translation>Configuração Obfuscate</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening FLX's configuration screen.</source>
-        <translation>Obfuscate foi colocado com sucesso no modo básico (%1 e 2 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração FLX.</translation>
+        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DRV's configuration screen.</source>
+        <translation>Obfuscate foi colocado com sucesso no modo básico (%1 e 2 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração DRV.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening FLX's configuration screen.</source>
-        <translation>Obfuscate foi colocado com sucesso no modo alto (%1 e 8 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração FLX.</translation>
+        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DRV's configuration screen.</source>
+        <translation>Obfuscate foi colocado com sucesso no modo alto (%1 e 8 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração DRV.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening FLX's configuration screen.</source>
-        <translation>Obfuscate foi colocado com sucesso no modo máximo (%1 e 16 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração FLX.</translation>
+        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DRV's configuration screen.</source>
+        <translation>Obfuscate foi colocado com sucesso no modo máximo (%1 e 16 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração DRV.</translation>
     </message>
 </context>
 <context>
@@ -943,8 +943,8 @@ Endereço: %4
         <translation>Editar endereço de envio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid FLX address.</source>
-        <translation>O endereço introduzido "%1" não é um endereço FLX válido.</translation>
+        <source>The entered address "%1" is not a valid DRV address.</source>
+        <translation>O endereço introduzido "%1" não é um endereço DRV válido.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -985,8 +985,8 @@ Endereço: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Flexinodes Core</source>
-        <translation>Flexinodes Core</translation>
+        <source>DraviteCoins Core</source>
+        <translation>DraviteCoins Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -997,8 +997,8 @@ Endereço: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Flexinodes Core</source>
-        <translation>Acerca do Flexinodes Core</translation>
+        <source>About DraviteCoins Core</source>
+        <translation>Acerca do DraviteCoins Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1044,16 +1044,16 @@ Endereço: %4
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to Flexinodes Core.</source>
-        <translation>Bem-vindo ao Flexinodes Core.</translation>
+        <source>Welcome to DraviteCoins Core.</source>
+        <translation>Bem-vindo ao DraviteCoins Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Flexinodes Core will store its data.</source>
-        <translation>Como esta é a primeira vez que o programa é executado, pode escolher onde o cliente Flexinodes Core irá guardar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where DraviteCoins Core will store its data.</source>
+        <translation>Como esta é a primeira vez que o programa é executado, pode escolher onde o cliente DraviteCoins Core irá guardar os seus dados.</translation>
     </message>
     <message>
-        <source>Flexinodes Core will download and store a copy of the FLX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>O cliente Flexinodes Core irá descarregar e guardar uma copia da cadeia de blocos FLX. Pelo menos %1GB de dados serão guardados nesta pasta e irá aumentar com o tempo. A carteira também ficará guardada nesta pasta.</translation>
+        <source>DraviteCoins Core will download and store a copy of the DRV block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O cliente DraviteCoins Core irá descarregar e guardar uma copia da cadeia de blocos DRV. Pelo menos %1GB de dados serão guardados nesta pasta e irá aumentar com o tempo. A carteira também ficará guardada nesta pasta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1064,8 +1064,8 @@ Endereço: %4
         <translation>Usar uma pasta de dados personalizada</translation>
     </message>
     <message>
-        <source>Flexinodes Core</source>
-        <translation>Flexinodes Core</translation>
+        <source>DraviteCoins Core</source>
+        <translation>DraviteCoins Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1118,12 +1118,12 @@ Endereço: %4
         <translation>&amp;Geral</translation>
     </message>
     <message>
-        <source>Automatically start FLX after logging in to the system.</source>
-        <translation>Executar automaticamente o cliente FLX quando entrar no sistema.</translation>
+        <source>Automatically start DRV after logging in to the system.</source>
+        <translation>Executar automaticamente o cliente DRV quando entrar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start FLX on system login</source>
-        <translation>&amp;Iniciar o cliente FLX ao entrar no sistema</translation>
+        <source>&amp;Start DRV on system login</source>
+        <translation>&amp;Iniciar o cliente DRV ao entrar no sistema</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1150,8 +1150,8 @@ Endereço: %4
         <translation>Esta quantia actua como um limite, a partir do qual o Obfuscate é desligado.</translation>
     </message>
     <message>
-        <source>Amount of FLX to keep anonymized</source>
-        <translation>Quantia de FLX a manter anonimizada</translation>
+        <source>Amount of DRV to keep anonymized</source>
+        <translation>Quantia de DRV a manter anonimizada</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1170,8 +1170,8 @@ Endereço: %4
         <translation>Aceitar ligações de entrada</translation>
     </message>
     <message>
-        <source>Connect to the FLX network through a SOCKS5 proxy.</source>
-        <translation>Efectuar a ligação à rede FLX através de um proxy SOCKS5.</translation>
+        <source>Connect to the DRV network through a SOCKS5 proxy.</source>
+        <translation>Efectuar a ligação à rede DRV através de um proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1202,8 +1202,8 @@ Endereço: %4
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>Automatically open the FLX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente FLX no router. Isto só funciona quando o seu router suporta UPnP e este está activo.</translation>
+        <source>Automatically open the DRV client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente DRV no router. Isto só funciona quando o seu router suporta UPnP e este está activo.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1254,7 +1254,7 @@ Endereço: %4
         <translation>&amp;Linguagem do interface:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting FLX.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting DRV.</source>
         <translation>A linguagem do interface pode ser definida aqui. Esta definição terá efeito depois de reiniciar a aplicação.</translation>
     </message>
     <message>
@@ -1343,8 +1343,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>De</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FLX network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desactualizada. A sua carteira sincroniza automaticamente com a rede FLX assim que for estabelecida uma ligação, mas este processo ainda não terminou.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DRV network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desactualizada. A sua carteira sincroniza automaticamente com a rede DRV assim que for estabelecida uma ligação, mas este processo ainda não terminou.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1584,8 +1584,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Endereço de pagamento inválido %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid FLX address or malformed URI parameters.</source>
-        <translation>O URI não pode ser carregado! Isto pode ser causado por um endereço FLX inválido ou parâmetros do URI incorrectos.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid DRV address or malformed URI parameters.</source>
+        <translation>O URI não pode ser carregado! Isto pode ser causado por um endereço DRV inválido ou parâmetros do URI incorrectos.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1670,8 +1670,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Quantia</translation>
     </message>
     <message>
-        <source>Enter a FLX address (e.g. %1)</source>
-        <translation>Insira um endereço FLX (ex. %1)</translation>
+        <source>Enter a DRV address (e.g. %1)</source>
+        <translation>Insira um endereço DRV (ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1760,8 +1760,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Número de ligações</translation>
     </message>
     <message>
-        <source>Open the FLX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir o ficheiro de registo de depuração FLX a partir da pasta de dados actual. Para grandes ficheiros de registo pode demorar alguns segundos.</translation>
+        <source>Open the DRV debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir o ficheiro de registo de depuração DRV a partir da pasta de dados actual. Para grandes ficheiros de registo pode demorar alguns segundos.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1968,8 +1968,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Saída:</translation>
     </message>
     <message>
-        <source>Welcome to the FLX RPC console.</source>
-        <translation>Bem-vindo à consola RPC FLX</translation>
+        <source>Welcome to the DRV RPC console.</source>
+        <translation>Bem-vindo à consola RPC DRV</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2031,8 +2031,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>R&amp;eutilizar um endereço de recebimento existente (não recomendado)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the FLX network.</source>
-        <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. Nota: A mensagem não será enviada com o pagamento através da rede FLX.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DRV network.</source>
+        <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. Nota: A mensagem não será enviada com o pagamento através da rede DRV.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2043,8 +2043,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Rótulo opcional para associar com o novo endereço de recebimento.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the FLX network.</source>
-        <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. &lt;br&gt;Nota: A mensagem não será enviada com o pagamento através da rede FLX.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DRV network.</source>
+        <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. &lt;br&gt;Nota: A mensagem não será enviada com o pagamento através da rede DRV.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2480,8 +2480,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Pagar somente a taxa mínima de %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid FLX address</source>
-        <translation>Aviso: Endereço FLX inválido</translation>
+        <source>Warning: Invalid DRV address</source>
+        <translation>Aviso: Endereço DRV inválido</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2503,8 +2503,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>&amp;Pagar a:</translation>
     </message>
     <message>
-        <source>The FLX address to send the payment to</source>
-        <translation>O endereço FLX para onde enviar o pagamento</translation>
+        <source>The DRV address to send the payment to</source>
+        <translation>O endereço DRV para onde enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2543,8 +2543,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Mensagem:</translation>
     </message>
     <message>
-        <source>A message that was attached to the capracoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the FLX network.</source>
-        <translation>Mensagem que foi anexada ao capracoin: URI e que será guardada com a transacção para sua referência. Nota: Esta mensagem não será enviada para a rede FLX.</translation>
+        <source>A message that was attached to the capracoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DRV network.</source>
+        <translation>Mensagem que foi anexada ao capracoin: URI e que será guardada com a transacção para sua referência. Nota: Esta mensagem não será enviada para a rede DRV.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2570,8 +2570,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Flexinodes Core is shutting down...</source>
-        <translation>O Flexinodes Core está a desligar...</translation>
+        <source>DraviteCoins Core is shutting down...</source>
+        <translation>O DraviteCoins Core está a desligar...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2593,8 +2593,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Pode assinar mensagens com os seus endereços para provar que são seus. Tenha atenção para não assinar mensagens vagas, já que, ataques de phishing podem levá-lo a assinar a sua própria identidade para os atacantes. Apenas assine declarações detalhadas com as quais concorde.</translation>
     </message>
     <message>
-        <source>The FLX address to sign the message with</source>
-        <translation>Endereço FLX com o qual deseja assinar a mensagem</translation>
+        <source>The DRV address to sign the message with</source>
+        <translation>Endereço DRV com o qual deseja assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2625,8 +2625,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Copiar a assinatura actual para a área de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this FLX address</source>
-        <translation>Assinar a mensagem para provar que é o proprietário deste endereço FLX</translation>
+        <source>Sign the message to prove you own this DRV address</source>
+        <translation>Assinar a mensagem para provar que é o proprietário deste endereço DRV</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2649,12 +2649,12 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Introduza o endereço de assinatura, mensagem (assegure-se que copia exactamente as quebras de linha, espaços, tabulações, etc) e assinatura abaixo para verificar a mensagem. Tenha atenção para não ler mais na assinatura do que o que estiver na mensagem assinada, para evitar ser enganado por um atacante que se encontre entre si e quem assinou a mensagem.</translation>
     </message>
     <message>
-        <source>The FLX address the message was signed with</source>
-        <translation>Endereço FLX com o qual a mensagem foi assinada</translation>
+        <source>The DRV address the message was signed with</source>
+        <translation>Endereço DRV com o qual a mensagem foi assinada</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified FLX address</source>
-        <translation>Verificar a mensagem de forma a garantir que foi assinada com o endereço FLX especificado</translation>
+        <source>Verify the message to ensure it was signed with the specified DRV address</source>
+        <translation>Verificar a mensagem de forma a garantir que foi assinada com o endereço DRV especificado</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2720,8 +2720,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Flexinodes Core</source>
-        <translation>Flexinodes Core</translation>
+        <source>DraviteCoins Core</source>
+        <translation>DraviteCoins Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2732,8 +2732,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Os programadores Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Flexinodes Core developers</source>
-        <translation>Os programadores Flexinodes Core</translation>
+        <source>The DraviteCoins Core developers</source>
+        <translation>Os programadores DraviteCoins Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3310,8 +3310,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Vincular a um determinado endereço e ouvir sempre aí. Use a notação [endereço]:porta para IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Flexinodes Core is probably already running.</source>
-        <translation>Não foi possível obter acesso exclusivo à pasta de dados %s. Possivelmente o Flexinodes Core já se encontra em execução.</translation>
+        <source>Cannot obtain a lock on data directory %s. DraviteCoins Core is probably already running.</source>
+        <translation>Não foi possível obter acesso exclusivo à pasta de dados %s. Possivelmente o DraviteCoins Core já se encontra em execução.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3366,8 +3366,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Esta é uma compilação prévia de teste - use por sua conta e risco - não use para minar nem em aplicações comerciais</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Flexinodes Core is probably already running.</source>
-        <translation>Não foi possível vincular a %s neste computador. Provavelmente o Flexinodes Core já está a ser executado.</translation>
+        <source>Unable to bind to %s on this computer. DraviteCoins Core is probably already running.</source>
+        <translation>Não foi possível vincular a %s neste computador. Provavelmente o DraviteCoins Core já está a ser executado.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
@@ -3650,8 +3650,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Aviso: -maxtxfee é demasiado alta! Taxas deste tamanho podem ser pagas em apenas uma transacção.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Flexinodes Core will not work properly.</source>
-        <translation>Aviso: Por favor verifique que a data e a hora do computador está correcta! Se o relógio estiver errado o Flexinodes Core não vai funcionar correctamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong DraviteCoins Core will not work properly.</source>
+        <translation>Aviso: Por favor verifique que a data e a hora do computador está correcta! Se o relógio estiver errado o DraviteCoins Core não vai funcionar correctamente.</translation>
     </message>
     <message>
         <source>(25791 could be used only on mainnet)</source>
@@ -3696,8 +3696,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Flexinodes Core Developers</source>
-        <translation>Copyright (C) 2014-%i Flexinodes Core Developers</translation>
+        <source>Copyright (C) 2014-%i The DraviteCoins Core Developers</source>
+        <translation>Copyright (C) 2014-%i DraviteCoins Core Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3728,8 +3728,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Erro conectando ao Masternode</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Flexinodes Core</source>
-        <translation>Erro carregando wallet.dat Carteira precisa de nova versão do Flexinodes Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of DraviteCoins Core</source>
+        <translation>Erro carregando wallet.dat Carteira precisa de nova versão do DraviteCoins Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3800,8 +3800,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Informação</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Flexinodes Core is shutting down.</source>
-        <translation>A verificação de consistência no arranque falhou. O Flexinodes Core está a encerrar.</translation>
+        <source>Initialization sanity check failed. DraviteCoins Core is shutting down.</source>
+        <translation>A verificação de consistência no arranque falhou. O DraviteCoins Core está a encerrar.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4044,8 +4044,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Utilize UPNP para mapear porta de escuta (default: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Flexinodes Core to complete</source>
-        <translation>Carteira necessita de ser re-escrita: reinicie Flexinodes Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart DraviteCoins Core to complete</source>
+        <translation>Carteira necessita de ser re-escrita: reinicie DraviteCoins Core para completar</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4185,7 +4185,7 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
     </message>
     <message>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Opções RPC SSL: (para instruções de configuração SSL dirija-se à FLX Wiki)</translation>
+        <translation>Opções RPC SSL: (para instruções de configuração SSL dirija-se à DRV Wiki)</translation>
     </message>
     <message>
         <source>RPC server options:</source>

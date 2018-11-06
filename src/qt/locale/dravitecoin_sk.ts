@@ -1,570 +1,570 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="fi" version="2.0">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="sk" version="2.0">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Klikkaa hiiren oikealla muokataksesi osoitetta tai nimeä</translation>
+        <translation>Pre úpravu adresy alebo popisu kliknite pravým tlačidlom myši</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Luo uusi osoite</translation>
+        <translation>Vytvoriť novú adresu</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Uusi</translation>
+        <translation>&amp;Nové</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopioi valittu osoite leikepöydälle</translation>
+        <translation>Kopírovať práve zvolenú adresu do systémového klipbordu</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopioi</translation>
+        <translation>&amp;Kopírovať</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Poista valittu osoite listalta</translation>
+        <translation>Odstrániť vybranú adresu zo zoznamu</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Poista</translation>
+        <translation>&amp;Odstániť</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Vie auki olevan välilehden tiedot tiedostoon</translation>
+        <translation>Exportovať tento náhľad do súboru</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>Vi&amp;e...</translation>
+        <translation>&amp;Exportovať...</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>&amp;Sulje</translation>
+        <translation>Zatvoriť</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Valitse osoite johon varat lähetetään</translation>
+        <translation>Zvoľte adresu kam poslať coins</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Valitse vastaanottava osoite</translation>
+        <translation>Zvoľte adresu na ktorú prijať coins</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>V&amp;alitse</translation>
+        <translation>Vybrať</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Lähettävä osoite</translation>
+        <translation>Adresa odoslania</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Vastaanottava osoite</translation>
+        <translation>Adresa prijatia</translation>
     </message>
     <message>
-        <source>These are your FLX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat FLX osoitteesi maksujen lähetykseen. Tarkista aina lähetettävä määrä ja vastaanottajan osoite ennen kuin lähetät varoja.</translation>
+        <source>These are your DRV addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú Vaše DRV adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
     </message>
     <message>
-        <source>These are your FLX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat FLX osoitteesi suoritusten vastaanottamiseen. Suositellaan että annat uuden osoitteen kullekin siirtotapahtumalle.</translation>
+        <source>These are your DRV addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú Vaše DRV adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>Kopioi &amp;Osoite</translation>
+        <translation>&amp;Kopírovať adresu</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Kopioi &amp;Nimi</translation>
+        <translation>Kopírovať &amp;popis</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Muokkaa</translation>
+        <translation>&amp;Upraviť</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Vie osoitekirja</translation>
+        <translation>Exportovať zoznam adries</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Pilkuilla eritelty tiedosto (*.csv)</translation>
+        <translation>Čiarkou oddelený súbor (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Vienti epäonnistui</translation>
+        <translation>Export zlyhal</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Osoitelistan tallennuksessa tapahtui virhe tiedostoon %1. Yritä uudelleen.</translation>
+        <translation>Nastala chyba pri pokuse uložiť zoznam adries do %1. Prosím skúste znovu.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Nimi</translation>
+        <translation>Popis</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Osoite</translation>
+        <translation>Adresa</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(ei nimeä)</translation>
+        <translation>(bez popisu)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Salasanan Dialogi</translation>
+        <translation>Dialóg hesla</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Kirjoita salasana</translation>
+        <translation>Zadajte heslo</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Uusi salasana</translation>
+        <translation>Nové heslo</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Uusi salasana uudelleen</translation>
+        <translation>Zopakujte nové heslo</translation>
     </message>
     <message>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>Poistaa käytöstä rahojen lähetyksen kun käyttöjärjestelmän käyttäjätili on vaarantunut. Ei tarjoa oikeaa turvallisuutta.</translation>
+        <translation>Slúži na vypnutie triviálneho posielania peňazí v prípade napadnutého účtu operačného systému. Neposkytuje skutočnú bezpečnosť. </translation>
     </message>
     <message>
         <source>For anonymization and staking only</source>
-        <translation>Vain anonymisointia varten</translation>
+        <translation>Iba pre anonimizáciu</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Anna lompakolle uusi salasana.&lt;br/&gt;Käytä salasanaa jossa on ainakin  &lt;b&gt;10 satunnaista mekkiä&lt;/b&gt; tai &lt;b&gt;kahdeksan sanaa&lt;/b&gt;.</translation>
+        <translation>Zadajte nové heslo k peňaženke.&lt;br/&gt;Prosím použite heslo s dĺžkou aspon &lt;b&gt;10 alebo viac náhodných znakov&lt;/b&gt;, alebo &lt;b&gt;8 alebo viac slov&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Salaa lompakko</translation>
+        <translation>Zašifrovať peňaženku</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Tätä toimintoa varten sinun täytyy antaa lompakon salasana sen avaamiseksi.</translation>
+        <translation>Táto operácia potrebuje heslo k vašej peňaženke aby ju mohla dešifrovať.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Avaa lompakko</translation>
+        <translation>Odomknúť peňaženku</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Tätä toimintoa varten sinun täytyy antaa lompakon salasana salauksen purkuun.</translation>
+        <translation>Táto operácia potrebuje heslo k vašej peňaženke na dešifrovanie peňaženky.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Pura lompakon salaus</translation>
+        <translation>Dešifrovať peňaženku</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Vaihda salasana</translation>
+        <translation>Zmena hesla</translation>
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Anna vanha ja uusi salasana.</translation>
+        <translation>Zadajte staré a nové heslo k peňaženke.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Vahvista lompakon salaus</translation>
+        <translation>Potvrďte šifrovanie peňaženky</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DNET&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakon ja unohdat salasanan, &lt;b&gt;MENETÄT KAIKKI DNETisi&lt;/b&gt;!</translation>
+        <translation>Upozornenie: Ak zašifrujete vašu peňaženku a stratíte prístupové heslo, potom &lt;b&gt;prídete o všetky svoje DNET-y&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Haluatko varmasti salata lompakkosi?</translation>
+        <translation>Ste si istí, že si želáte zašifrovať peňaženku?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Lompakko salattu</translation>
+        <translation>Peňaženka zašifrovaná</translation>
     </message>
     <message>
-        <source>FLX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your capracoins from being stolen by malware infecting your computer.</source>
-        <translation>FLX sulkeutuu nyt salauksen viimeistelyä varten. Muista että salaus pelkästään ei voi estää FLXiesi varastamista jos koneesi saastuu haittaohjelmilla tai viruksilla.</translation>
+        <source>DRV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your capracoins from being stolen by malware infecting your computer.</source>
+        <translation>DRVCoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť Vaše mince pred krádežou škodlivým softvérom, ktorý napadol váš počítač.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>TÄRKEÄÄ: Kaikki vanhat lompakon varmuuskopiot pitäisi korvata uusilla salatuilla varmuuskopioilla. Turvallisuussyistä edelliset salaamattomat varmuuskopiot muuttuvat turhiksi kun aloitat uuden salatun lompakon käytön.</translation>
+        <translation>DÔLEŽITÉ: Všetky doterajšie záložné kópie peňaženky ktoré ste zhotovili by mali byť nahradené novým zašifrovaným súborom s peňaženkou. Z bezpečnostných dôvodov sa predchádzajúce kópie nezašifrovanej peňaženky stanú neužitočné keď začnete používať novú zašifrovanú peňaženku.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Lompakon salaus epäonnistui</translation>
+        <translation>Šifrovanie peňaženky zlyhalo</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Lompakon salaaminen epäonnistui sisäisen virheen vuoksi. Lompakkoasi ei salattu.</translation>
+        <translation>Šifrovanie peňaženky zlyhalo kôli internej chybe. Vaša peňaženka nebola zašifrovaná.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Annetut salasanat eivät täsmää.</translation>
+        <translation>Zadané heslá nesúhlasia.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Lompakon avaaminen epäonnistui.</translation>
+        <translation>Odomykanie peňaženky zlyhalo</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Annettu salasana oli väärä.</translation>
+        <translation>Zadané heslo pre dešifrovanie peňaženky bolo nesprávne.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Lompakon salauksen purku epäonnistui.</translation>
+        <translation>Zlyhalo šifrovanie peňaženky.</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Lompakon salasana vaihdettiin onnistuneesti.</translation>
+        <translation>Heslo k peňaženke bolo úspešne zmenené.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Varoitus: Caps Lock on käytössä!</translation>
+        <translation>Varovanie: Caps Lock je zapnutý</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Flexinodes Core</source>
-        <translation>Flexinodes Core</translation>
+        <source>DraviteCoins Core</source>
+        <translation>DraviteCoins Core</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Lompakko</translation>
+        <translation>Peňaženka</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>Solmu</translation>
+        <translation>Uzol</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Yleisnäkymä</translation>
+        <translation>&amp;Prehľad</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Lompakon tilanteen yleisnäkymä</translation>
+        <translation>Zobraziť celkový prehľad o peňaženke</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>L&amp;ähetä</translation>
+        <translation>&amp;Odoslať</translation>
     </message>
     <message>
-        <source>Send coins to a FLX address</source>
-        <translation>Lähetä varoja FLX osoitteeseen</translation>
+        <source>Send coins to a DRV address</source>
+        <translation>Poslať mince na DRV adresu</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;Vastaanota</translation>
+        <translation>&amp;Prijať</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and capracoin: URIs)</source>
-        <translation>Pyydä maksuja (Luo QR koodit ja FLX: URIt)</translation>
+        <translation>Vyžiadať platby (vygeneruje QR kódy a DRV: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Tapahtumat</translation>
+        <translation>&amp;Transakcie</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Selaa tapahtumahistoriaa</translation>
+        <translation>Prechádzať históriu transakcií</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>L&amp;opeta</translation>
+        <translation>U&amp;končiť</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Sulje ohjelma</translation>
+        <translation>Ukončiť program</translation>
     </message>
     <message>
-        <source>&amp;About Flexinodes Core</source>
-        <translation>Tietoja &amp;Flexinodes Core:sta</translation>
+        <source>&amp;About DraviteCoins Core</source>
+        <translation>&amp;O DraviteCoins Core</translation>
     </message>
     <message>
-        <source>Show information about Flexinodes Core</source>
-        <translation>Näytä tietoja Flexinodes Core:sta</translation>
+        <source>Show information about DraviteCoins Core</source>
+        <translation>Zobraziť informácie o DraviteCoins Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>Tietoja &amp;Qt</translation>
+        <translation>O &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Näytä tietoja QT:sta</translation>
+        <translation>Zobrazit informácie o Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Asetukset...</translation>
+        <translation>&amp;Možnosti...</translation>
     </message>
     <message>
-        <source>Modify configuration options for FLX</source>
-        <translation>Muuta FLX asetuksia</translation>
+        <source>Modify configuration options for DRV</source>
+        <translation>Upraviť možnosti konfigurácie pre DRV</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Näytä / Piilota</translation>
+        <translation>Zobraziť / skryť</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota FLX pääikkuna</translation>
+        <translation>Zobraziť alebo skryť hlavné okno</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Salaa Lompakko...</translation>
+        <translation>&amp;Zašifrovať Peňaženku...</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Salaa yksityiset avaimet jotka kuuluvat lompakkoosi</translation>
+        <translation>Zašifruj súkromné kľúče ktoré patria do vašej peňaženky</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Varmuuskopioi Lompakko...</translation>
+        <translation>&amp;Backup peňaženku...</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Varmuuskopioi lompakko toiseen sijaintiin</translation>
+        <translation>Zálohovať peňaženku na iné miesto</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Vaihda Salasana...</translation>
+        <translation>&amp;Zmena Hesla...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Vaihda lompakon salaukseen käytettävä salasana</translation>
+        <translation>Zmeniť heslo použité na šifrovanie peňaženky</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;Avaa Lompakko...</translation>
+        <translation>&amp;Odomknúť peňaženku</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Avaa lompakko</translation>
+        <translation>Odomknúť peňaženku</translation>
     </message>
     <message>
         <source>&amp;Lock Wallet</source>
-        <translation>&amp;Lukitse Lompakko</translation>
+        <translation>&amp;Zamknúť peňaženku</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>&amp;Allekirjoita Viesti...</translation>
+        <translation>Podpísať &amp;správu...</translation>
     </message>
     <message>
-        <source>Sign messages with your FLX addresses to prove you own them</source>
-        <translation>Allekirjoita viestit FLX osoitteillasi todistaaksesi että omistat ne</translation>
+        <source>Sign messages with your DRV addresses to prove you own them</source>
+        <translation>Podpísať správy s Vašimi DRV adresami ako dôkaz že ich vlastníte</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Tarkista Viesti...</translation>
+        <translation>Overiť správu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified FLX addresses</source>
-        <translation>Tarkista viestit ollaksesi varma että ne on allekirjoitettu määritetyillä FLX osoitteilla</translation>
+        <source>Verify messages to ensure they were signed with specified DRV addresses</source>
+        <translation>Overiť správy pre uistenie, že boli podpísané zadanými DRV adresami</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>T&amp;ietoa</translation>
+        <translation>&amp;Informácia</translation>
     </message>
     <message>
         <source>Show diagnostic information</source>
-        <translation>Näytä diagnostiikka tietoja</translation>
+        <translation>Zobraziť diagnostické informácie </translation>
     </message>
     <message>
         <source>&amp;Debug console</source>
-        <translation>&amp;Testauskonsoli</translation>
+        <translation>&amp;Konzola pre ladenie</translation>
     </message>
     <message>
         <source>Open debugging console</source>
-        <translation>Avaa testauskonsoli</translation>
+        <translation>Otvor konzolu pre ladenie</translation>
     </message>
     <message>
         <source>&amp;Network Monitor</source>
-        <translation>&amp;Verkkoliikenne</translation>
+        <translation>&amp;Kontrola siete</translation>
     </message>
     <message>
         <source>Show network monitor</source>
-        <translation>Näytä verkkoliikenne</translation>
+        <translation>Zobraziť kontrolu siete</translation>
     </message>
     <message>
         <source>&amp;Peers list</source>
-        <translation>&amp;Peers Lista</translation>
+        <translation>&amp;Zoznam partnerských uzlov</translation>
     </message>
     <message>
         <source>Show peers info</source>
-        <translation>Näytä verkon peers tietoja</translation>
+        <translation>Zobraziť informácie o partnerských uzloch</translation>
     </message>
     <message>
         <source>Wallet &amp;Repair</source>
-        <translation>Lompakon &amp;Korjaus</translation>
+        <translation>Oprava peňaženky</translation>
     </message>
     <message>
         <source>Show wallet repair options</source>
-        <translation>Näytä lompakon korjausvalinnat</translation>
+        <translation>Zobraziť možnosti opravy peňaženky</translation>
     </message>
     <message>
         <source>Open &amp;Configuration File</source>
-        <translation>Avaa &amp;Asetustiedosto</translation>
+        <translation>Otvoriť &amp;konfiguračný súbor </translation>
     </message>
     <message>
         <source>Open configuration file</source>
-        <translation>Avaa asetustiedosto</translation>
+        <translation>Otvoriť konfiguračný súbor </translation>
     </message>
     <message>
         <source>Show Automatic &amp;Backups</source>
-        <translation>&amp;Näytä Automaattiset Varmistukset</translation>
+        <translation>Zobraziť automatické &amp;zálohy</translation>
     </message>
     <message>
         <source>Show automatically created wallet backups</source>
-        <translation>Näytä automaattisesti tehdyt lompakon varmistukset</translation>
+        <translation>Zobraziť automaticky vytvorené zálohy peňaženky</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;Lähettävät Osoitteet...</translation>
+        <translation>Posielajúca adresa ...</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Näytä lähettämiseen käytettyjen osoitteiden ja nimien lista</translation>
+        <translation>Zobraziť zoznam použitých adries odosielateľa a ich popisy</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>Va&amp;staanottavat Osoitteet...</translation>
+        <translation>Prijímajúca adresa...</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Näytä vastaanottamiseen käytettyjen osoitteiden ja nimien lista</translation>
+        <translation>Zobraziť zoznam použitých prijímacích adries a ich popisov</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Avaa &amp;URI...</translation>
+        <translation>Otvoriť &amp;URI...</translation>
     </message>
     <message>
         <source>Open a capracoin: URI or payment request</source>
-        <translation>Avaa FLX: URI tai maksupyyntö</translation>
+        <translation>Otvoriť capracoin: URI alebo žiadosť o platbu </translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>&amp;Komentorivin valinnat</translation>
+        <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
-        <source>Flexinodes Core client</source>
-        <translation>Flexinodes Core asiakasohjelma</translation>
+        <source>DraviteCoins Core client</source>
+        <translation>DraviteCoins Core klient</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
-        <translation><numerusform>Käsitelty %n lohko tapahtumahistoriasta.</numerusform><numerusform>Käsitelty %n lohkoa tapahtumahistoriasta.</numerusform></translation>
+        <translation><numerusform>Spracovaný %n blok transakčnej histórie.</numerusform><numerusform>Spracované %n bloky transakčnej histórie.</numerusform><numerusform>Spracovaných %n blokov transakčnej histórie.</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
-        <translation>Synkronoidaan lisätietoja: %p%</translation>
+        <translation>Synchronizujú sa ďalšie dáta: %p%</translation>
     </message>
     <message>
-        <source>Show the Flexinodes Core help message to get a list with possible FLX command-line options</source>
-        <translation>Näytä Flexinodes Core ohjelista komentorivin valinnoista</translation>
+        <source>Show the DraviteCoins Core help message to get a list with possible DRV command-line options</source>
+        <translation>Zobraziť DraviteCoins Core nápovedu k získaniu zoznamu možností príkazového riadku DRV.</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Tiedosto</translation>
+        <translation>&amp;Súbor</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Asetukset</translation>
+        <translation>&amp;Nastavenia</translation>
     </message>
     <message>
         <source>&amp;Tools</source>
-        <translation>&amp;Työkalut</translation>
+        <translation>&amp;Nástroje</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Apua</translation>
+        <translation>&amp;Pomoc</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Välilehtipalkki</translation>
+        <translation>Lišta záložiek</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to FLX network</source>
-        <translation><numerusform>%n aktiivinen yhteys FLX verkkoon</numerusform><numerusform>%n aktiivista yhteyttä FLX verkkoon</numerusform></translation>
+        <source>%n active connection(s) to DRV network</source>
+        <translation><numerusform>%n aktívne spojenie so sieťou DRV</numerusform><numerusform>%n aktívne spojenia so sieťou DRV</numerusform><numerusform>%n aktívnych spojení so sieťou DRV</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Synkronoidaan verkkoon...</translation>
+        <translation>Synchronizácia so sieťou...</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
-        <translation>Tuodaan lohkoja levyltä...</translation>
+        <translation>Importujem bloky z disku...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Uudelleen indeksoidaan lohkoja...</translation>
+        <translation>Preindexúvam bloky na disku...</translation>
     </message>
     <message>
         <source>No block source available...</source>
-        <translation>Lohkojen lähdettä ei saatavilla...</translation>
+        <translation>Nedostupný zdroj blokov...</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Tapahtumahistoria on ajan tasalla</translation>
+        <translation>Aktualizovaný</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n tunti</numerusform><numerusform>%n tuntia</numerusform></translation>
+        <translation><numerusform>%n hodina</numerusform><numerusform>%n hodiny</numerusform><numerusform>%n hodín</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n päivä</numerusform><numerusform>%n päivää</numerusform></translation>
+        <translation><numerusform>%n deň</numerusform><numerusform>%n dni</numerusform><numerusform>%n dní</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n viikko</numerusform><numerusform>%n viikkoa</numerusform></translation>
+        <translation><numerusform>%n týždeň</numerusform><numerusform>%n týždne</numerusform><numerusform>%n týždňov </numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 ja %2</translation>
+        <translation> %1 a  %2</translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n vuosi</numerusform><numerusform>%n vuotta</numerusform></translation>
+        <translation><numerusform>%n rok</numerusform><numerusform>%n roky</numerusform><numerusform>%n rokov</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 jäljessä</translation>
+        <translation>%1 pozadu</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Saavutetaan verkkoa...</translation>
+        <translation>Sťahujem...</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Viimeisin vastaanotettu lohko luotu %1 sitten.</translation>
+        <translation>Posledný prijatý blok bol vygenerovaný pred %1.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Tämän jälkeiset siirtotapahtumat eivät ole vielä näkyvissä.</translation>
+        <translation>Transakcie potom nebudú ešte viditeľné.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Virhe</translation>
+        <translation>Chyba</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Varoitus</translation>
+        <translation>Upozornenie</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Tietoa</translation>
+        <translation>Informácia</translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Lähetetty siirtotapahtuma</translation>
+        <translation>Odoslané transakcie</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Saapuva siirtotapahtuma</translation>
+        <translation>Prijaté transakcie</translation>
     </message>
     <message>
         <source>Date: %1
@@ -572,532 +572,530 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation>Päiväys: %1
-Määrä: %2
-Tyyppi: %3
-Osoite: %4
-</translation>
+        <translation>Dátum: %1
+Suma: %2
+Typ: %3
+Adresa: %4</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Lompakko on &lt;b&gt;salattu&lt;/b&gt; ja tällä hetkellä &lt;b&gt;avoinna&lt;/b&gt;</translation>
+        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;odomknutá&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization only</source>
-        <translation>Lompakko on &lt;b&gt;salattu&lt;/b&gt; ja tällä hetkellä &lt;b&gt;avoinna&lt;/b&gt; vain anonymisointia varten</translation>
+        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;odomknutá&lt;/b&gt; iba pre anonimizáciu</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Lompakko on &lt;b&gt;salattu&lt;/b&gt; ja tällä hetkellä &lt;b&gt;lukittu&lt;/b&gt;</translation>
+        <translation>Peňaženka je &lt;b&gt;zašifrovaná&lt;/b&gt; a momentálne &lt;b&gt;zamknutá&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
         <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
-        <translation>Yhteensä: %1 (OBF yht.sopivia: %2 / Käytössä: %3)</translation>
+        <translation>Celkovo: %1 (Kompatibilné z OBF: %2 / Zapnuté: %3)</translation>
     </message>
     <message>
         <source>Network Alert</source>
-        <translation>Verkkohälytys</translation>
+        <translation>Výstraha siete</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>Määrä:</translation>
+        <translation>Množstvo:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Tavuja:</translation>
+        <translation>Bajtov:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Määrä:</translation>
+        <translation>Suma:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Prioriteetti:</translation>
+        <translation>Priorita:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Siirtomaksu:</translation>
+        <translation>Poplatok:</translation>
     </message>
     <message>
         <source>Coin Selection</source>
-        <translation>Kolikko Valinta</translation>
+        <translation>Výber mince</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Tomu:</translation>
+        <translation>Prach:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Siirtomaksun jälkeen:</translation>
+        <translation>Po poplatku:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Vaihtoraha:</translation>
+        <translation>Zmena:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>Poista kaikki valinnat</translation>
+        <translation>(ne)vybrať všetko</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Puurakenne</translation>
+        <translation>Stromový režim</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Listarakenne</translation>
+        <translation>Zoznamový režim</translation>
     </message>
     <message>
         <source>(1 locked)</source>
-        <translation>(1 lukittu)</translation>
+        <translation>(1 zamknutý)</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Määrä</translation>
+        <translation>Suma</translation>
     </message>
     <message>
         <source>Received with label</source>
-        <translation>Vastaanotettu nimellä</translation>
+        <translation>Prijaté s označením</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>Vastaanotettu osoitteeseen</translation>
+        <translation>Prijaté s adresou</translation>
     </message>
     <message>
         <source>OBF Rounds</source>
-        <translation>OBF Kierrokset</translation>
+        <translation>Kôl OBF</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Päivämäärä</translation>
+        <translation>Dátum</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Vahvistuksia</translation>
+        <translation>Potvrdenia</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Vahvistettu</translation>
+        <translation>Potvrdené</translation>
     </message>
     <message>
         <source>Priority</source>
-        <translation>Prioriteetti</translation>
+        <translation>Priorita</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Kopioi osoite</translation>
+        <translation>Kopírovať adresu</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopioi nimi</translation>
+        <translation>Kopírovať popis</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopioi määrä</translation>
+        <translation>Kopírovať sumu</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Kopioi siirtotunnus</translation>
+        <translation>Kopírovať ID transakcie</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>Lukitse käyttämättömät</translation>
+        <translation>Uzamknúť neminuté</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>Avaa käyttämättömät</translation>
+        <translation>Odomknúť neminuté</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Kopioi määrä</translation>
+        <translation>Kopírovať množstvo</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Kopioi siirtomaksu</translation>
+        <translation>Kopírovať poplatok</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Kopioi siirtomaksun jälkeen</translation>
+        <translation>Kopírovať za poplatok</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Kopioi tavut</translation>
+        <translation>Kopírovať bajty</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>Kopioi prioriteetti</translation>
+        <translation>Kopírovať prioritu</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Kopioi tomu</translation>
+        <translation>Kopírovať prach</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Kopioi vaihtoraha</translation>
+        <translation>Kopírovať zmenu</translation>
     </message>
     <message>
         <source>Non-anonymized input selected. &lt;b&gt;Obfuscate will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Obfuscate, please deselect all non-nonymized inputs first and then check Obfuscate checkbox again.</source>
-        <translation>Ei anonyymeja syötteitä valittu. &lt;b&gt;Obfuscate poistetaan käytöstä.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Jos silti haluat käyttää Obfuscate:iä, poista ei anonyymit valinnat ensin ja valitse uudelleen Obfuscate optio.</translation>
+        <translation>Vybratý ne-anonymizovaný vstup. &lt;b&gt;Obfuscate bude vypnutý.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Ak si stále želáte použiť Obfuscate, najskôr odznačte všetky e-anonymizované vstup a potom znova zaškrtnite Obfuscate začiarkavacie políčko.</translation>
     </message>
     <message>
         <source>highest</source>
-        <translation>korkein</translation>
+        <translation>najvyššie</translation>
     </message>
     <message>
         <source>higher</source>
-        <translation>korkeampi</translation>
+        <translation>vyššie</translation>
     </message>
     <message>
         <source>high</source>
-        <translation>korkea</translation>
+        <translation>vysoké</translation>
     </message>
     <message>
         <source>medium-high</source>
-        <translation>keski-korkea</translation>
+        <translation>stredne vysoké</translation>
     </message>
     <message>
         <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Voi vaihdella +/- %1 duffs per syöte.</translation>
+        <translation>Môže sa pohybovať +/- %1 duff(y) pre vstup.</translation>
     </message>
     <message>
         <source>n/a</source>
-        <translation>e/s</translation>
+        <translation>nie je k dispozícii</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>keskisuuri</translation>
+        <translation>stredné</translation>
     </message>
     <message>
         <source>low-medium</source>
-        <translation>pieni-keskisuuri</translation>
+        <translation>stredne nízke</translation>
     </message>
     <message>
         <source>low</source>
-        <translation>pieni</translation>
+        <translation>nízke</translation>
     </message>
     <message>
         <source>lower</source>
-        <translation>pienempi</translation>
+        <translation>nižšie</translation>
     </message>
     <message>
         <source>lowest</source>
-        <translation>pienin</translation>
+        <translation>najnižšie</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 lukittu)</translation>
+        <translation>(%1 zamknutých)</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>ei mitään</translation>
+        <translation>žiadne</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>kyllä</translation>
+        <translation>áno</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>ei</translation>
+        <translation>nie</translation>
     </message>
     <message>
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
-        <translation>Tämä nimi muuttuu punaiseksi jos siirtotapahtuman koko on suurempi kuin 1000 tavua.</translation>
+        <translation>Tento popis zčervená ak veľkosť transakcie presiahne 1000 bytov.</translation>
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>Tämä tarkoittaa että vähintään %1 per kB siirtomaksu on pakollinen.</translation>
+        <translation>To znamená že požadovaný poplatok je aspoň  %1  za kB.</translation>
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
-        <translation>Voi vaihdella +/- 1 tavu per syöte</translation>
+        <translation>Môže sa pohybovať +/- 1 bajt pre vstup.</translation>
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation>Siirtotapahtumat korkeammalla prioriteetilla sisällytetään varmemmin lohkoon.</translation>
+        <translation>Transakcie s vysokou prioritou sa pravdepodobnejsie dostanú do bloku.</translation>
     </message>
     <message>
         <source>This label turns red, if the priority is smaller than "medium".</source>
-        <translation>Tämä nimi muuttuu punaiseksi jos prioriteetti on pienempi kuin "keskisuuri".</translation>
+        <translation>Tento popis zčervenie ak je priorita nižčia ako "medium".</translation>
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
-        <translation>Tämä nimi muuttuu punaiseksi jos vastaanottaja saa pienemmän määrän kuin %1</translation>
+        <translation>Tento popis zčervenie ak ktorýkoľvek príjemca dostane sumu menšiu ako %1.</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(ei nimeä)</translation>
+        <translation>(bez popisu)</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
-        <translation>Vaihda %1 (%2)</translation>
+        <translation>zmena od %1 (%2)</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(vaihtoraha)</translation>
+        <translation>(zmena)</translation>
     </message>
 </context>
 <context>
     <name>ObfuscateConfig</name>
     <message>
         <source>Configure Obfuscate</source>
-        <translation>Obfuscate Asetukset</translation>
+        <translation>Konfigurovať Obfuscate</translation>
     </message>
     <message>
         <source>Basic Privacy</source>
-        <translation>Perustason Yksityisyys</translation>
+        <translation>Základné súkromie</translation>
     </message>
     <message>
         <source>High Privacy</source>
-        <translation>Korkean tason Yksityisyys</translation>
+        <translation>Vysoké súkromie</translation>
     </message>
     <message>
         <source>Maximum Privacy</source>
-        <translation>Maksimaalinen Yksityisyys</translation>
+        <translation>Maximálne súkromie</translation>
     </message>
     <message>
         <source>Please select a privacy level.</source>
-        <translation>Valitse yksityisyyden taso.</translation>
+        <translation>Prosím vyberte úroveň súkromia.</translation>
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 1000 DNET</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi varoja</translation>
+        <translation>Použiť 2 rozdielne masternode pre fixovanie prostriedkov až do 1000 DNET</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 1000 DNET</source>
-        <translation>Käytä 8 erillistä masternodea sekoittaaksesi varoja</translation>
+        <translation>Použiť 8 rozdielnych masternode pre fixovanie prostriedkov až do 1000 DNET</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
-        <translation>Käytä 16 erillistä masternodea</translation>
+        <translation>Použiť 16 rozdielnych masternode</translation>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 DNET to anonymize 1000 DNET</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 DNET kun anonymisoidaan 1000 DNET</translation>
+        <translation>Táto možnosť je najrýchlejšia a bude stáť približne 0.025 DNET pre anonimizáciu 1000 DNET</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 DNET to anonymize 1000 DNET</source>
-        <translation>Tämä vaihtoehto on keskinopea ja maksaa noin ~0.05 DNET kun anonymisoidaan 1000 DNET</translation>
+        <translation>Táto možnosť je stredne rýchla bude stáť približne 0.05 DNET pre anonimizáciu 1000 DNET</translation>
     </message>
     <message>
         <source>0.1 DNET per 1000 DNET you anonymize.</source>
-        <translation>0.1 DNET maksu per 1000 DNET jonka anonymisoit.</translation>
+        <translation>0.1 DNET za 1000 DNET ktoré spravíte anonymnými.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Tämä vaihtoehto on hitain ja kaikkein anonyymi. Suurimman yksityisyyden käyttö maksaa</translation>
+        <translation>Toto je najpomalšia a najviac bezpečná možnosť. Použitie maximálnej anonymity bude stáť</translation>
     </message>
     <message>
         <source>Obfuscate Configuration</source>
-        <translation>Obfuscate Asetukset</translation>
+        <translation>Konfigurácia Obfuscate</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening FLX's configuration screen.</source>
-        <translation>Obfuscate on asetettu perusasetuksiin (%1 and 2 kierrosta). Voit muuttaa asetuksia milloin vain FLX asetuksista.</translation>
+        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DRV's configuration screen.</source>
+        <translation>Obfuscate bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky DRV.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening FLX's configuration screen.</source>
-        <translation>Obfuscate on asetettu keskitason asetuksiin (%1 and 8 kierrosta). Voit muuttaa asetuksia milloin vain FLX asetuksista.</translation>
+        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DRV's configuration screen.</source>
+        <translation>Obfuscate bol úspešne nastavený na vysokú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky DRV.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening FLX's configuration screen.</source>
-        <translation>Obfuscate on asetettu maksimitason asetuksiin (%1 and 16 kierrosta). Voit muuttaa asetuksia milloin vain FLX asetuksista.</translation>
+        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DRV's configuration screen.</source>
+        <translation>Obfuscate bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky DRV.</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Muokkaa osoitetta</translation>
+        <translation>Upraviť adresu</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;Nimi</translation>
+        <translation>&amp;Popis</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Tähän osoitteeseen liitetty nimi</translation>
+        <translation>Popis tejto položký v zozname adries je prázdny</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;Osoite</translation>
+        <translation>&amp;Adresa</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Osoite liitettynä tähän osoitekirjan alkioon. Tämä voidaan muokata vain lähetysosoitteissa.</translation>
+        <translation>Adresa spojená s týmto záznamom v adresári. Možno upravovať len pre odosielajúce adresy.</translation>
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>Uusi vastaanottava osoite</translation>
+        <translation>Nová adresa pre prijímanie</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>Uusi lähettävä osoite</translation>
+        <translation>Nová adresa pre odoslanie</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Muokkaa vastaanottavaa osoitetta</translation>
+        <translation>Upraviť prijímacie adresy</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Muokkaa lähettävää osoitetta</translation>
+        <translation>Upraviť odosielaciu adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid FLX address.</source>
-        <translation>Annettu osoite "%1" ei ole pätevä FLX osoite.</translation>
+        <source>The entered address "%1" is not a valid DRV address.</source>
+        <translation>Zadaná adresa "%1" nie je platná DRV adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>Osoite "%1" on jo osoitekirjassa.</translation>
+        <translation>Vložená adresa "%1" sa už nachádza v adresári.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>Lompakkoa ei voitu avata.</translation>
+        <translation>Nepodarilo sa odomknúť peňaženku.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>Uuden avaimen luonti epäonnistui.</translation>
+        <translation>Generovanie nového kľúča zlyhalo.</translation>
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Luodaan uusi datahakemisto.</translation>
+        <translation>Bude vytvorený nový dátový adresár.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>Nimi</translation>
+        <translation>názov</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Hakemisto on jo olemassa. Lisää %1 jos tarkoitus on luoda hakemisto tänne.</translation>
+        <translation>Priečinok už existuje. Pridajte "%1" ak chcete vytvoriť nový priečinok tu.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Polku on jo olemassa, eikä se ole hakemisto.</translation>
+        <translation>Cesta už existuje a nie je to adresár.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Ei voida luoda datahakemistoa tänne.</translation>
+        <translation>Tu nemôžem vytvoriť dátový adresár.</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Flexinodes Core</source>
-        <translation>Flexinodes Core</translation>
+        <source>DraviteCoins Core</source>
+        <translation>DraviteCoins Core</translation>
     </message>
     <message>
         <source>version</source>
-        <translation>versio</translation>
+        <translation>verzia</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
-        <translation>(%1-bittinen)</translation>
+        <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Flexinodes Core</source>
-        <translation>Tietoja Flexinodes Core:sta</translation>
+        <source>About DraviteCoins Core</source>
+        <translation>O DraviteCoins Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Komentorivin valinnat</translation>
+        <translation>Možnosti príkazového riadku</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Käyttö:</translation>
+        <translation>Použitie:</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>komentorivi valintaparametrit</translation>
+        <translation>voľby príkazového riadku</translation>
     </message>
     <message>
         <source>UI options</source>
-        <translation>Käyttöliittymän asetukset</translation>
+        <translation>UI možnosti</translation>
     </message>
     <message>
         <source>Choose data directory on startup (default: 0)</source>
-        <translation>Valitse datahakemisto käynnistyksessä (oletus: 0)</translation>
+        <translation>Zvoľte dátový priečinok pri štarte (prednastavené: 0)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Aseta kieli, esim. "fi_FI" (oletus: sama kuin järjestelmän)</translation>
+        <translation>Nastaviť jazyk, napríklad "sk_SK" (predvolené: systémový)</translation>
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>Käynnistä pienennettynä</translation>
+        <translation>Spustiť minimalizované</translation>
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Aseta SSL root varmenne maksupyynnöille (oletus: -system-)</translation>
+        <translation>Nastaviť koreňový certifikát pre výzvy na platbu (prednastavené: -system-)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation>Näytä aloitusruutu käynnistettäessä (oletus: 1)</translation>
+        <translation>Zobraziť splash screen pri spustení (predvolené: 1)</translation>
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>Tervetuloa</translation>
+        <translation>Vitajte</translation>
     </message>
     <message>
-        <source>Welcome to Flexinodes Core.</source>
-        <translation>Flexinodes Core - Tervetuloa.</translation>
+        <source>Welcome to DraviteCoins Core.</source>
+        <translation>Vitajte v DraviteCoins Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Flexinodes Core will store its data.</source>
-        <translation>Koska tämä on ensimmäinen kerta kun ohjelma käynnistetään, voit valita minne Flexinodes Core tallettaa datansa.
-Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd levyltä, ohjaa talletettava data eri levyasemalle turvalliseen paikkaan.</translation>
+        <source>As this is the first time the program is launched, you can choose where DraviteCoins Core will store its data.</source>
+        <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude DraviteCoins Core ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>Flexinodes Core will download and store a copy of the FLX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Flexinodes Core lataa ja tallettaa kopion lohkoketjusta. Vähintään %1GB dataa talletetaan tähän hakemistoon, ja se myös kasvaa ajan myötä. Myös lompakko talletetaan tähän hakemistoon.</translation>
+        <source>DraviteCoins Core will download and store a copy of the DRV block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>DraviteCoins Core stiahne a uloží kópiu reťazca blokov DRV. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Käytä oletushakemistoa</translation>
+        <translation>Použiť predvolený dátový adresár</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>Määritä oma hakemisto:</translation>
+        <translation>Použiť vlastný dátový adresár:</translation>
     </message>
     <message>
-        <source>Flexinodes Core</source>
-        <translation>Flexinodes Core</translation>
+        <source>DraviteCoins Core</source>
+        <translation>DraviteCoins Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Virhe: Annettua datahakemistoa "%1" ei voida luoda.</translation>
+        <translation>Chyba: Zadaný priečinok pre dáta "%1" nemôže byt vytvorený.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Virhe</translation>
+        <translation>Chyba</translation>
     </message>
     <message>
         <source>%1 GB of free space available</source>
-        <translation>%1 GB vapaata levytilaa</translation>
+        <translation>%1 GB dostupného voľného miesta</translation>
     </message>
     <message>
         <source>(of %1 GB needed)</source>
-        <translation>(tarvitaan %1GB)</translation>
+        <translation>(z potrebných %1GB)</translation>
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>Avaa URI</translation>
+        <translation>Otvoriť URI</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Avaa maksupyyntö URI:sta tai tiedostosta</translation>
+        <translation>Otvoriť požiadavku na zaplatenie z URI alebo súboru</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -1105,34 +1103,34 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Valitse maksupyynnön tiedosto</translation>
+        <translation>Vyberte súbor s výzvou k platbe</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation>Valitse avattava maksypyynnön tiedosto</translation>
+        <translation>Vyberte ktorý súbor s výzvou k platbe otvoriť</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Asetukset</translation>
+        <translation>Možnosti</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;Yleiset</translation>
+        <translation>&amp;Hlavné</translation>
     </message>
     <message>
-        <source>Automatically start FLX after logging in to the system.</source>
-        <translation>Käynnistä FLX automaattisesti kun järjestelmään kirjaudutaan.</translation>
+        <source>Automatically start DRV after logging in to the system.</source>
+        <translation>Automaticky spustiť DRV po prihlásení do systému.</translation>
     </message>
     <message>
-        <source>&amp;Start FLX on system login</source>
-        <translation>&amp;Käynnistä FLX järjestelmään kirjauduttaessa</translation>
+        <source>&amp;Start DRV on system login</source>
+        <translation>&amp;Spusť DRV po prihlásení do systému</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>&amp;Tietokannan välimuistin koko</translation>
+        <translation>Veľkosť vyrovnávacej pamäti databázy</translation>
     </message>
     <message>
         <source>MB</source>
@@ -1140,169 +1138,169 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Script &amp;vahvistuksien säikeiden määrä</translation>
+        <translation>Počet skript overujucich vlákien</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = auto, &lt;0 = jätä näin monta prosessorin ydintä vapaaksi)</translation>
+        <translation>(0 = auto, &lt;0 = nechať toľko jadier voľných)</translation>
     </message>
     <message>
         <source>Obfuscate rounds to use</source>
-        <translation>Kuinka montaa Obfuscate kierrosta käytetään</translation>
+        <translation>Použiť kôl Obfuscate</translation>
     </message>
     <message>
         <source>This amount acts as a threshold to turn off Obfuscate once it's reached.</source>
-        <translation>Tämä määrä toimii rajana keskeytykselle kun Obfuscate anonymisointi sen saavuttaa.</translation>
+        <translation>Táto suma slúži ako hranica pre vypnutie Obfuscate akonáhle je dosiahnutá</translation>
     </message>
     <message>
-        <source>Amount of FLX to keep anonymized</source>
-        <translation>FLX määrä joka pidetään anonymisoituna</translation>
+        <source>Amount of DRV to keep anonymized</source>
+        <translation>Suma DRV ktorú držať anonymne </translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>&amp;Lompakko</translation>
+        <translation>Peňaženka</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
-        <translation>Jos poistat vahvistamattomien vaihtorahojen käytön, siirtotapahtuman&lt;br/&gt;vaihtorahaa ei voida käyttää ennen vähintään yhtä vahvistusta.&lt;br/&gt;Tämä vaikuttaa myös kuinka saldosi lasketaan.</translation>
+        <translation>Ak vypnete míňanie nepotvrdeného výdavku tak výdavok z transakcie &lt;br&gt;bude možné použiť až keď daná transakcia bude mať aspoň jedno potvrdenie.&lt;br/&gt; Toto má vplyv aj na výpočet vášho zostatku.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>Hyväksy yhteydet ulkopuolelta</translation>
+        <translation>Akceptovať pripojenie z vonku</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>Salli sisään tulevat yhteydet</translation>
+        <translation>Povoliť prichádzajúce spojenia</translation>
     </message>
     <message>
-        <source>Connect to the FLX network through a SOCKS5 proxy.</source>
-        <translation>Kytkeydy FLX verkkoon käyttäen SOCKS5 proxy:a.</translation>
+        <source>Connect to the DRV network through a SOCKS5 proxy.</source>
+        <translation>Pripojiť sa do siete DRV cez proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>&amp;Yhdistä SOCKS5 proxyn kautta (oletus: proxy):</translation>
+        <translation>&amp;Pripojiť sa cez SOCKS5 proxy (predvolené proxy):</translation>
     </message>
     <message>
         <source>Expert</source>
-        <translation>Expertti</translation>
+        <translation>Expert</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
-        <translation>Tämä asetus määrittää kuinka monen erillisen masternoden kautta syötteen anonymisointi tehdään.&lt;br/&gt;Mitä enemmän anonymisoinnin kierroksia, sen parempi yksityisyys, mutta se myös maksaa enemmän siirtomaksuina.</translation>
+        <translation>Toto nastavenie určuje množstvo rozličných masternode cez ktoré sa bude anonymizovať vstup.&lt;br/&gt; Viac kôl anonymizácie dáva väčšiu úroveň súkromia, ale tiež stojí viac na poplatkoch.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Näytetäänkö kolikkokontrollin ominaisuuksia vai ei</translation>
+        <translation>Či zobrazovať možnosti "Coin control" alebo nie.</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Ota käytöön &amp;kolikkokontrolli ominaisuudet</translation>
+        <translation>Povoliť možnosti coin control</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp;Käytä vahvistamattomia vaihtorahoja</translation>
+        <translation>Minúť nepotvrdený výdavok</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;Verkko</translation>
+        <translation>Sieť</translation>
     </message>
     <message>
-        <source>Automatically open the FLX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa automaattisesti FLX asiakasohjelmalle portti reitittimeen. Tämä toimii vain jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <source>Automatically open the DRV client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť na smerovači port pre DRV klient. Toto funguje iba ak Váš smerovač  podporuje UPnP a je povolené</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Kartoita portti käyttäen &amp;UPnP:tä</translation>
+        <translation>Mapovať port pomocou &amp;UPnP</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>Proxy &amp;IP</translation>
+        <translation>Proxy &amp;IP:</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>IP osoite proxy:lle (esim. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>IP adresy proxy (napr. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;Portti</translation>
+        <translation>&amp;Port:</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Proxyn portti (esim. 9050)</translation>
+        <translation>Port proxy (napr. 9050)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;Ikkuna</translation>
+        <translation>Okno</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Näytä ainoastaan ikoni ilmaisinalueella ikkunan pienentämisen jälkeen.</translation>
+        <translation>Zobraziť len ikonu na lište po minimalizovaní okna.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Pienennä ilmaisinalueelle työkalurivin sijasta</translation>
+        <translation>Zobraziť len ikonu na lište po minimalizovaní okna.</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Ikkunaa suljettaessa pienennä FLX asiakasohjelman ikkuna lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
+        <translation>Minimalizovat namiesto ukončenia aplikácie keď sa okno zavrie. Keď je zvolená táto možnosť, aplikácia sa zavrie len po zvolení Ukončiť v menu.</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>P&amp;ienennä suljettaessa</translation>
+        <translation>M&amp;inimalizovať pri zavretí</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>&amp;Käyttöliittymä</translation>
+        <translation>&amp;Displej</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>&amp;Käyttöliittymän kieli</translation>
+        <translation>Jazyk užívateľského rozhrania:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting FLX.</source>
-        <translation>Käyttöliittymän kieli asetetaan tässä, Asetus tulee voimaan kun FLX asiakasohjelma käynnistetään uudelleen.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting DRV.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského prostredia. Toto nastavenie sa prejaví po reštartovaní DRV.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
 https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</source>
-        <translation>Puuttuuko sopiva kieli tai käännös on kesken? Auta käännöstyössä täällä:
+        <translation>Chýbajúci alebo nekompletný preklad? Pomôžte nám tu:
 https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
-        <translation>Käyttöliittymän Teema:</translation>
+        <translation>Motív užívateľského rozhrania:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Yksikkö joina määrät näytetään</translation>
+        <translation>&amp;Zobrazovať hodnoty v jednotkách:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Valitse mitä yksikköä käytetään ensisijaisesti varojen määrien näyttämiseen.</translation>
+        <translation>Zvoľte ako deliť bitcoin pri zobrazovaní pri platbách a užívateľskom rozhraní.</translation>
     </message>
     <message>
         <source>Decimal digits</source>
-        <translation>Desimaalit</translation>
+        <translation>Decimálne čísla</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>Ulkopuoliset URL-osoitteet (esim. lohkoselain,) jotka esiintyvät tapahtumat-välilehdellä valikossa. %s URL-osoitteessa korvataan siirtotunnuksella. Useampi URL-osoite on eroteltu pystyviivalla |.</translation>
+        <translation>URL tretích strán (napr. prehliadač blockchain) ktoré sa zobrazujú v záložke transakcií ako položky kontextového menu. %s v URL je nahradené hash-om transakcie. Viaceré URL sú oddelené zvislou čiarou |.</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>Kolmannen osapuolen siirtotapahtuma URL:t</translation>
+        <translation>URL transakcií s tretími stranami</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>Aktiiviset komentorivivalinnat jotka ohittavat ylläolevat valinnat:</translation>
+        <translation>Aktévne možnosti príkazového riadku ktoré prepíšu možnosti vyššie:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Palauta kaikki asetukset oletusarvoihin.</translation>
+        <translation>Vynulovať všetky voľby klienta na predvolené.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>Palauta &amp;Asetukset</translation>
+        <translation>Vynulovať voľby</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1310,138 +1308,138 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Peruuta</translation>
+        <translation>Zrušiť</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>oletus</translation>
+        <translation>predvolené</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>ei mitään</translation>
+        <translation>žiadne</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Vahvista asetusten palautus</translation>
+        <translation>Potvrdiť obnovenie možností</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Ohjelman uudelleen käynnistys aktivoi muutokset käyttöön.</translation>
+        <translation>Reštart klienta potrebný pre aktivovanie zmien.</translation>
     </message>
     <message>
         <source>Client will be shutdown, do you want to proceed?</source>
-        <translation>Ohjelma suljetaan, haluatko jatkaa?</translation>
+        <translation>Klient bude vypnutý, chcete pokračovať?</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Tämä muutos vaatii ohjelman uudelleen käynnistyksen.</translation>
+        <translation>Táto zmena by vyžadovala reštart klienta.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Antamasi proxyn osoite on virheellinen.</translation>
+        <translation>Zadaná proxy adresa je neplatná.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>Lomake</translation>
+        <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FLX network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajan tasalla.&lt;br&gt;Lompakkosi synkronoituu automaattisesti FLX verkkoon kun&lt;br&gt;yhteys on muodostettu, mutta tämä prosessi ei vielä ole valmis.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DRV network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou DRV akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation>Käytettävissä:</translation>
+        <translation>Disponibilné:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Nykyinen käytettävissä oleva saldo</translation>
+        <translation>Váš aktuálny disponibilný zostatok</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>Vahvistamatta:</translation>
+        <translation>Čakajúce potvrdenie</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Vahvistamattomien siirtotapahtumien summa,&lt;br&gt;jota ei vielä lasketa käytettävissä olevaan saldoon</translation>
+        <translation>Suma transakcií ktoré ešte neboli potvrdené a ešte sa nepočítajú do disponibilného zostatku</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>Kypsymättä:</translation>
+        <translation>Nezrelé:</translation>
     </message>
     <message>
         <source>Staked or masternode rewards that has not yet matured</source>
-        <translation>Louhittu saldo, joka ei ole vielä kypsynyt</translation>
+        <translation>Vytvorený zostatok ktorý ešte nedosiahol zrelosť</translation>
     </message>
     <message>
         <source>Balances</source>
-        <translation>Saldot</translation>
+        <translation>Zostatky</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Vahvistamattomat tapahtumat vain-luku osoitteisiin</translation>
+        <translation>Nepotvrdené transakcie pre adresy ktoré sa iba sledujú</translation>
     </message>
     <message>
         <source>Staked or masternode rewards in watch-only addresses that has not yet matured</source>
-        <translation>Louhittu saldo vain-luku osoitteisiin, joka ei ole vielä kypsynyt</translation>
+        <translation>Vyťažená suma pre adresy ktoré sa iba sledujú ale ešte nie je dozretá</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation>Saldo Yhteensä:</translation>
+        <translation>Celkovo:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Saldo yhteensä tällä hetkellä</translation>
+        <translation>Váš súčasný celkový zostatok</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>Saldo yhteensä vain-luku osoitteissa</translation>
+        <translation>Aktuálny celkový zostatok pre adries ktoré sa iba sledujú</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>Vain-luku:</translation>
+        <translation>Iba sledované:</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>Nykyinen käytettävissä oleva saldo vain-luku osoitteissa</translation>
+        <translation>Váš celkový zostatok pre adresy ktoré sa iba sledujú</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>Käytettävissä:</translation>
+        <translation>Použiteľné:</translation>
     </message>
     <message>
         <source>Status:</source>
-        <translation>Tila:</translation>
+        <translation>Stav:</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
-        <translation>Käytössä/Ei käytössä</translation>
+        <translation>Zapnuté/Vypnuté</translation>
     </message>
     <message>
         <source>Completion:</source>
-        <translation>Valmiina:</translation>
+        <translation>Dokončenie:</translation>
     </message>
     <message>
         <source>Obfuscate Balance:</source>
-        <translation>Obfuscate Saldo:</translation>
+        <translation>Bilancia Obfuscate:</translation>
     </message>
     <message>
         <source>Amount and Rounds:</source>
-        <translation>Määrä ja Kierrokset:</translation>
+        <translation>Čiastka a kolá:</translation>
     </message>
     <message>
         <source>0 DNET / 0 Rounds</source>
-        <translation>0 DNET / 0 Kierrosta</translation>
+        <translation>0 DNET / 0 Kôl</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
-        <translation>Lähetetyt Denom:</translation>
+        <translation>Odoslaná denominácia:</translation>
     </message>
     <message>
         <source>n/a</source>
-        <translation>e/s</translation>
+        <translation>nie je k dispozícii</translation>
     </message>
     <message>
         <source>Obfuscate</source>
@@ -1449,234 +1447,234 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>Viimeisimmät tapahtumat</translation>
+        <translation>Nedávne transakcie</translation>
     </message>
     <message>
         <source>Start/Stop Mixing</source>
-        <translation>Käynnistä/Lopeta Sekoitus</translation>
+        <translation>Začať/Zastaviť miešanie</translation>
     </message>
     <message>
         <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>Masternodelle lähetetyt denominoinnit.&lt;br&gt;Jotta sekoitus onnistuisi, täytyy muiden käyttäjien käyttää saman arvoisia denominointeja.</translation>
+        <translation>Denominácie ktoré ste odoslali na Masternode. &lt;br&gt;Pre miešanie, ostatný používatelia musia odoslať rovnakú sumu denominácií.</translation>
     </message>
     <message>
         <source>(Last Message)</source>
-        <translation>(Viimeisin Viesti)</translation>
+        <translation>(Posledná správa)</translation>
     </message>
     <message>
         <source>Try to manually submit a Obfuscate request.</source>
-        <translation>Yritä manuaalisesti esittää Obfuscate sekoituspyyntö.</translation>
+        <translation>Skúsiť manuálne odoslať Obfuscate požiadavku.</translation>
     </message>
     <message>
         <source>Try Mix</source>
-        <translation>Yritä Sekoittaa</translation>
+        <translation>Výskúšať mix</translation>
     </message>
     <message>
         <source>Reset the current status of Obfuscate (can interrupt Obfuscate if it's in the process of Mixing, which can cost you money!)</source>
-        <translation>Nollaa nykyinen Obfuscate tila (voi keskeyttää Obfuscate sekoituksen, joka voi maksaa ylimääräisiä kuluja)</translation>
+        <translation>Vynulovať súčasný stav Obfuscate (môže prerušiť Obfuscate ak je v procese miešania, čo Vás môže stáť peniaze!)</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Nollaus</translation>
+        <translation>Resetovať</translation>
     </message>
     <message>
         <source>out of sync</source>
-        <translation>Ei ajan tasalla</translation>
+        <translation>nesynchronizované</translation>
     </message>
     <message>
         <source>Disabled</source>
-        <translation>Ei käytössä</translation>
+        <translation>Vypnuté</translation>
     </message>
     <message>
         <source>Start Obfuscate Mixing</source>
-        <translation>Käynnistä Obfuscate Sekoitus</translation>
+        <translation>Začať Dasksend miešanie</translation>
     </message>
     <message>
         <source>Stop Obfuscate Mixing</source>
-        <translation>Lopeta Obfuscate Sekoitus</translation>
+        <translation>Zastaviť Dasksend miešanie</translation>
     </message>
     <message>
         <source>No inputs detected</source>
-        <translation>Syötteitä ei havaittu</translation>
+        <translation>Žiadne detekované vstupy</translation>
     </message>
     <message numerus="yes">
         <source>%n Rounds</source>
-        <translation><numerusform>%n Kierros</numerusform><numerusform>%n Kierrosta</numerusform></translation>
+        <translation><numerusform>%n kolo</numerusform><numerusform>%n kolá</numerusform><numerusform>%n kôl</numerusform></translation>
     </message>
     <message>
         <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
-        <translation>Ei tarpeeksi yhteensopivia syötteitä anonymisointiin &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;anonymisoidaan &lt;span style='color:red;'&gt;%2&lt;/span&gt; sen sijaan</translation>
+        <translation>Nedostatok kompatibilných vstupov na anonymizáciu &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;bude anonymizovaných &lt;span style='color:red;'&gt;%2&lt;/span&gt;</translation>
     </message>
     <message>
         <source>Overall progress</source>
-        <translation>Edistyminen</translation>
+        <translation>Celkový progres</translation>
     </message>
     <message>
         <source>Denominated</source>
-        <translation>Denominoitu</translation>
+        <translation>Denominované </translation>
     </message>
     <message>
         <source>Anonymized</source>
-        <translation>Anonymisoitu</translation>
+        <translation>Anonymizované</translation>
     </message>
     <message numerus="yes">
         <source>Denominated inputs have %5 of %n rounds on average</source>
-        <translation><numerusform>Denominoiduilla syötteillä on keskimäärin %5 / %n kierrosta</numerusform><numerusform>Denominoiduilla syötteillä on keskimäärin %5 / %n kierrosta</numerusform></translation>
+        <translation><numerusform>Denominované vstupy majú v priemere %5 z %n kola</numerusform><numerusform>Denominované vstupy majú v priemere %5 z %n kôl</numerusform><numerusform>Denominované vstupy majú v priemere %5 z %n kôl</numerusform></translation>
     </message>
     <message>
         <source>Found enough compatible inputs to anonymize %1</source>
-        <translation>Löytyi tarpeeksi yhteensopivia syötteitä anonymisointiin %1</translation>
+        <translation>Nájdený dostatok kompatibilných vstupov na anonymizáciu %1</translation>
     </message>
     <message>
         <source>Mixed</source>
-        <translation>Sekoitettu</translation>
+        <translation>Zmiešané</translation>
     </message>
     <message>
         <source>Enabled</source>
-        <translation>Käytössä</translation>
+        <translation>Povolené </translation>
     </message>
     <message>
         <source>Last Obfuscate message:
 </source>
-        <translation>Viimeisin Obfuscate viesti:
+        <translation>Posledná Obfuscate správa:
 </translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>e/s</translation>
+        <translation>nie je k dispozícii</translation>
     </message>
     <message>
         <source>Obfuscate was successfully reset.</source>
-        <translation>Obfuscate nollattu onnistuneesti.</translation>
+        <translation>Obfuscate bol úspešne obnovený</translation>
     </message>
     <message>
         <source>If you don't want to see internal Obfuscate fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
-        <translation>Jos et halua nähdä sisäisiä Obfuscate sekoituksen kuluja/tapahtumia, valitse "Yleiset" tyypiksi siirtotapahtumissa.</translation>
+        <translation>Ak nechcete vidieť interné Obfuscate poplatky/transakcie, vyberte "Najčastejšie" ako typ na záložke "Transakcie".</translation>
     </message>
     <message>
         <source>Obfuscate requires at least %1 to use.</source>
-        <translation>Obfuscatein käyttö vaatii vähintään %1.</translation>
+        <translation>Pre použitie vyžaduje Obfuscate aspoň %1.</translation>
     </message>
     <message>
         <source>Wallet is locked and user declined to unlock. Disabling Obfuscate.</source>
-        <translation>Lompakko on lukittu ja käyttäjä ei avannut sitä. Obfuscate asetetaan pois käytöstä.</translation>
+        <translation>Peňaženka je zamknutá a používateľ ju odmietol odomknúť. Vypínam Obfuscate.</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Payment request error</source>
-        <translation>Maksupyyntövirhe</translation>
+        <translation>Chyba pri vyžiadaní platby</translation>
     </message>
     <message>
         <source>Cannot start capracoin: click-to-pay handler</source>
-        <translation>Ei voi käynnistää FLXia: click-to-pay handler</translation>
+        <translation>DRV sa nedá spustiť: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>URI käsittely</translation>
+        <translation>Spracovanie URI</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
-        <translation>Maksupyynnön haku URL on virheellinen: %1</translation>
+        <translation>URL pre stiahnutie výzvy na zaplatenie je neplatné: %1</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
-        <translation>Maksupyynnön tiedoston käsittely</translation>
+        <translation>Obsluha súboru s požiadavkou na platbu</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
-        <translation>Virheellinen maksuosoite %1</translation>
+        <translation>Neplatná adresa platby %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid FLX address or malformed URI parameters.</source>
-        <translation>URI:a ei voida jäsentää! Tämä voi johtua virheellisestä FLX osoitteesta tai virheellisestä URI:n muuttujasta. </translation>
+        <source>URI cannot be parsed! This can be caused by an invalid DRV address or malformed URI parameters.</source>
+        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou DRV adresou, alebo nesprávnym tvarom URI parametrov.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Maksupyynnön tiedostoa ei voida lukea! Tämä voi johtua virheellisestä maksupyyntötiedostosta.</translation>
+        <translation>Súbor s požiadavkou na platbu sa nedá prečítať! Môže to byť spôsobené neplatným súborom s požiadavkou.</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
-        <translation>Maksupyyntö hylätty</translation>
+        <translation>Požiadavka na platbu zamietnutá</translation>
     </message>
     <message>
         <source>Payment request network doesn't match client network.</source>
-        <translation>Maksupyynnon verkko ei täsmää asiakasverkkon kanssa.</translation>
+        <translation>Sieť požiadavky na platbu sa nezhoduje s klientovou sieťou</translation>
     </message>
     <message>
         <source>Payment request has expired.</source>
-        <translation>Maksupyyntö on vanhentunut.</translation>
+        <translation>Požiadavka na platbu vypršala.</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>Maksupyyntö ei ole alustettu.</translation>
+        <translation>Požiadavka na platbu nie je inicializovaná.</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Vahvistamattomia maksupyyntöjä kustomoituun maksupalvelun scripteihin ei tueta.</translation>
+        <translation>Program nepodporuje neoverené platobné výzvy na vlastná skripty.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Maksupyyntö %1 on liian pieni (lasketaan tomuksi).</translation>
+        <translation>Požadovaná platba sumy  %1 je príliš malá (považovaná za prach).</translation>
     </message>
     <message>
         <source>Refund from %1</source>
-        <translation>Maksupalautus %1:sta</translation>
+        <translation>Vrátenie z  %1</translation>
     </message>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Maksupyyntö %1 on liian iso (%2 tavua, sallitusta %3 tavusta).</translation>
+        <translation>Požiadavka na platbu %1 je príliš veľká (%2 bytov, dovolených %3 bytov).</translation>
     </message>
     <message>
         <source>Payment request DoS protection</source>
-        <translation>Maksupyyntö DoS suojaus</translation>
+        <translation>DoS ochrana požiadavky na platbu</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
-        <translation>Virhe kommunikoidessa %1: %2</translation>
+        <translation>Chyba komunikácie s %1: %2 </translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
-        <translation>Maksupyyntöä ei voida jäsentää!</translation>
+        <translation>Požiadavka na platbu sa nedá analyzovať!</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation>Epäkelpo vastaus palvelimelta %1</translation>
+        <translation>Zlá odpoveď zo servera %1</translation>
     </message>
     <message>
         <source>Network request error</source>
-        <translation>Tietoverkon pyyntövirhe</translation>
+        <translation>Chyba požiadavky siete</translation>
     </message>
     <message>
         <source>Payment acknowledged</source>
-        <translation>Rahansiirto tunnistettu</translation>
+        <translation>Platba potvrdená</translation>
     </message>
 </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>Address/Hostname</source>
-        <translation>Osoite/Isäntänimi</translation>
+        <translation>Adresa/Názov hostiteľa</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Käyttäjäohjelma</translation>
+        <translation>Agent používateľa</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Ping aika</translation>
+        <translation>Doba odozvy</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>Määrä</translation>
+        <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a FLX address (e.g. %1)</source>
-        <translation>Syötä FLX osoite (esim. %1)</translation>
+        <source>Enter a DRV address (e.g. %1)</source>
+        <translation>Zadajte DRV adresu (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1696,19 +1694,19 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
     </message>
     <message>
         <source>NETWORK</source>
-        <translation>VERKKO</translation>
+        <translation>SIEŤ</translation>
     </message>
     <message>
         <source>UNKNOWN</source>
-        <translation>TUNTEMATON</translation>
+        <translation>NEZNÁME</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Ei mitään</translation>
+        <translation>Žiadne</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>e/s</translation>
+        <translation>Nie je k dispozícii</translation>
     </message>
     <message>
         <source>%1 ms</source>
@@ -1719,274 +1717,270 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Tallenna Kuva...</translation>
+        <translation>Uložiť obrázok...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>&amp;Kopioi kuva</translation>
+        <translation>Kopírovať obrázok</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>Tallenna QR-koodi</translation>
+        <translation>Ukladanie QR kódu</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation>PNG kuva (*.png)</translation>
+        <translation>PNG obrázok (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
         <source>Tools window</source>
-        <translation>Työkaluikkuna</translation>
+        <translation>Okno nástrojov</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>T&amp;ietoa</translation>
+        <translation>&amp;Informácia</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Yleinen</translation>
+        <translation>Všeobecné</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Nimi</translation>
+        <translation>Názov</translation>
     </message>
     <message>
         <source>Client name</source>
-        <translation>Asiakasohjelman nimi</translation>
+        <translation>Meno klienta</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>e/s</translation>
+        <translation>nie je k dispozícii</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Yhteyksien määrä</translation>
+        <translation>Počet pripojení</translation>
     </message>
     <message>
-        <source>Open the FLX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa FLX debug lokitiedosto nykyisestä datahakemistosta. Tämä saattaa kestää muutaman sekunnin isoilla tiedostoilla.</translation>
+        <source>Open the DRV debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvoriť denník ladenia DRV zo súčastného adresára. Môže trvať niekoľko sekúnd ak je súbor veľký.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Avaa</translation>
+        <translation>&amp;Otvoriť</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>Käynnistysaika</translation>
+        <translation>Čas spustenia</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Verkko</translation>
+        <translation>Sieť</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Viimeisimmän lohkon aika</translation>
+        <translation>Čas posledného bloku</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Debug lokitiedosto</translation>
+        <translation>Súbor záznamu ladenia</translation>
     </message>
     <message>
         <source>Using OpenSSL version</source>
-        <translation>Käytössä oleva OpenSSL versio</translation>
+        <translation>Používa OpenSSL verziu</translation>
     </message>
     <message>
         <source>Build date</source>
-        <translation>Ohjelman päiväys</translation>
+        <translation>Dátum zostavenia</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Nykyinen lohkojen määrä</translation>
+        <translation>Aktuálny počet blokov</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>Asiakasohjelman versio</translation>
+        <translation>Verzia klienta</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Käytössä oleva BerkeleyDB versio</translation>
+        <translation>Používa BerkeleyDB verziu</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation>Lohkoketju</translation>
+        <translation>Reťazec blokov</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
-        <translation>Masternodet määrä</translation>
+        <translation>Počet Mastenode</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;Konsoli</translation>
+        <translation>&amp;Konzola</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Tyhjennä konsoli</translation>
+        <translation>Vymazať konzolu</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Verkkoliikenne</translation>
+        <translation>Sieťová prevádzka</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Tyhjennä</translation>
+        <translation>&amp;Vyčistiť</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>Yhteensä</translation>
+        <translation>Celkovo</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>Vastaanotettu</translation>
+        <translation>Prijaté</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>Lähetetty</translation>
+        <translation>Odoslané</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation>&amp;Peers</translation>
+        <translation>&amp;Partnerské uzly</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Valitse peer nähdäksesi tarkempia tietoja.</translation>
+        <translation>Pre detailné informácie vyberte partnerský uzol.</translation>
     </message>
     <message>
         <source>Direction</source>
-        <translation>Suunta</translation>
+        <translation>Smer</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Versio</translation>
+        <translation>Verzia</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Käyttäjäohjelma</translation>
+        <translation>Agent používateľa</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>Palvelut</translation>
+        <translation>Služby</translation>
     </message>
     <message>
         <source>Starting Height</source>
-        <translation>Aloituskorkeus</translation>
+        <translation>Počiatočná výška</translation>
     </message>
     <message>
         <source>Sync Height</source>
-        <translation>Synkronointikorkeus</translation>
+        <translation>Synchronizačná výška</translation>
     </message>
     <message>
         <source>Ban Score</source>
-        <translation>Kieltopisteet</translation>
+        <translation>Skóre zákazu</translation>
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>Yhteysaika</translation>
+        <translation>Čas pripojenia</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>Viimeinen lähetys</translation>
+        <translation>Posledné poslané</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>Viimeinen vastaanotto</translation>
+        <translation>Posledné prijaté</translation>
     </message>
     <message>
         <source>Bytes Sent</source>
-        <translation>Tavuja lähetetty</translation>
+        <translation>Odoslaných bajtov</translation>
     </message>
     <message>
         <source>Bytes Received</source>
-        <translation>Tavuja vastaanotettu</translation>
+        <translation>Prijatých bajtov</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Ping aika</translation>
+        <translation>Doba odozvy</translation>
     </message>
     <message>
         <source>&amp;Wallet Repair</source>
-        <translation>&amp;Lompakon Korjaus</translation>
+        <translation>&amp;Oprava peňaženky</translation>
     </message>
     <message>
         <source>Salvage wallet</source>
-        <translation>Pelasta lompakko</translation>
+        <translation>Záchranná peňaženka</translation>
     </message>
     <message>
         <source>Rescan blockchain files</source>
-        <translation>Skannaa lohkoketju uudelleen</translation>
+        <translation>Znova prehľadať reťazec blokov</translation>
     </message>
     <message>
         <source>Recover transactions 1</source>
-        <translation>Palauta tapahtumat 1</translation>
+        <translation>Znova prehľadať transakcie 1</translation>
     </message>
     <message>
         <source>Recover transactions 2</source>
-        <translation>Palauta tapahtumat 2</translation>
+        <translation>Znova prehľadať transakcie 2</translation>
     </message>
     <message>
         <source>Upgrade wallet format</source>
-        <translation>Päivitä lompakon formaatti</translation>
+        <translation>Inovovať formát peňaženky</translation>
     </message>
     <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
-        <translation>Painikkeet käynnistävät lompakon korjauksen komentorivin valintoja käyttäen.
-Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/vanhentuneet tapahtumat.</translation>
+        <translation>Tlačidlá nižšie reštartujú peňaženku s príkazmi na opravu peňaženky, opravia chyby s poškodenými súbormi reťazca blokov, alebo chýbajúce či zastarané transakcie.</translation>
     </message>
     <message>
         <source>-salvagewallet: Attempt to recover private keys from a corrupt wallet.dat.</source>
-        <translation>-salvagewallet: Yrittää pelastaa yksityiset avaimet viallisesta lompakkotiedostosta.</translation>
+        <translation>-salvagewallet: Pokus obnoviť súkromné kľúče z poškodeného wallet.dat.</translation>
     </message>
     <message>
         <source>-rescan: Rescan the block chain for missing wallet transactions.</source>
-        <translation>-rescan: Skannaa uudelleen puuttuvat tapahtumat lohkoketjusta.</translation>
+        <translation>-rescan: Znova prehľadať reťazec blokov pre nájdenie chýbajúcich transakcií peňaženky.</translation>
     </message>
     <message>
         <source>-zapwallettxes=1: Recover transactions from blockchain (keep meta-data, e.g. account owner).</source>
-        <translation>-zapwallettxes=1: Palauta tapahtumat lohkoketjusta
- (pidä meta-data, esim. tilin omistaja).</translation>
+        <translation>-zapwallettxes=1: Obnoviť transakcie z reťazca blokov (zachovať metaúdaje, napr. vlastníka účtu).</translation>
     </message>
     <message>
         <source>-zapwallettxes=2: Recover transactions from blockchain (drop meta-data).</source>
-        <translation>-zapwallettxes=2: Palauta tapahtumat lohkoketjusta
- (poista meta-data).</translation>
+        <translation>-zapwallettxes=2: Obnoviť transakcie z reťazca blokov (zahodiť metaúdaje).</translation>
     </message>
     <message>
         <source>-upgradewallet: Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</source>
-        <translation>-upgradewallet: Päivitä lompakko viimeisimpään formaattiin
- (Huom: tämä EI päivitä varsinaista lompakko-ohjelmistoa!).</translation>
+        <translation>-upgradewallet: Inovácia peňaženky na posledný formát pri spustený. (Poznámka: toto NIE je aktualizácia samotnej peňaženky!)</translation>
     </message>
     <message>
         <source>Wallet repair options.</source>
-        <translation>Lompakon korjausvalinnat</translation>
+        <translation>Možnosti opravy peňaženky.</translation>
     </message>
     <message>
         <source>Rebuild index</source>
-        <translation>Rakenna indeksi uudelleen</translation>
+        <translation>Znova vytvoriť index</translation>
     </message>
     <message>
         <source>-reindex: Rebuild block chain index from current blk000??.dat files.</source>
-        <translation>-reindex: Rakenna uudelleen lohkoketjun indeksi nykyisistä blk000??.dat tiedostoista.</translation>
+        <translation>-reindex: Znovu vytvoriť index reťazca blokov zo súčastného blk000??.dat súboru.</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>Sisään:</translation>
+        <translation>Dnu:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>Ulos:</translation>
+        <translation>Von:</translation>
     </message>
     <message>
-        <source>Welcome to the FLX RPC console.</source>
-        <translation>Tervetuloa FLX RPC konsoliin.</translation>
+        <source>Welcome to the DRV RPC console.</source>
+        <translation>Vitajte v konzole DRV RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Ylös- ja alas-nuolet selaavat historiaa ja &lt;b&gt;Ctrl-L&lt;/b&gt; tyhjentää ruudun.</translation>
+        <translation>Použi šipky hore a dolu pre navigáciu históriou a &lt;b&gt;Ctrl-L&lt;/b&gt; pre vyčistenie obrazovky.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Kirjoita &lt;b&gt;help&lt;/b&gt; nähdäksesi käytettävissä olevat komennot.</translation>
+        <translation>Napíš &lt;b&gt;help&lt;/b&gt; pre prehľad dostupných príkazov.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -2006,141 +2000,141 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>via %1</source>
-        <translation>kautta %1</translation>
+        <translation>cez %1</translation>
     </message>
     <message>
         <source>never</source>
-        <translation>ei koskaan</translation>
+        <translation>nikdy</translation>
     </message>
     <message>
         <source>Inbound</source>
-        <translation>Saapuva</translation>
+        <translation>Vstupné</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>Lähtevä</translation>
+        <translation>Výstupné</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Tuntematon</translation>
+        <translation>Neznáme</translation>
     </message>
     <message>
         <source>Fetching...</source>
-        <translation>Haetaan...</translation>
+        <translation>Načítava sa...</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>Reuse one of the previously used receiving addresses.&lt;br&gt;Reusing addresses has security and privacy issues.&lt;br&gt;Do not use this unless re-generating a payment request made before.</source>
-        <translation>Uudelleenkäytä yksi vanhoista vastaanottavista osoitteista.&lt;br&gt;Uudelleenkäyttössä on turvallisuus- ja yksityisyysongelmia.&lt;br&gt;Älä käytä tätä ellet ole uudelleenluomassa aikaisempaa maksupyyntöä.</translation>
+        <translation>Znovu použiť jednu z už použitých adries pre prijímanie. &lt;br&gt;Znovu používanie adries je problematické v otázke bezpečnosti aj súkromia.&lt;br/&gt; Používajte to len v prípade ak znovu generujete výzvu na zaplatenie, ktorú ste už vytvorili v minulosti.</translation>
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>&amp;Uudelleenkäytä vastaanottavaa osoitetta (ei suositella)</translation>
+        <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the FLX network.</source>
-        <translation>Valinnainen viesti liitettäväksi maksupyyntöön, joka näytetään kun pyyntö on avattu.&lt;br&gt;Huomio: Viestiä ei lähetetä maksun mukana FLX verkkoon.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DRV network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť DRV.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>Vi&amp;esti:</translation>
+        <translation>&amp;Správa:</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>Valinnainen nimi liitetään uuteen vastaanottavaan osoitteeseen.</translation>
+        <translation>Voliteľný popis ktorý sa pridá k tejto novej prijímajúcej adrese.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the FLX network.</source>
-        <translation>Valinnainen viesti liitettäväksi maksupyyntöön, joka näytetään kun pyyntö on avattu.&lt;br&gt;Huomio: Viestiä ei lähetetä maksun mukana FLX verkkoon.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DRV network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť DRV.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Käytä tätä lomaketta maksupyyntöihin. Kaikki kentät ovat &lt;b&gt;valinnaisia&lt;/b&gt;.</translation>
+        <translation>Použite tento formulár pre vyžiadanie platby. Všetky polia sú &lt;b&gt;voliteľné&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Nimi:</translation>
+        <translation>&amp;Popis:</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Valinnainen pyyntömäärä. Jätä tyhjäksi tai nollaksi jos et pyydä tiettyä määrää.</translation>
+        <translation>Voliteľná požadovaná suma. Nechajte prázdne alebo nulu ak nepožadujete určitú sumu.</translation>
     </message>
     <message>
         <source>&amp;Amount:</source>
-        <translation>&amp;Määrä</translation>
+        <translation>&amp;Suma:</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>&amp;Vastaanota maksu</translation>
+        <translation>Vyžiadať platbu</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Tyhjennä lomakkeen kaikki kentät.</translation>
+        <translation>Vyčistiť všetky polia formulára.</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Tyhjennä</translation>
+        <translation>Vyčistiť</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation>Pyydettyjen maksujen historia</translation>
+        <translation>História vyžiadaných platieb</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Näytä valittu pyyntö (sama toiminta kuin alkion tuplaklikkaus)</translation>
+        <translation>Zobraz zvolenú požiadavku (urobí to isté ako dvoj-klik na záznam)</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>Näytä</translation>
+        <translation>Zobraziť</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>Poista valitut merkinnät listasta</translation>
+        <translation>Odstrániť zvolené záznamy zo zoznamu</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Poista</translation>
+        <translation>Odstrániť</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopioi nimi</translation>
+        <translation>Kopírovať popis</translation>
     </message>
     <message>
         <source>Copy message</source>
-        <translation>Kopioi viesti</translation>
+        <translation>Kopírovať správu</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopioi määrä</translation>
+        <translation>Kopírovať sumu</translation>
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>QR-koodi</translation>
+        <translation>QR kód</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>Kopioi &amp;URI</translation>
+        <translation>Kopírovať &amp;URI</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Kopioi &amp;Osoite</translation>
+        <translation>Kopírovať adresu</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Tallenna Kuva</translation>
+        <translation>Uložiť obrázok...</translation>
     </message>
     <message>
         <source>Request payment to %1</source>
-        <translation>Vastaanota maksu %1</translation>
+        <translation>Vyžiadať platbu pre %1</translation>
     </message>
     <message>
         <source>Payment information</source>
-        <translation>Maksutiedot</translation>
+        <translation>Informácia o platbe</translation>
     </message>
     <message>
         <source>URI</source>
@@ -2148,225 +2142,225 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>Address</source>
-        <translation>Osoite</translation>
+        <translation>Adresa</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Määrä</translation>
+        <translation>Suma</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Nimi</translation>
+        <translation>Popis</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Viesti</translation>
+        <translation>Správa</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Tuloksen URI liian pitkä, yritä lyhentää otsikon tekstiä / viestiä.</translation>
+        <translation>Výsledné URI príliš dlhé, skráť text pre názov / správu.</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Virhe käännettäessä URI:a QR-koodiksi.</translation>
+        <translation>Chyba v zakódovaní URI do QR kódu</translation>
     </message>
 </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Päivämäärä</translation>
+        <translation>Dátum</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Nimi</translation>
+        <translation>Popis</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Viesti</translation>
+        <translation>Správa</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Määrä</translation>
+        <translation>Suma</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(ei nimeä)</translation>
+        <translation>(bez popisu)</translation>
     </message>
     <message>
         <source>(no message)</source>
-        <translation>(ei viestiä)</translation>
+        <translation>(žiadna správa)</translation>
     </message>
     <message>
         <source>(no amount)</source>
-        <translation>(ei määrää)</translation>
+        <translation>(žiadna suma)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä</translation>
+        <translation>Poslať Bitcoins</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Kolikkokontrolli ominaisuudet</translation>
+        <translation>Možnosti "Coin Control"</translation>
     </message>
     <message>
         <source>Inputs...</source>
-        <translation>Sisääntulot...</translation>
+        <translation>Vstupy...</translation>
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>automaattisesti valitut</translation>
+        <translation>automaticky vybrané</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Lompakon saldo ei riitä!</translation>
+        <translation>Nedostatok prostriedkov!</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Määrä:</translation>
+        <translation>Množstvo:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Tavuja:</translation>
+        <translation>Bajtov:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Määrä:</translation>
+        <translation>Suma:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Prioriteetti:</translation>
+        <translation>Priorita:</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>keskisuuri</translation>
+        <translation>stredné</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Siirtomaksu:</translation>
+        <translation>Poplatok:</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Tomu:</translation>
+        <translation>Prach:</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>ei</translation>
+        <translation>nie</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Siirtomaksun jälkeen:</translation>
+        <translation>Po poplatku:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Vaihtoraha:</translation>
+        <translation>Zmena:</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Jos tämä aktivoidaan mutta vaihtorahan osoite on tyhjä tai virheellinen, vaihtoraha tullaan lähettämään uuteen luotuun osoitteeseen.</translation>
+        <translation>Ak aktivované ale adresa pre výdavok je prázdna alebo neplatná, výdavok bude poslaný na novovytvorenú adresu.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>Kustomoitu vaihtorahan osoite</translation>
+        <translation>Vlastná adresa zmeny</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>Siirtomaksu:</translation>
+        <translation>Transakčný poplatok</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>Valitse...</translation>
+        <translation>Vybrať...</translation>
     </message>
     <message>
         <source>collapse fee-settings</source>
-        <translation>pienennä siirtomaksu asetukset</translation>
+        <translation>skryť nastavenia poplatkov</translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>Pienennä</translation>
+        <translation>Minimalizovať</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Jos mukautettu siirtomaksu on asetettu 1000 duff ja siirtotapahtuma on vain 250 tavua,&lt;br /&gt;tällöin "per kilotavu" maksaa vain 250 duffs siirtomaksun, kun taas "vähintään" maksaa 1000 duffs.&lt;br /&gt;Siirtotapahtumat jotka ovat isompia kuin kilotavu, molemmat maksaa "per kilotavu".</translation>
+        <translation>Ak je vlastný poplatok nastavený na 1000 duffov a transakcia je len 250 bytov, v tom prípade "za kilobajt" zaplatí iba 250 duffov na poplatkoch, &lt;br /&gt;zatiaľ čo "pri najmenšom" zaplatí 1000 duffov. Pre transakcie väčšie ako jeden kilobajt, obe zaplatia rovnako za kilobajt. </translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "total at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Jos mukautettu siirtomaksu on asetettu 1000 duff ja siirtotapahtuma on vain 250 tavua,&lt;br /&gt;tällöin "per kilotavu" maksaa vain 250 duffs siirtomaksun, kun taas "yhteensä vähintään" maksaa 1000 duffs.&lt;br /&gt;Siirtotapahtumat jotka ovat isompia kuin kilotavu, molemmat maksaa "per kilotavu".</translation>
+        <translation>Ak je vlastný poplatok nastavený na 1000 duffov a transakcia je len 250 bytov, v tom prípade "za kilobajt" zaplatí iba 250 duffov na poplatkoch, &lt;br /&gt;zatiaľ čo "celkovo pri najmenšom" zaplatí 1000 duffov. Pre transakcie väčšie ako jeden kilobajt, obe zaplatia rovnako za kilobajt. </translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for capracoin transactions than the network can process.</source>
-        <translation>Minimi siirtomaksun maksaminen on ok niin kauan kun siirtotapahtumien määrä on pienempi kuin tila lohkoissa.&lt;br /&gt;Mutta ota huomioon että tämä voi johtaa siirtotapahtumaan jota ei vahvisteta koskaan, jos siirtotapahtumia on enemmän kuin verkko voi käsitellä.</translation>
+        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po DRV transakciách väčší ako dokáže sieť DRV spracovať.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
-        <translation>per kilotavu</translation>
+        <translation>za kilo-byte </translation>
     </message>
     <message>
         <source>total at least</source>
-        <translation>yhteensä vähintään</translation>
+        <translation>celkovo z prinajmenej</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
-        <translation>(lue vinkki)</translation>
+        <translation>(čítať popis)</translation>
     </message>
     <message>
         <source>Recommended:</source>
-        <translation>Suositeltava:</translation>
+        <translation>Doporučené:</translation>
     </message>
     <message>
         <source>Custom:</source>
-        <translation>Mukautettu:</translation>
+        <translation>Vlastné:</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Älykästä siirtomaksua ei ole alustettu vielä. Tämä kestää yleensä muutaman lohkon...)</translation>
+        <translation>(Inteligentný poplatok nebol ešte inicializovaný. Obvykle to trvá nekoľko blokov...)</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
-        <translation>Vahvistusaika:</translation>
+        <translation>Čas potvrdenia:</translation>
     </message>
     <message>
         <source>normal</source>
-        <translation>normaali</translation>
+        <translation>normálna</translation>
     </message>
     <message>
         <source>fast</source>
-        <translation>nopea</translation>
+        <translation>rýchla</translation>
     </message>
     <message>
         <source>Send as zero-fee transaction if possible</source>
-        <translation>Lähetä nolla siirtomaksulla jos mahdollista</translation>
+        <translation>Ak je to možné, poslať transakciu bez poplatku</translation>
     </message>
     <message>
         <source>(confirmation may take longer)</source>
-        <translation>(vahvistus voi kestää pidempään)</translation>
+        <translation>(potvrdenie môže trvať dlhšie)</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Lähetä klikkaamalla</translation>
+        <translation>Potvrďte odoslanie</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>&amp;Lähetä</translation>
+        <translation>&amp;Odoslať</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Tyhjennä lomakkeen kaikki kentät.</translation>
+        <translation>Vyčistiť všetky polia formulára.</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>T&amp;yhjennä Kaikki</translation>
+        <translation>Zmazať &amp;všetko</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Lähetä usealle vastaanottajalle samanaikaisesti</translation>
+        <translation>Poslať viacerým príjemcom naraz</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>Lisää &amp;Vastaanottaja</translation>
+        <translation>&amp;Pridať príjemcu</translation>
     </message>
     <message>
         <source>Obfuscate</source>
@@ -2378,158 +2372,158 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>Balance:</source>
-        <translation>Saldo:</translation>
+        <translation>Zostatok:</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Kopioi määrä</translation>
+        <translation>Kopírovať množstvo</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopioi määrä</translation>
+        <translation>Kopírovať sumu</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Kopioi siirtomaksu</translation>
+        <translation>Kopírovať poplatok</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Kopioi siirtomaksun jälkeen</translation>
+        <translation>Kopírovať za poplatok</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Kopioi tavut</translation>
+        <translation>Kopírovať bajty</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>Kopioi prioriteetti</translation>
+        <translation>Kopírovať prioritu</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Kopioi tomu</translation>
+        <translation>Kopírovať prach</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Kopioi vaihtoraha</translation>
+        <translation>Kopírovať zmenu</translation>
     </message>
     <message>
         <source>using</source>
-        <translation>käyttäen</translation>
+        <translation>používa</translation>
     </message>
     <message>
         <source>anonymous funds</source>
-        <translation>anonymisoituja varoja</translation>
+        <translation>anonymne zdroje</translation>
     </message>
     <message>
         <source>(obfuscate requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(obfuscate pyöristää tämän lähimpään %1).</translation>
+        <translation>(Obfuscate vyžaduje aby bola táto suma zaokrúhlená nahor k najbližšej %1).</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
-        <translation>kaikkia käytössä olevia varoja (ei suositeltu)</translation>
+        <translation>hociktoré dostupné zdroje (nedoporučuje sa)</translation>
     </message>
     <message>
         <source>and InstantX</source>
-        <translation>ja InstantX</translation>
+        <translation>a InstantX</translation>
     </message>
     <message>
         <source>%1 to %2</source>
-        <translation>%1 -&gt; %2</translation>
+        <translation>%1 do %2</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>Haluatko varmasti lähettää?</translation>
+        <translation>Určite to chcete odoslať?</translation>
     </message>
     <message>
         <source>are added as transaction fee</source>
-        <translation>lisätty siirtomaksuna</translation>
+        <translation>pridané ako transakčný poplatok</translation>
     </message>
     <message>
         <source>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</source>
-        <translation>Määrä yhteensä = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
+        <translation>Celková suma = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Hyväksy lähettäminen</translation>
+        <translation>Potvrdiť odoslanie bitcoins</translation>
     </message>
     <message>
         <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
-        <translation>Siirtomaksu %1 kertaa korkeampi kuin %2 per kB on erittäin korkea siirtomaksu.</translation>
+        <translation>Poplatok je %1 krát vyšší ako %2 za kB je považovaný za nenormálne vysoký poplatok. </translation>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Arvioitu vahvistuksen aloitus %n lohkon kuluessa.</numerusform><numerusform>Arvioitu vahvistuksen aloitus %n lohkon kuluessa.</numerusform></translation>
+        <translation><numerusform>Odhad pre začiatok potvrdzovania je %n blok.</numerusform><numerusform>Odhad pre začiatok potvrdzovania sú %n bloky.</numerusform><numerusform>Odhad pre začiatok potvrdzovania je %n blokov.</numerusform></translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>Vastaanottajan osoite on virheellinen, tarkista osoite.</translation>
+        <translation>Adresa príjemcu je neplatná, prosím, overte ju.</translation>
     </message>
     <message>
         <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
-        <translation>&lt;b&gt;(Näytetään %1 / %2 merkintää)&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;(%1 z %2 zobrazených položiek)&lt;/b&gt;</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Maksettavan summan tulee olla suurempi kuin 0.</translation>
+        <translation>Suma na úhradu musí byť väčšia ako 0.</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>Määrä ylittää käytettävissä olevan saldon.</translation>
+        <translation>Suma je vyššia ako Váš zostatok.</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Summa yhteensä ylittää saldosi kun siihen lisätään siirtomaksu %1.</translation>
+        <translation>Suma celkom prevyšuje Váš zostatok ak sú započítané %1 transakčné poplatky.</translation>
     </message>
     <message>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Sama osoite toistuu useamman kerran, samaan osoitteeseen voi lähettää vain kerran per maksutapahtuma.</translation>
+        <translation>Duplikát adresy objavený, je možné poslať na každú adresu len raz v jednej odchádzajúcej transakcii.</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
-        <translation>Siirtotapahtuman luonti epäonnistui!</translation>
+        <translation>Vytvorenie transakcie zlyhalo!</translation>
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Siirtotapahtuma hylättiin! Tämä saattaa tapahtua jos lompakossa olevat varat on jo kulutettu, kuten jos käytät kopiota wallet.dat tiedostosta ja varat oli jo käytetty mutta ei merkattu täällä.</translation>
+        <translation>Transakcia bola zamietnutá! Toto sa môže stať ak niektoré coins vo vašej peňaženke už boli minuté, ako keď použijete kópiu wallet.dat a coins boli minuté z kópie ale neoznačené ako minuté tu.</translation>
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins.</source>
-        <translation>Virhe: Lompakko on avattu vain anonymisointia varten.</translation>
+        <translation>Chyba: Peňaženka bola odomknutá iba pre anonymizáciu mincí.</translation>
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
-        <translation>Maksa vain minimi siirtomaksu %1</translation>
+        <translation>Platiť iba minimálny poplatok %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid FLX address</source>
-        <translation>Varoitus: Virheellinen FLX osoite</translation>
+        <source>Warning: Invalid DRV address</source>
+        <translation>Upozornenie: Neplatná DRV adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>Varoitus: Tuntematon vaihtorahan osoite</translation>
+        <translation>Varovanie: Neznáma adresa pre výdavok</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(ei nimeä)</translation>
+        <translation>(bez popisu)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>This is a normal payment.</source>
-        <translation>Tämä on normaali maksu.</translation>
+        <translation>Toto je normálna platba.</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>Maksun &amp;saaja:</translation>
+        <translation>Zapla&amp;tiť:</translation>
     </message>
     <message>
-        <source>The FLX address to send the payment to</source>
-        <translation>FLX osoite johon maksu lähetetään</translation>
+        <source>The DRV address to send the payment to</source>
+        <translation>DRV adresa pre poslanie platby</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Valitse aikaisemmin käytetty osoite</translation>
+        <translation>Vybrať predtým použitú adresu</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2537,7 +2531,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Liitä osoite leikepöydältä</translation>
+        <translation>Vložiť adresu z klipbordu</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2545,81 +2539,81 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Poista tämä alkio</translation>
+        <translation>Odstrániť túto položku</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Nimi:</translation>
+        <translation>&amp;Popis:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Aseta nimi tälle osoitteelle lisätäksesi sen käytettyjen osoitteiden listalle.</translation>
+        <translation>Vložte popis pre túto adresu aby sa uložila do zoznamu použitých adries</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
-        <translation>&amp;Määrä:</translation>
+        <translation>Su&amp;ma:</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>Viesti:</translation>
+        <translation>Správa:</translation>
     </message>
     <message>
-        <source>A message that was attached to the capracoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the FLX network.</source>
-        <translation>Viesti joka liitettiin FLX: URI joka talletetaan siirtotapahtuman kanssa viitteeksi sinulle. Huomio: Tätä viestiä ei lähetetä FLX verkkoon.</translation>
+        <source>A message that was attached to the capracoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DRV network.</source>
+        <translation>Správa ktorá bola pripojená ku capracoin: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť DRV.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
-        <translation>Tämä on vahvistamaton maksupyyntö</translation>
+        <translation>Toto je neoverená výzva k platbe.</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>Saaja:</translation>
+        <translation>Platba pre:</translation>
     </message>
     <message>
         <source>Memo:</source>
-        <translation>Muistio:</translation>
+        <translation>Poznámka:</translation>
     </message>
     <message>
         <source>This is a verified payment request.</source>
-        <translation>Tämä on vahvistettu maksupyyntö.</translation>
+        <translation>Toto je overená výzva k platbe.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Anna nimi tälle osoitteelle, jos haluat lisätä sen osoitekirjaan</translation>
+        <translation>Vložte popis pre túto adresu aby sa pridala do adresára</translation>
     </message>
 </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Flexinodes Core is shutting down...</source>
-        <translation>Flexinodes Core sulkeutuu...</translation>
+        <source>DraviteCoins Core is shutting down...</source>
+        <translation>DRV core sa vypína...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Älä sammuta tietokonetta ennen kuin tämä ikkuna katoaa.</translation>
+        <translation>Nevypínajte počítač kým toto okno nezmizne.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Allekirjoitukset - Allekirjoita / Tarkista viesti</translation>
+        <translation>Podpisy - Podpísať / Overiť správu</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Allekirjoita viesti</translation>
+        <translation>&amp;Podpísať Správu</translation>
     </message>
     <message>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Voit allekirjoittaa viestit omilla osoitteillasi todistaaksesi että omistat ne. Ole huolellinen että et allekirjoita mitään epämääräistä, phishing-hyökkäjä voi huijata sinua allekirjoittamaan henkilöllisyytesi omasta puolestaan. Allekirjoita vain yksityiskohtaisesti täytetty selvitys johon sitoudut.</translation>
+        <translation>Môžete podpísať správy svojou adresou a dokázať, že ju vlastníte. Buďte opatrní a podpíšte len prehlásenia s ktorými plne súhlasíte, nakoľko útoky typu "phishing" Vás môžu lákať k ich podpísaniu.</translation>
     </message>
     <message>
-        <source>The FLX address to sign the message with</source>
-        <translation>FLX osoite jolla viesti allekirjoitetaan</translation>
+        <source>The DRV address to sign the message with</source>
+        <translation>DRV adresa na podpísanie správy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Valitse aikaisemmin käytetty osoite</translation>
+        <translation>Vybrať predtým použitú adresu</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2627,7 +2621,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Liitä osoite leikepöydältä</translation>
+        <translation>Vložte adresu z klipbordu</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2635,130 +2629,130 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Kirjoita tähän viesti jonka haluat allekirjoittaa</translation>
+        <translation>Sem vložte správu ktorú chcete podpísať</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation>Allekirjoitus</translation>
+        <translation>Podpis</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Kopioi tämän hetkinen allekirjoitus leikepöydälle</translation>
+        <translation>Kopírovať práve zvolenú adresu do systémového klipbordu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this FLX address</source>
-        <translation>Allekirjoita viesti todistaaksesi että omistat tämän FLX osoitteen</translation>
+        <source>Sign the message to prove you own this DRV address</source>
+        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto DRV adresu</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>Allekirjoita &amp;Viesti</translation>
+        <translation>Podpísať &amp;správu</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Tyhjennä kaikki kentät</translation>
+        <translation>Vynulovať všetky polia podpisu správy</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>T&amp;yhjennä Kaikki</translation>
+        <translation>Zmazať &amp;všetko</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Tarkista viesti</translation>
+        <translation>Overiť správu...</translation>
     </message>
     <message>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Syötä allekirjoittava osoite, viesti ja allekirjoitus alla oleviin kenttiin varmistaaksesi allekirjoituksen aitouden. Varmista että kopioit kaikki kentät täsmälleen oikein, myös rivinvaihdot, välilyönnit, tabulaattorit, jne.</translation>
+        <translation>Vložte podpisovaciu adresu, správu (uistite sa, že kopírujete ukončenia riadkov, medzery, odrážky, atď. presne) a podpis pod to na overenie adresy. Buďte opatrní a nečítajte ako podpísané viac než je v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu mitm útokom.</translation>
     </message>
     <message>
-        <source>The FLX address the message was signed with</source>
-        <translation>FLX osoite jolla viesti on allekirjoitettu</translation>
+        <source>The DRV address the message was signed with</source>
+        <translation>Adresa DRV s ktorou bola podpísaná správa</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified FLX address</source>
-        <translation>Tarkista että viesti on allekirjoitettu määritetyllä FLX osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified DRV address</source>
+        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou DRV adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>Tarkista &amp;Viesti...</translation>
+        <translation>Overiť správu</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Tyhjennä kaikki kentät</translation>
+        <translation>Obnoviť všetky polia v overiť správu</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
-        <translation>Klikkaa "Allekirjoita Viesti" luodaksesi allekirjoituksen</translation>
+        <translation>Kliknite "Podpísať Správu" na získanie podpisu</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>Syötetty osoite on virheellinen.</translation>
+        <translation>Zadaná adresa je neplatná.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Tarkista osoite ja yritä uudelleen.</translation>
+        <translation>Prosím skontrolujte adresu a skúste znova.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>Syötetyn osoitteen avainta ei löydy.</translation>
+        <translation>Vložená adresa nezodpovedá žiadnemu kľúcu.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Lompakon avaaminen peruttiin.</translation>
+        <translation>Odomknutie peňaženky bolo zrušené.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Yksityistä avainta syötetylle osoitteelle ei ole saatavilla.</translation>
+        <translation>Súkromný kľúč pre vložená adresu nieje k dispozícii.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>Viestin allekirjoitus epäonnistui.</translation>
+        <translation>Podpísanie správy zlyhalo.</translation>
     </message>
     <message>
         <source>Message signed.</source>
-        <translation>Viesti allekirjoitettu.</translation>
+        <translation>Správa podpísaná.</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>Allekirjoitusta ei pystytty tulkitsemaan.</translation>
+        <translation>Podpis nie je možné dekódovať.</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
-        <translation>Tarkista allekirjoitus ja yritä uudelleen.</translation>
+        <translation>Prosím skontrolujte podpis a skúste znova.</translation>
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation>Allekirjoitus ei täsmää viestin tiivisteeseen.</translation>
+        <translation>Podpis sa nezhoduje so zhrnutím správy</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
-        <translation>Viestin tarkistus epäonnistui.</translation>
+        <translation>Overenie správy zlyhalo.</translation>
     </message>
     <message>
         <source>Message verified.</source>
-        <translation>Viesti tarkistettu.</translation>
+        <translation>Správa overená.</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Flexinodes Core</source>
-        <translation>Flexinodes Core</translation>
+        <source>DraviteCoins Core</source>
+        <translation>DraviteCoins Core</translation>
     </message>
     <message>
         <source>Version %1</source>
-        <translation>Versio %1</translation>
+        <translation>Verzia %1</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Bitcoin Core kehittäjät</translation>
+        <translation>Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>The Flexinodes Core developers</source>
-        <translation>Flexinodes Core kehittäjät</translation>
+        <source>The DraviteCoins Core developers</source>
+        <translation>Vývojári DraviteCoins Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
-        <translation>[testiverkko]</translation>
+        <translation>[testovacia sieť]</translation>
     </message>
 </context>
 <context>
@@ -2772,464 +2766,464 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Avoinna %n lisälohkolle</numerusform><numerusform>Avoinna %n lisälohkolle</numerusform></translation>
+        <translation><numerusform>Otvoriť pre %n ďalší blok</numerusform><numerusform>Otvoriť pre %n ďalšie bloky</numerusform><numerusform>Otvoriť pre %n ďalších blokov</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Avoinna %1 asti</translation>
+        <translation>Otvorené do %1</translation>
     </message>
     <message>
         <source>conflicted</source>
-        <translation>ristiriitainen</translation>
+        <translation>sporné</translation>
     </message>
     <message>
         <source>%1/offline (verified via Instantx)</source>
-        <translation>%1/ei yhteyttä (vahvistettu Instantx:lla)</translation>
+        <translation>%1/offline (overené pomocou Instantx)</translation>
     </message>
     <message>
         <source>%1/confirmed (verified via Instantx)</source>
-        <translation>%1/vahvistettu (vahvistettu Instantx:lla)</translation>
+        <translation>%1/potvrdené (overené pomocou Instantx)</translation>
     </message>
     <message>
         <source>%1 confirmations (verified via Instantx)</source>
-        <translation>%1 vahvistusta (vahvistettu Instantx:lla)</translation>
+        <translation>%1 potvrdení (overené pomocou Instantx)</translation>
     </message>
     <message>
         <source>%1/offline</source>
-        <translation>%1/ei yhteyttä</translation>
+        <translation>%1/offline</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
-        <translation>%1/vahvistamaton</translation>
+        <translation>%1/nepotvrdené</translation>
     </message>
     <message>
         <source>%1 confirmations</source>
-        <translation>%1 vahvistusta</translation>
+        <translation>%1 potvrdení</translation>
     </message>
     <message>
         <source>%1/offline (InstantX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1/ei yhteyttä (vahvistus Instantx:lla käynnissä - %2 / %3 allekirjoitusta)</translation>
+        <translation>%1/offline (Prebieha overovanie InstantX - %2 z %3 podpisov)</translation>
     </message>
     <message>
         <source>%1/confirmed (InstantX verification in progress - %2 of %3 signatures )</source>
-        <translation>%1/vahvistettu (vahvistus Instantx:lla käynnissä - %2 / %3 allekirjoitusta)</translation>
+        <translation>%1/potvrdené (Prebieha overovanie InstantX - %2 z %3 podpisov)</translation>
     </message>
     <message>
         <source>%1 confirmations (InstantX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1 vahvistusta (vahvistus Instantx:lla käynnissä - %2 / %3 allekirjoitusta)</translation>
+        <translation>%1 potvrdení (Prebieha overovanie InstantX - %2 z %3 podpisov)</translation>
     </message>
     <message>
         <source>%1/offline (InstantX verification failed)</source>
-        <translation>%1/ei yhteyttä (Instantx vahvistus epäonnistui)</translation>
+        <translation>%1/offline (Overovanie InstantX zlyhalo)</translation>
     </message>
     <message>
         <source>%1/confirmed (InstantX verification failed)</source>
-        <translation>%1/vahvistettu (Instantx vahvistus epäonnistui)</translation>
+        <translation>%1/potvrdené (Overovanie InstantX zlyhalo)</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Tila</translation>
+        <translation>Stav</translation>
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, lähetys ei ole vielä onnistunut</translation>
+        <translation>, ešte nebola úspešne odoslaná</translation>
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, lähetys %n solmun läpi</numerusform><numerusform>, lähetys %n solmun läpi</numerusform></translation>
+        <translation><numerusform>, vysielaný cez %n uzol</numerusform><numerusform>, vysielaný cez %n uzle</numerusform><numerusform>, vysielaný cez %n uzlov</numerusform></translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Päivämäärä</translation>
+        <translation>Dátum</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation>Lähde</translation>
+        <translation>Zdroj</translation>
     </message>
     <message>
         <source>Generated</source>
-        <translation>Luotu</translation>
+        <translation>Vygenerované</translation>
     </message>
     <message>
         <source>From</source>
-        <translation>Lähettäjä</translation>
+        <translation>od</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>tuntematon</translation>
+        <translation>neznámy</translation>
     </message>
     <message>
         <source>To</source>
-        <translation>Saaja</translation>
+        <translation>Pre</translation>
     </message>
     <message>
         <source>own address</source>
-        <translation>oma osoite</translation>
+        <translation>vlastná adresa</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>vain-luku</translation>
+        <translation>iba sledovanie</translation>
     </message>
     <message>
         <source>label</source>
-        <translation>nimi</translation>
+        <translation>popis</translation>
     </message>
     <message>
         <source>Credit</source>
-        <translation>Suoritus</translation>
+        <translation>Kredit</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>kypsyy %n lohkon kuluttua</numerusform><numerusform>kypsyy %n lohkon kuluttua</numerusform></translation>
+        <translation><numerusform>dozreje za %n ďalší blok</numerusform><numerusform>dozreje za %n ďalšie bloky</numerusform><numerusform>dozreje za %n ďalších blokov</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
-        <translation>ei hyväksytty</translation>
+        <translation>neprijaté</translation>
     </message>
     <message>
         <source>Debit</source>
-        <translation>Veloitus</translation>
+        <translation>Debet</translation>
     </message>
     <message>
         <source>Total debit</source>
-        <translation>Veloitus yhteensä</translation>
+        <translation>Celkový debet</translation>
     </message>
     <message>
         <source>Total credit</source>
-        <translation>Suoritus yhteensä</translation>
+        <translation>Celkový kredit</translation>
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>Siirtomaksu</translation>
+        <translation>Transakčný poplatok</translation>
     </message>
     <message>
         <source>Net amount</source>
-        <translation>Nettosumma</translation>
+        <translation>Suma netto</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Viesti</translation>
+        <translation>Správa</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation>Kommentti</translation>
+        <translation>Komentár</translation>
     </message>
     <message>
         <source>Transaction ID</source>
-        <translation>Siirtotunnus</translation>
+        <translation>ID transakcie</translation>
     </message>
     <message>
         <source>Merchant</source>
-        <translation>Kauppias</translation>
+        <translation>Kupec</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Luodut (louhitut) varat täytyy kypsyä %1 lohkon ajan kunnes ne voidaan käyttää. Kun generoit tämän lohkon, se lähetettiin verkkoon lohkoketjuun. Jos se epäonnistuu pääsemään lohkoketjuun sen tila tulee muuttumaan "ei hyväksytty" ja sitä ei voida käyttää. Näin voi ajoittain tapahtua kun toisen solmun lohko luodaan samanaikaisesti omasi kanssa.</translation>
+        <translation>Vytvorené coins musia dospieť %1 blokov kým môžu byť minuté. Keď vytvoríte tento blok, bude rozoslaný do siete aby bol akceptovaný do reťaze blokov. Ak sa nedostane reťaze, jeho stav sa zmení na "zamietnutý" a nebude sa dať minúť. Toto sa môže občas stať ak iná nóda vytvorí blok približne v tom istom čase.</translation>
     </message>
     <message>
         <source>Debug information</source>
-        <translation>Debug tiedot</translation>
+        <translation>Ladiace informácie</translation>
     </message>
     <message>
         <source>Transaction</source>
-        <translation>Siirtotapahtuma</translation>
+        <translation>Transakcie</translation>
     </message>
     <message>
         <source>Inputs</source>
-        <translation>Sisääntulot</translation>
+        <translation>Vstupy</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Määrä</translation>
+        <translation>Suma</translation>
     </message>
     <message>
         <source>true</source>
-        <translation>tosi</translation>
+        <translation>pravda</translation>
     </message>
     <message>
         <source>false</source>
-        <translation>epätosi</translation>
+        <translation>nepravda</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
         <source>Transaction details</source>
-        <translation>Siirtotapahtuman yksityiskohdat</translation>
+        <translation>Detaily transakcie</translation>
     </message>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Tämä ruutu näyttää yksityiskohtaisen tiedon siirtotapahtumasta</translation>
+        <translation>Táto časť obrazovky zobrazuje detailný popis transakcie</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Päivämäärä</translation>
+        <translation>Dátum</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Tyyppi</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Osoite</translation>
+        <translation>Adresa</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Avoinna %n lisälohkolle</numerusform><numerusform>Avoinna %n lisälohkolle</numerusform></translation>
+        <translation><numerusform>Otvoriť pre %n ďalší blok</numerusform><numerusform>Otvoriť pre %n ďalšie bloky</numerusform><numerusform>Otvoriť pre %n ďalších blokov</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Avoinna %1 asti</translation>
+        <translation>Otvorené do %1</translation>
     </message>
     <message>
         <source>Offline</source>
-        <translation>Ei yhteyttä</translation>
+        <translation>Offline</translation>
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation>Vahvistamaton</translation>
+        <translation>Nepotvrdené</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Vahvistetaan (%1 / %2 vahvistusta)</translation>
+        <translation> Potvrdzuje sa ( %1 z  %2 odporúčaných potvrdení)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Vahvistettu (%1 vahvistusta)</translation>
+        <translation>Potvrdené (%1 potvrdení)</translation>
     </message>
     <message>
         <source>Conflicted</source>
-        <translation>Ristiriitainen</translation>
+        <translation>V rozpore</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Epäkypsä (%1 vahvistusta, saatavilla %2 jälkeen)</translation>
+        <translation>Nezrelé (%1 potvrdení, bude k dispozícii po %2)</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Tätä lohkoa ei vastaanotettu mistään muusta solmusta ja sitä ei mahdollisesti hyväksytä!</translation>
+        <translation>Ten blok nebol prijatý žiadnou inou nódou a pravdepodobne nebude akceptovaný!</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
-        <translation>Luotu mutta ei hyväksytty</translation>
+        <translation>Vypočítané ale neakceptované</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Vastaanotettu osoitteeseen</translation>
+        <translation>Prijaté s</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>Vastaanotettu osoitteesta</translation>
+        <translation>Prijaté od:</translation>
     </message>
     <message>
         <source>Received via Obfuscate</source>
-        <translation>Obfuscate vastaanotettu</translation>
+        <translation>Prijaté cez Obfuscate</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Lähetetty osoitteeseen</translation>
+        <translation>Odoslané na</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>Maksu itsellesi</translation>
+        <translation>Platba sebe samému</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Louhittu</translation>
+        <translation>Vyfárané</translation>
     </message>
     <message>
         <source>Obfuscate Denominate</source>
-        <translation>Obfuscate denominointi</translation>
+        <translation>Denominácia Obfuscate</translation>
     </message>
     <message>
         <source>Obfuscate Collateral Payment</source>
-        <translation>Obfuscate vakuus maksu</translation>
+        <translation>Zaisťovacia Obfuscate platba</translation>
     </message>
     <message>
         <source>Obfuscate Make Collateral Inputs</source>
-        <translation>Obfuscate luo vakuus syötteet</translation>
+        <translation>Obfuscate uskutočnil zaisťovacie vstupy</translation>
     </message>
     <message>
         <source>Obfuscate Create Denominations</source>
-        <translation>Obfuscate denominointien luonti</translation>
+        <translation>Vytvoriť denominácie Obfuscate</translation>
     </message>
     <message>
         <source>Obfuscated</source>
-        <translation>Obfuscate lähetetty</translation>
+        <translation>Obfuscated</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>vain-luku</translation>
+        <translation>iba sledovanie</translation>
     </message>
     <message>
         <source>(n/a)</source>
-        <translation>(e/s)</translation>
+        <translation>(n/a)</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Siirtotapahtuman tila. Siirrä osoitin kentän päälle nähdäksesi vahvistusten lukumäärä.</translation>
+        <translation>Status transakcie. Pohybujte myšou nad týmto poľom a zjaví sa počet potvrdení.</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Siirtotapahtuman päivämäärä ja aika.</translation>
+        <translation>Dátum a čas prijatia transakcie.</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
-        <translation>Siirtotapahtuman tyyppi.</translation>
+        <translation>Typ transakcie.</translation>
     </message>
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Käytetäänkö vai ei lue-vain osoitetta tässä tapahtumassa.</translation>
+        <translation>Či sú ale nie sú, adresy iba na sledovanie zahrnuté v tejto transakcii.</translation>
     </message>
     <message>
         <source>Destination address of transaction.</source>
-        <translation>Siirtotapahtuman FLX kohdeosoite</translation>
+        <translation>Cieľová adresa transakcie.</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>Vähennetty tai lisätty määrä saldoon.</translation>
+        <translation>Suma pridaná alebo odobraná k zostatku.</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation>Kaikki</translation>
+        <translation>Všetko</translation>
     </message>
     <message>
         <source>Today</source>
-        <translation>Tänään</translation>
+        <translation>Dnes</translation>
     </message>
     <message>
         <source>This week</source>
-        <translation>Tällä viikolla</translation>
+        <translation>Tento týždeň</translation>
     </message>
     <message>
         <source>This month</source>
-        <translation>Tässä kuussa</translation>
+        <translation>Tento mesiac</translation>
     </message>
     <message>
         <source>Last month</source>
-        <translation>Viime kuussa</translation>
+        <translation>Minulý mesiac</translation>
     </message>
     <message>
         <source>This year</source>
-        <translation>Tänä vuonna</translation>
+        <translation>Tento rok</translation>
     </message>
     <message>
         <source>Range...</source>
-        <translation>Alue...</translation>
+        <translation>Rozsah...</translation>
     </message>
     <message>
         <source>Most Common</source>
-        <translation>Yleiset</translation>
+        <translation>Najčastejšie</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Vastaanotettu</translation>
+        <translation>Prijaté s</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Lähetetty</translation>
+        <translation>Odoslané na</translation>
     </message>
     <message>
         <source>Obfuscated</source>
-        <translation>Obfuscate lähetetty</translation>
+        <translation>Obfuscated</translation>
     </message>
     <message>
         <source>Obfuscate Make Collateral Inputs</source>
-        <translation>Obfuscate luo vakuus syötteet</translation>
+        <translation>Obfuscate uskutočnil zaisťovacie vstupy</translation>
     </message>
     <message>
         <source>Obfuscate Create Denominations</source>
-        <translation>Obfuscate denominointien luonti</translation>
+        <translation>Vytvoriť denominácie Obfuscate</translation>
     </message>
     <message>
         <source>Obfuscate Denominate</source>
-        <translation>Obfuscate denominointi</translation>
+        <translation>Denominácia Obfuscate</translation>
     </message>
     <message>
         <source>Obfuscate Collateral Payment</source>
-        <translation>Obfuscate vakuus maksu</translation>
+        <translation>Zaisťovacia Obfuscate platba</translation>
     </message>
     <message>
         <source>To yourself</source>
-        <translation>Itsellesi</translation>
+        <translation>Samému sebe</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Louhittu</translation>
+        <translation>Vyfárané</translation>
     </message>
     <message>
         <source>Other</source>
-        <translation>Muu</translation>
+        <translation>Iné</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
-        <translation>Anna etsittävä osoite tai tunniste</translation>
+        <translation>Vložte adresu alebo popis pre vyhľadávanie</translation>
     </message>
     <message>
         <source>Min amount</source>
-        <translation>Minimimäärä</translation>
+        <translation>Min množstvo</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Kopioi osoite</translation>
+        <translation>Kopírovať adresu</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopioi nimi</translation>
+        <translation>Kopírovať popis</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopioi määrä</translation>
+        <translation>Kopírovať sumu</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Kopioi siirtotunnus</translation>
+        <translation>Kopírovať ID transakcie</translation>
     </message>
     <message>
         <source>Edit label</source>
-        <translation>Muokkaa nimeä</translation>
+        <translation>Editovať popis</translation>
     </message>
     <message>
         <source>Show transaction details</source>
-        <translation>Näytä siirtotapahtuman yksityiskohdat</translation>
+        <translation>Zobraziť podrobnosti transakcie</translation>
     </message>
     <message>
         <source>Export Transaction History</source>
-        <translation>Vie siirtotapahtumien historia</translation>
+        <translation>Exportovať históriu transakcií</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Pilkuilla eritelty tiedosto (*.csv)</translation>
+        <translation>Čiarkou oddelovaný súbor (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Vahvistettu</translation>
+        <translation>Potvrdené</translation>
     </message>
     <message>
         <source>Watch-only</source>
-        <translation>Vain-luku</translation>
+        <translation>Iba sledovanie</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Päivämäärä</translation>
+        <translation>Dátum</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Tyyppi</translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Nimi</translation>
+        <translation>Popis</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Osoite</translation>
+        <translation>Adresa</translation>
     </message>
     <message>
         <source>ID</source>
@@ -3237,484 +3231,482 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Vienti epäonnistui</translation>
+        <translation>Export zlyhal</translation>
     </message>
     <message>
         <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>Siirtotapahtumien historian tallentamisessa tapahtui virhe paikkaan %1.</translation>
+        <translation>Vyskytla sa chyba pri pokuse o uloženie histórie transakcií do %1.</translation>
     </message>
     <message>
         <source>Exporting Successful</source>
-        <translation>Vienti onnistui</translation>
+        <translation>Export úspešný</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
-        <translation>Siirtotapahtumien historia tallennettiin onnistuneesti paikkaan %1.</translation>
+        <translation>História transakciá bola úspešne uložená do %1.</translation>
     </message>
     <message>
         <source>Range:</source>
-        <translation>Alue:</translation>
+        <translation>Rozsah:</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>-&gt;</translation>
+        <translation>do</translation>
     </message>
 </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Yksikkö jona summat näytetään. Klikkaa valitaksesi yksikön.</translation>
+        <translation>Jednotka pre zobrazovanie súm. Kliknite pre zvolenie inej jednotky.</translation>
     </message>
 </context>
 <context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>Lomakkoa ei ole ladattu.</translation>
+        <translation>Nie je načítaná peňaženka.</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä FLXeja</translation>
+        <translation>Poslať Bitcoins</translation>
     </message>
     <message>
         <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 DNET.</source>
-        <translation>InstantX ei tue näin korkeaa lähetysmäärää vielä. Siirtotapahtumat on tällä hetkellä rajoitettu %1 DNET.</translation>
+        <translation>InstantX zatiaľ nepodporuje posielanie takto vysokých čiastok. Transakcie sú limitované na %1 DNET.</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Vie...</translation>
+        <translation>&amp;Exportovať...</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Vie tällä hetkellä valitun välilehden tiedot tiedostoon</translation>
+        <translation>Exportovať tento náhľad do súboru</translation>
     </message>
     <message>
         <source>Selected amount:</source>
-        <translation>Valittu määrä:</translation>
+        <translation>Vybraná suma:</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>Varmuuskopioi lompakko</translation>
+        <translation>Zálohovať peňaženku</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>Lompakkodata (*.dat)</translation>
+        <translation>Údaje peňaženky (*.dat)</translation>
     </message>
     <message>
         <source>Backup Failed</source>
-        <translation>Varmuuskopiointi epäonnistui</translation>
+        <translation>Záloha zlyhala</translation>
     </message>
     <message>
         <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>Lompakon tallennuksessa tapahtui virhe %1.</translation>
+        <translation>Vyskytla sa chyba pri pokuse o uloženie dát peňaženky do %1.</translation>
     </message>
     <message>
         <source>Backup Successful</source>
-        <translation>Varmuuskopiointi onnistui</translation>
+        <translation>Záloha úspešná</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
-        <translation>Lompakko tallennettiin onnistuneesti tiedostoon %1.</translation>
+        <translation>Dáta peňaženky boli úspešne uložené do %1.</translation>
     </message>
 </context>
 <context>
     <name>capracoin-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Kytkeydy annettuun osoitteeseen ja pidä linja aina auki. Käytä [host]:port merkintätapaa IPv6:lle.</translation>
+        <translation>Spojiť s danou adresou a vždy na nej počúvať. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Flexinodes Core is probably already running.</source>
-        <translation>Ei voida lukita data hakemistoa %s. Flexinodes Core on luultavasti jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s. DraviteCoins Core is probably already running.</source>
+        <translation>Nedá sa zamknúť dátový adresár %s. DraviteCoins Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Obfuscate käyttää tarkalleen denominoituja syötteitä lähettäessään varoja, saatat tarvita anonymisoida lisää varoja.</translation>
+        <translation>Pre poslanie zdrojov používa Obfuscate presné sumy, potrebujete jednoducho anonymizovať viac mincí. </translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
-        <translation>Aloita regressio testimoodi joka käyttää erikoisketjua jossa lohkoja voidaan ratkaista välittömästi.</translation>
+        <translation>Vstúpiť do regresného testovacieho módu, ktorý používa špeciálny reťazec blokov, kde sa dajú bloky ťažiť okamžite.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Virhe: Sisääntulevien yhteyksien kuuntelu epäonnistui (kuuntelu palautti virheen %s)</translation>
+        <translation>Chyba: Počúvanie prichádzajúcich spojení zlyhalo (vrátená chyba je %s)</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Aja komento kun olennainen hälytys vastaanotetaan tai nähdään todella pitkä haara (%s cmd korvataan viestillä)</translation>
+        <translation>Vykonať príkaz po prijatí patričného varovania alebo uvidíme veľmi dlhé rozdvojenie siete (%s v cmd je nahradené správou)</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Suorita käsky kun lompakon siirtotapahtuma muuttuu (%s cmd on vaihdettu TxID kanssa)</translation>
+        <translation>Spustiť príkaz ak sa zmení transakcia v peňaženke (%s v cmd sa nahrádza TxID)</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Suorita käsky kun paras lohko muuttuu (%s cmd on korvattu lohko tarkisteella)</translation>
+        <translation>Vykonaj príkaz, ak zmeny v najlepšom bloku (%s v príkaze nahradí blok hash)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
-        <translation>Tässä moodissa -genproclimit ohjaa kuinka monta lohkoa luodaan välittömästi.</translation>
+        <translation>V tomto móde -genproclimit kontroluje počet blokov, ktoré sú vygenerované okamžite.</translation>
     </message>
     <message>
         <source>InstantX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>InstantX vaatii syötteille vähintään 6 vahvistusta, odota muutama minuutti ja yritä uudelleen.</translation>
+        <translation>InstantX vyžaduje vstupy s aspoň 6 potvrdeniami, môžete počkať pár minút a skúsiť znova.</translation>
     </message>
     <message>
         <source>Name to construct url for KeePass entry that stores the wallet passphrase</source>
-        <translation>Rakenne url nimi KeePass merkinnälle joka talentaa lompakon salasanan</translation>
+        <translation>Meno pre vytvorenie url pre položku KeePass, ktorá uchová heslo peňženky</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
-        <translation>Tiedustele vertaisverkon osoitteita DNS hakua käyttäen jos osoitteita ei ole riittävästi (oletus: 1 paitsi jos -connect)</translation>
+        <translation>Dotaz na partnerské adresy pomocou vyhľadávania DNS v prípade nedostatku adries (predvolené: 1, pokiaľ -connect)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Aseta maksimikoko korkea prioriteetti/pienen siirtomaksun siirtotapahtumiin tavuissa (oletus: %d)</translation>
+        <translation>Nastavte maximálnu veľkosť vysoko-prioritných/nízko-poplatkových transakcií v bajtoch (predvolené: %d)</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Aseta script vahvistuksen säikeiden määrä (%u - %d, 0= auto, &lt;0 = jätä näin monta prosessorin ydintä vapaaksi, oletus: %d)</translation>
+        <translation>Nastaviť počeť vlákien overujúcich skripty (%u až %d, 0 = auto, &lt;0 = nechať toľkoto jadier voľných, prednastavené: %d)</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Tämä on esi-julkaistu testiversio - Käytä omalla vastuulla - Älä käytä louhimiseen tai kauppasovelluksiin.</translation>
+        <translation>Toto je predbežná testovacia zostava - používate na vlastné riziko - nepoužívajte na ťaženie alebo obchodné aplikácie</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Flexinodes Core is probably already running.</source>
-        <translation>Ei voida yhdistää %s tässä tietokoneessa. Flexinodes Core on luultavasti jo käynnissä.</translation>
+        <source>Unable to bind to %s on this computer. DraviteCoins Core is probably already running.</source>
+        <translation>Nedá sa viazať ku %s na tomto počítači. DraviteCoins Core už pravdepodobne beží.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
-        <translation>Ei tarpeeksi Obfuscate anonymisoituja varoja tälle siirtotapahtumalle.</translation>
+        <translation>Nedá sa nájsť dostatok denominácií Obfuscate pre túto transakciu. </translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate non-denominated funds for this transaction that are not equal 1000 DNET.</source>
-        <translation>Ei tarpeeksi Obfuscate ei-anonymisoituja varoja tälle siirtotapahtumalle, joka ei ole 1000 DNET.</translation>
+        <translation>Nedá sa nájsť dostatok ne-denominovaných Obfuscate zdrojov pre túto transakciu, ktoré nie sú rovné 1000 DNET.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Varoitus: Siirtomaksu on asetettu erittäin korkeaksi! Tämä on siirtomaksu jonka tulet maksamaan kun lähetät siirron.</translation>
+        <translation>Upozornenie: -paytxfee je nastavené veľmi vysoko. Toto sú transakčné poplatky ktoré zaplatíte ak odošlete transakciu.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Varoitus: FLX verkossa on ristiriitoja! Louhijat näyttävät kokevan virhetilanteita.</translation>
+        <translation>Varovanie: Javí sa že sieť sieť úplne nesúhlasí! Niektorí mineri zjavne majú ťažkosti.</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Varoitus: Olemme vertaisverkon kanssa ristiriidassa! Sinun ja/tai solmujen tulee päivitää uusimpaan versioon.</translation>
+        <translation>Varovanie: Zjavne sa úplne nezhodujeme s našimi peer-mi! Možno potrebujete prejsť na novšiu verziu alebo ostatné uzly potrebujú vyššiu verziu.</translation>
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Varoitus: Virhe luettaessa wallet.dat lompakkotiedostoa. Kaikki avaimet luettiin onnistuneesti, mutta siirtohistorian tai osoitekirjan merkinnät saattavat olla kadonneet tai virheellisiä.</translation>
+        <translation>Upozornenie: Chyba pri čítaní wallet.dat! Všetky kľúče načítané správne, ale transakčné dáta alebo položky adresára môže chýbať alebo byť nesprávne.</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Varoitus: Wallet.dat lompakkotiedosto on vioittunut, tiedot pelastettu. Alkuperäinen wallet.dat lompakkotiedosto on tallennettu wallet.{timestamp}.bak kansioon %s, jos saldosi tai siirtohistoria on virheellinen, sinun tulisi palauttaa lompakkotiedosto varmuuskopiosta.</translation>
+        <translation>Upozornenie: wallet.dat poškodený, údaje zachránené! Pôvodný wallet.dat bol uložený ako wallet.{timestamp}.bak v %s; ak váš zostatok alebo transakcie nie sú správne, mali by ste obnoviť zo zálohy.</translation>
     </message>
     <message>
         <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
-        <translation>Sinun täytyy määritellä masternodeprivkey asetustiedostoon. Katso lisätietoja dokumentaatiosta.</translation>
+        <translation>V konfigurácii musíte špecifikovať masternodeprivkey. Pre pomoc sa prosím pozrite do dokumentácie.</translation>
     </message>
     <message>
         <source>(default: 1)</source>
-        <translation>(oletus: 1)</translation>
+        <translation>(predvolené: 1)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Hyväksy merkkipohjaiset ja JSON-RPC käskyt</translation>
+        <translation>Prijímať príkazy z príkazového riadku a JSON-RPC</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Hyväksy yhteyksiä ulkopuolelta (oletus: 1 jos -proxy tai -connect ei ole määritelty)</translation>
+        <translation>Prijímať pripojenie z vonku (predvolené: 1, ak nie -proxy alebo -connect)</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Lisää solmu mihin liittyä pitääksesi yhteyden auki</translation>
+        <translation>Pridať uzol pre pripojenie a pokúsiť sa udržať otvorené pripojenie</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Salli DNS kyselyt -addnode, -seednode ja -connect yhteydessä</translation>
+        <translation>Povoliť vyhľadávania DNS pre -addnode, -seenode a -connect</translation>
     </message>
     <message>
         <source>Already have that input.</source>
-        <translation>Syöte on jo olemassa.</translation>
+        <translation>Tento vstup už máme.</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Yritetään palauttaa yksityisiä avaimia vioittuneesta wallet.dat lompakkotiedostosta</translation>
+        <translation>Pokus obnoviť súkromné kľúče z poškodeného wallet.dat</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Lohkon luonnin asetukset:</translation>
+        <translation>Možnosti vytvorenia bloku:</translation>
     </message>
     <message>
         <source>Can't denominate: no compatible inputs left.</source>
-        <translation>Ei voida denominoida: yhteensopivia syötteitä ei ole jäljellä.</translation>
+        <translation>Nedá sa denominovať: nezostávajú žiadne kompatibilné vstupy.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Et voi päivittää lompakkoasi vanhempaan versioon</translation>
+        <translation>Nie je možné prejsť na staršiu verziu peňaženky</translation>
     </message>
     <message>
         <source>Cannot resolve -bind address: '%s'</source>
-        <translation>-bind osoitteen '%s' selvittäminen epäonnistui</translation>
+        <translation>Nedá sa vyriešiť -bind adresa: '%s'</translation>
     </message>
     <message>
         <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>-externalip osoitteen '%s' selvittäminen epäonnistui</translation>
+        <translation>Nedá sa vyriešiť -externalip adresa: '%s'</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>Oletusosoitetta ei voi kirjoittaa</translation>
+        <translation>Nie je možné zapísať predvolenú adresu</translation>
     </message>
     <message>
         <source>Collateral not valid.</source>
-        <translation>Vakuus ei ole pätevä.</translation>
+        <translation>Zaistenie je neplatné.</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
-        <translation>Yhdistä ainoastaan määriteltyihin solmuihin</translation>
+        <translation>Pripájať iba k zadanému uzlu(om)</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Yhdistä solmuun hakeaksesi peers osoitteet ja katkaise yhteys</translation>
+        <translation>Pre načítanie peer adresy sa pripojte k uzlu, a odpojte</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Yhteyden valinnat:</translation>
+        <translation>Možnosti pripojenia:</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>Vioittunut lohkotietokanta havaittu</translation>
+        <translation>Zistený poškodený blok databázy</translation>
     </message>
     <message>
         <source>Obfuscate options:</source>
-        <translation>Obfuscate valinnat:</translation>
+        <translation>Možnosti Obfuscate:</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
-        <translation>Debuggaus/Testauksen valinnat:</translation>
+        <translation>Možnosti Ladenia/Testovania:</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Hae oma IP osoite (oletus: 1 kun kuunnellaan ja ei -externalip)</translation>
+        <translation>Odhaliť vlastnú IP adresu (predvolené: 1 pri počúvanie a bez -externalip)</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>Älä lataa lompakkoa ja poista käytöstä lompakon RPC kutsut</translation>
+        <translation>Nenačítať peňaženku a vypnúť RPC volania peňaženky</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Haluatko uudelleenrakentaa lohkotietokannan nyt?</translation>
+        <translation>Chcete znovu zostaviť databázu blokov?</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Lataus on valmis</translation>
+        <translation>Načítanie hotové</translation>
     </message>
     <message>
         <source>Entries are full.</source>
-        <translation>Merkinnät on täynnä.</translation>
+        <translation>Položky sú plné.</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>Virhe lohkotietokannan alustuksessa</translation>
+        <translation>Chyba pri inicializácii databázy blokov</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Virhe lompakon tietokantaympäristön alustuksessa %s!</translation>
+        <translation>Chyba pri inicializácii databázového prostredia peňaženky %s!</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>Virhe lohkotietokannan latauksessa</translation>
+        <translation>Chyba pri načítaní databázy blokov</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa</translation>
+        <translation>Chyba pri načítaní wallet.dat</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vioittunut</translation>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka je poškodená</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Virhe lohkotietokannan avauksessa</translation>
+        <translation>Chyba pri otváraní databázy blokov</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
-        <translation>Virhe luettaessa tietokantaa, ohjelma suljetaan.</translation>
+        <translation>Chyba pri načítaní z databázy, ukončuje sa.</translation>
     </message>
     <message>
         <source>Error recovering public key.</source>
-        <translation>Virhe yleisen avaimen palautuksessa.</translation>
+        <translation>Chyba pri obnovovaní verejného kľúča.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Virhe</translation>
+        <translation>Chyba</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Virhe: Levytila on alhainen!</translation>
+        <translation>Chyba: Nedostatok miesta na disku!</translation>
     </message>
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Virhe: Lompakko on lukittu, siirtotapahtumaa ei voida luoda!</translation>
+        <translation>Chyba: Peňaženka je zamknutá, transakcia sa nedá vytvoriť!</translation>
     </message>
     <message>
         <source>Error: You already have pending entries in the Obfuscate pool</source>
-        <translation>Virhe: Sinulla on jo odottavia merkintöjä Obfuscate varannossa</translation>
+        <translation>Chyba: Už máte čakajúce položky vo fronte Obfuscate</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Ei onnistuttu kuuntelemaan mitään porttia. Käytä -listen=0 jos haluat tätä.</translation>
+        <translation>Nepodarilo sa počúvať žiadnom porte. Použite -listen=0 ak to chcete.</translation>
     </message>
     <message>
         <source>Failed to read block</source>
-        <translation>Lohkon luku epäonnistui</translation>
+        <translation>Načítanie bloku zlyhalo</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
-        <translation>Jos &lt;kategoria&gt; ei ole toimitettu, tulosta kaikki debuggaustieto.</translation>
+        <translation>If &lt;category&gt; is not supplied, output all debugging information.</translation>
     </message>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1 = pidä tx meta data esim. tilin omistaja ja maksupyyntö tiedot, 2 = poista tx meta data)</translation>
+        <translation>(1 = zachovať metaúdaje tx napr. vlastníka účtu a informácie o platobných príkazoch, 2 = zahodiť metaúdaje tx)</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>Salli JSON-RPC yhteydet määritetystä lähteestä. Pätee &lt;ip&gt; yksittäiseen IP:n (esim. 1.2.3.4), verkko/verkkomaski (esim. 1.2.3.4/255.255.255.0) tai verkko/CIDR (esim. 1.2.3.4/24). Tämä asetus voidaan määrittää useita kertoja.</translation>
+        <translation>Povoliť JSON-RPC pripojenia zo zadaného zdroja. Pre &lt;ip&gt; sú platné jednoduché IP (napr. 1.2.3.4), sieť/netmask (napr. 1.2.3.4/255.255.255.0) alebo sieť/CIDR (napr. 1.2.3.4/24). Táto možnosť môže byť zadaná niekoľko krát</translation>
     </message>
     <message>
         <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
-        <translation>Virhe asetettaessa RPC osoitetta %s portissa %u kuuntelemaan: %s</translation>
+        <translation>Pri nastavovaní RPC adresy %s na porte %u pre počúvanie došlo k chybe: %s</translation>
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
-        <translation>Kytkeydy annettuun osoitteeseen ja merkitse siihen kytkeytyvät peers:it luotettaviksi. Käytä [host]:port merkintätapaa IPv6:lle.</translation>
+        <translation>Spojiť s danou adresou a povolenými partnerskými zariadeniami ktoré sa tam pripájajú. Použite zápis [host]:port pre IPv6</translation>
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Kytkeydy annettuun osoitteeseen kuunnellaksesi JSON-RPC yhteyksiä. Käytä [host]:port merkintätapaa IPv6:lle. Tämä asetus voidaan määrittää useita kertoja  (oletus: kytkeydy kaikkiin rajapintoihin)</translation>
+        <translation>Spojiť s danou adresou pre počúvanie JSON-RPC spojení. Použite zápis [host]:port pre IPv6. Táto možnosť môže byt zadaná niekoľko krát (predvolené: spojiť so všetkými rozhraniami)</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation>Vaihda automaattisesti viimeistellyn budjetin äänestyskäyttäytyminen. mode=auto: Äänestä vain tarkkaan viimeisteltyä budjettia joka täsmää itse tekemääni budjettiin. (string, oletus: auto)</translation>
+        <translation>Zmeniť vlastnosť hlasovania automaticky dokončených rozpočtov. mód=auto: Hlasovať iba pre konkrétny dokončený rozpočet, ktorý sa zhoduje mojím vygenerovaným rozpočtom. (reťazec, predvolené: auto)</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
-        <translation>Rajoita jatkuvasti yhtäaikaiset ilmaiset siirtotapahtumat &lt;n&gt;*1000 tavuun per minuutti (oletus: %u)</translation>
+        <translation>Nepretržite vyhodnocuj a limituj transakcie bez poplatku na &lt;n&gt;*1000 bajtov za minútu (predvolené:%u)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>Luo uudet tiedostot järjestelmän oletus oikeuksilla, paitsi umask 077 (voimassa vain käytöstä poistettujen lompakon toimintojen kanssa)</translation>
+        <translation>Vytvoriť nové súbory z predvolenými systémovými právami, namiesto umask 077 (funguje iba z vypnutou funkcionalitou peňaženky)</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Poista kaikki lompakon siirtotapahtumat ja palauta vain nuo osat lohkoketjusta -rescan valinnan avulla käynnistyksessä</translation>
+        <translation>Vymazať všetky transakcie z peňaženky a pri spustení znova získať z reťazca blokov iba tie získané pomocou -rescan</translation>
     </message>
     <message>
-        <source>Disable all FLX specific functionality (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Kytke pois käytöstä kaikki FLX:in erityistoiminnot (Masternodet, Obfuscate, InstantX, Budjetointi) (0-1, oletus: %u)</translation>
+        <source>Disable all DRV specific functionality (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Vypnúť všetky funkcie špecifické pre DRV (Masternode, Obfuscate, InstantX, Rozpočty) (0-1, predvolené: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
-        <translation>Levitetään MIT ohjelmistolisenssin alaisuudessa. Tarkemmat tiedot löytyvät tiedostosta COPYING tai osoitteesta &lt;http://www.opensource.org/licenses/mit-license.php&gt;. </translation>
+        <translation>Distribuované pod softvérovou licenciou MIT, viď sprievodný súbor COPYING alebo &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
         <source>Enable Instantx, show confirmations for locked transactions (bool, default: %s)</source>
-        <translation>Ota Instantx käyttöön, näytä lukittujen siirtojen vahvistukset (bool, oletus: %s)</translation>
+        <translation>Zapnúť InstantX, ukázať potvrdenia pre zamknuté transakcie (bool, predvolené: %s)</translation>
     </message>
     <message>
         <source>Enable use of automated obfuscate for funds stored in this wallet (0-1, default: %u)</source>
-        <translation>Ota käyttöön automaattinen Obfuscate rahavaroille tässä lompakossa  (0-1, oletus: %u)</translation>
+        <translation>Povoliť používanie automatického obfuscate pre zdroje uložené v tejto peňaženke (0-1, predvolené: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Virhe: Ei tuettu argumentti -socks. SOCKS version asettaminen ei ole enää mahdollista, vain SOCKS5 proxyt ovat tuettuja.</translation>
+        <translation>Chyba: Nájdený nepodporovaný argument -socks. Nastavenie SOCKS verzie nie je už možné, podporované sú už iba proxy SOCKS5.</translation>
     </message>
     <message>
         <source>Fees (in DNET/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Siirtomaksut (DNET/Kb) jotka ovat pienempiä kuin tämä, tulkitaan nollamaksuksi välityksessä (oletus: %s)</translation>
+        <translation>Poplatky (v DNET za Kb) menšie ako toto, sú považované za nulový poplatok pre prenos (predvolené: %s)</translation>
     </message>
     <message>
         <source>Fees (in DNET/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Siirtomaksut (DNET/Kb) jotka ovat pienempiä kuin tämä, tulkitaan nollamaksuksi siirtotapahtuman luonnissa (oletus: %s)</translation>
+        <translation>Poplatky (v DNET za Kb) menšie ako toto, sú považované za nulový transakčný poplatok (predvolené: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
-        <translation>Aja tietokannan tapahtumat muistivarannosta kovalevylogiin joka &lt;n&gt; megatavu (oletus: %u)</translation>
+        <translation>Vyprázdniť databázovú aktivitu s pamäte do diskového logu každých &lt;n&gt; megabajtov (predvolené: %u)</translation>
     </message>
     <message>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
-        <translation>Löytyi vahvistamattomia syötteitä, odotetaan että ne vahvistetaan.</translation>
+        <translation>Nájdené nepotvrdené denominované výstupy, pre pokračovanie sa čaká kým sa nepotvrdia.</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation>Kuinka vaativa lohkon vahvistus -checkblocks on (0-4, oletus: %u)</translation>
+        <translation>Ako dôkladné je -checkblocks overenie blokov (0-4, predvolené: %u)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>Jos paytxfee ei ole asetettu, sisällytä tarpeeksi siirtomaksua jotta siirtotapahtuman vahvistus alkaa keskimäärin lohkon aikana (oletus: %u)</translation>
+        <translation>Ak nie je nastavené paytxfee, pridať dostatočný poplatok aby sa transakcia začala potvrdzovať priemerne v rámci bloku (predvolené: %u)</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Virheellinen määrä -maxtxfee=&lt;amount&gt;: '%s' (oltava vähintään minimi välitysmaksun verran %s:sta välttääksesi jumissa olevia siirtotapahtumia)</translation>
+        <translation>Neplatná suma pre -maxtxfee=&lt;amount&gt;: '%s' (aby sa transakcia nezasekla, minimálny prenosový poplatok musí byť aspoň %s)</translation>
     </message>
     <message>
         <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
-        <translation>Kirjaa siirtotapahtuman prioriteetti ja siirtomaksu per kB kun louhitaan lohkoja (oletus: %u)</translation>
+        <translation>Zaznamenať prioritu transakcií a poplatok za kB pri ťažbe blokov (predvolené: %u)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>Ylläpidä täyttä siirtotapahtumien indeksiä, jota käyttää getrawtransaction rpc kutsu (oletus: %u)</translation>
+        <translation>Udržiavať kompletný transakčný index, využíva getrawtransaction rpc volanie (predvolené: %u)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Maksimi koko datalle datan kuljetustapahtumissa jotka välitämme ja louhimme (oletus: %u)</translation>
+        <translation>Maximálna veľkosť dát v transakciách nosných dát, ktoré prenášame a ťažíme (predvolené: %u)</translation>
     </message>
     <message>
         <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
-        <translation>Yksittäisen siirtotapahtuman maksimi siirtomaksu, jos tämä asetetaan liian matalaksi, se voi keskeyttää isot siirtotapahtumat (oletus: %s)</translation>
+        <translation>Celkové maximum poplatkov pre použitie jednej transakcie peňaženky. Príliš malá hodnota môže prerušiť veľké transakcie (predvolené: %s)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>Sekuntien määrä, kuinka kauan estetään huonosti käyttäytyviä peers:ejä uudelleen kytkeytymästä (oletus: %u)</translation>
+        <translation>Počet sekúnd, počas ktorých nepripájať zle správajúce sa uzle (predvolené: %u)</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>Tulosta debuggaustieto (oletus: %u, tarjottava &lt;category&gt; on valinnainen)</translation>
+        <translation>Výstupné ladiace informácie (predvolené: %u, dodanie &lt;category&gt; je voliteľné)</translation>
     </message>
     <message>
         <source>Provide liquidity to Obfuscate by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Tarjoa Obfuscate:ille likviditeettiä jatkuvaa kolikoiden sekoitusta varten (0-100, oletus: %u, 1=usein, isot maksukulut, 100=harvoin, pienet maksukulut)</translation>
+        <translation>Poskytnúť likviditu pre Obfuscate nepravidelným miešaním mincí na kontinuálnej báze (0-100, predvolené: %u, 1=veľmi často, vysoké poplatky, 100=veľmi zriedkavo, malé poplatky)</translation>
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
-        <translation>Vaadi korkea prioriteetti välitettäville ilmaisille tai matalan siirtomaksun siirtotapahtumille (oletus: %u)</translation>
+        <translation>Vyžaduje sa vysoká priorita pre prenos poplatku alebo transakcie s malým poplatkom (predvolené:%u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file (default: %u)</source>
-        <translation>Lähetä jäljitys/debug tiedot konsoliin debug.log tiedoston sijaan (default: %u)</translation>
+        <translation>Poslať sledovacie/ladiace informácie konzole namiesto debug.log súboru (predvolené: %u)</translation>
     </message>
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
-        <translation>Aseta prosessorin ytimien määrä louhintaan, jos päällä (-1 = kaikki ytimet, oletus: %d)</translation>
+        <translation>Nastaviť počet vlákien pre generáciu mincí (-1 = všetky jadrá, predvolené: %d)</translation>
     </message>
     <message>
         <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
-        <translation>Näytä N vahvistusta onnistuneesti lukitulle siirtotapahtumalle (0-9999, oletus: %u)</translation>
+        <translation>Ukázať N potvrdení pre úspešne zamknutú transakciu (0-9999, predvolené: %u)</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin &lt;https://www.openssl.org/&gt; sekä Eric Youngin kehittämän salausohjelmiston ja Thomas Bernardin kehittämän UPnP ohjelmiston.
-
-Käännös päivitetty: 1.9.2015 by AjM.</translation>
+        <translation>Tento produkt obsahuje softvér vyvinutý projektom OpenSSL pre použitie sady nástrojov OpenSSL &lt;https://www.openssl.org/&gt; a kryptografického softvéru napísaného Eric Young a UPnP softvér napísaný Thomas Bernard.</translation>
     </message>
     <message>
         <source>To use capracoind, or the -server option to capracoin-qt, you must set an rpcpassword in the configuration file:
@@ -3726,541 +3718,541 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "FLX Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "DRV Alert" admin@foo.com
 </source>
-        <translation>Käyttääksesi capracoind:ia tai -server valintaa capracoin-qt:lle, sinun tulee asettaa rpc salasana asetustiedostossa:
+        <translation>Pre použitie možnosti -server pre capracoin-qt, musíte nastaviť rpcpassword v konfiguračnom súbore:
 %s
-Suositellaan että käytät allaolevaa satunnaista salasanaa:
+Doporučuje sa použiť nasledovné náhodné heslo:
 rpcuser=capracoinrpc
 rpcpassword=%s
-(sinun ei tarvitse muistaa tätä salasanaa)
-Käyttäjätunnus ja salasana on oltava ERILAISET.
-Jos tiedostoa ei ole, luo se vain omistajan-luku-oikeudella.
-Suositellaan asetettavaksi alertnotify jotta saat tietoa ongelmista,
-esimerkiksi: alertnotify=echo %%s | mail -s "FLX Hälytys" admin@foo.com
+(toto heslo si nemusíte pamätať)
+Používateľské meno a heslo NEMÔŽU byť rovnaké.
+Ak súbor neexistuje, vytvoriť na nastaviť práva tak aby ho mohol čítať iba vlastník.
+Tiež sa doporučuje nastaviť alertnotify, aby ste boli upozornený na problém,
+napríklad: alertnotify=echo %%s | mail -s "DRV Upozornenie" admin@foo.com
 </translation>
     </message>
     <message>
         <source>Unable to locate enough funds for this transaction that are not equal 1000 DNET.</source>
-        <translation>Ei tarpeeksi varoja tälle siirtotapahtumalle, joka ei ole 1000 DNET.</translation>
+        <translation>Nenašiel sa dostatok prostriedkov pre túto transakciu, ktorú nie sú rovné 1000 DNET.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Käytä erillistä SOCKS5 proxya tavoittaaksesi peers:it Tor piilotetun palvelun kautta (oletus: %s)</translation>
+        <translation>Použiť samostatný SOCKS5 proxy server na dosiahnutie počítačov cez skryté služby Tor (predvolené: %s)</translation>
     </message>
     <message>
         <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>Varoitus: -maxtxfee on asetettu erittäin korkeaksi! Näin isot siirtomaksut voitaisiin maksaa yhdessä siirtotapahtumassa.</translation>
+        <translation>Upozornenie: -maxtxfee je nastavené príliš vysoko! Takto vysoké poplatky by mali byť zaplatené za jednu transakciu.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Flexinodes Core will not work properly.</source>
-        <translation>Varoitus: Tarkista että tietokoneesi kellonaika ja päivämäärä ovat oikein! FLX ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong DraviteCoins Core will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte si prosím či máte správny čas a dátum na Vašom počítači. Ak je Vaše nastavenie zlé, DraviteCoins Core nebude pracovať správne.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
-        <translation>Merkitse solmut luotettaviksi jotka kytkeytyvät annetusta verkkomaskista tai IP osoitteesta. Voidaan määrittää useita kertoja.</translation>
+        <translation>Uzle na zoznam povolených, ktoré sa pripájajú z danej netmask alebo IP adresy. Môže byť zadané viac krát.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>Luotettaviksi merkittyjä peers:ejä ei voida DoS estää, ja niiden siirtotapahtumat välitetään aina, vaikka ne olisvatkin jo muistivarannossa, käyttökelpoinen esim. yhdyskäytävään</translation>
+        <translation>Uzle na zoznam povolených nemôžu byť DoS zakázané a ich transakcie vždy postúpené ďalej, aj v prípade, ak sú už pamäťovej fronte. Užitočné napr. pre brány</translation>
     </message>
     <message>
         <source>(25791 could be used only on mainnet)</source>
-        <translation>(25791 voidaan käyttää vain pääverkossa)</translation>
+        <translation>(25791 nemôže byť použité pre hlavnú sieť)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
-        <translation>(oletus: %s)</translation>
+        <translation>(predvolené: %s)</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:
 </source>
-        <translation>&lt;category&gt; voi olla:
+        <translation>&lt;category&gt; môže byť:
 </translation>
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
-        <translation>Hyväksy julkiset REST pyynnöt (oletus: %u)</translation>
+        <translation>Akceptovať verejné REST žiadosti (predvolené: %u)</translation>
     </message>
     <message>
         <source>Acceptable ciphers (default: %s)</source>
-        <translation>Hyväksyttävät salaukset (oletus: %s)</translation>
+        <translation>Prijateľné šifry (predvolené: %s)</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>Tiedustele aina peers osoitteita DNS hakua käyttäen (oletus: %u)</translation>
+        <translation>Vždy sa dotazovať adresy partnerských uzlov cez vyhľadávanie DNS (predvolené: %u)</translation>
     </message>
     <message>
         <source>Cannot resolve -whitebind address: '%s'</source>
-        <translation>Ei voida selvittää -whitebind osoitetta: '%s'</translation>
+        <translation>Nedá sa vyriešiť -whitebind adresa: '%s'</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
-        <translation>Yhdistä SOCKS5 proxyn kautta</translation>
+        <translation>Pripojiť sa cez SOCKS5 proxy</translation>
     </message>
     <message>
         <source>Connect to KeePassHttp on port &lt;port&gt; (default: %u)</source>
-        <translation>Yhdistä KeePassHttp porttiin &lt;port&gt; (oletus: %u)</translation>
+        <translation>Pripojiť ku KeePassHttp na porte &lt;port&gt; (predvolené: %u)</translation>
     </message>
     <message>
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i Bitcoin Core Kehittäjät</translation>
+        <translation>Autorské práva (C) 2009-%i Vývojári jadra Bitcoin</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Flexinodes Core Developers</source>
-        <translation>Copyright (C) 2014-%i Flexinodes Core Kehittäjät</translation>
+        <source>Copyright (C) 2014-%i The DraviteCoins Core Developers</source>
+        <translation>Autorské práva (C) 2014-%i Vývojári jadra DRV</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
-        <translation>Ei voida jäsentää -rpcbind arvoa %s verkko-osoitteena</translation>
+        <translation>Nedá sa analyzovať -rpcbind hodnota %s ako sieťová adresa</translation>
     </message>
     <message>
         <source>Obfuscate is idle.</source>
-        <translation>Obfuscate odottaa.</translation>
+        <translation>Obfuscate je nečinný.</translation>
     </message>
     <message>
         <source>Obfuscate request complete:</source>
-        <translation>Obfuscate pyyntö valmis:</translation>
+        <translation>Obfuscate požiadavok dokončený:</translation>
     </message>
     <message>
         <source>Obfuscate request incomplete:</source>
-        <translation>Obfuscate pyyntö kesken:</translation>
+        <translation>Obfuscate požiadavok nedokončený:</translation>
     </message>
     <message>
         <source>Disable safemode, override a real safe mode event (default: %u)</source>
-        <translation>Poista turvatila käytöstä, ohita todellinen turvatila tapahtuma (oletus: %u)</translation>
+        <translation>Vypnúť núdzový režim, prepísať skutočnú udalosť núdzového režimu (predvolené: %u)</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
-        <translation>Aktivoi asiakasohjelman käyttö masternode:na (0-1, oletus: %u)</translation>
+        <translation>Povoliť klientovi aby vystupoval ako masternode (0-1, predvolené: %u)</translation>
     </message>
     <message>
         <source>Error connecting to Masternode.</source>
-        <translation>Virhe masternode:en kytkeytymisessä.</translation>
+        <translation>Chyba pripojenia k Masternode.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Flexinodes Core</source>
-        <translation>Virhe ladattaessa wallet.dat: Lompakko vaatii uudemman version Flexinodes Core:sta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of DraviteCoins Core</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu DraviteCoins Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
-        <translation>Virhe: Vakava sisäinen virhe, katso debug.log saadaksesi lisätietoja</translation>
+        <translation>Chyba: Nastala fatálna interná chyba. Pre podrobnosti pozrite debug.log</translation>
     </message>
     <message>
         <source>Error: Can't select current denominated inputs</source>
-        <translation>Virhe: Ei voida valita nykyisiä denominoituja syötteitä</translation>
+        <translation>Chyba: Nedajú sa vybrať súčasné denominované vstupy </translation>
     </message>
     <message>
         <source>Error: Unsupported argument -tor found, use -onion.</source>
-        <translation>Virhe: Ei tuettu argumentti -tor löytyi, käytä -onion.</translation>
+        <translation>Chyba: nájdený nepodporovaný argument -tor, použite -onion.</translation>
     </message>
     <message>
         <source>Fee (in DNET/kB) to add to transactions you send (default: %s)</source>
-        <translation>Lisättävä siirtomaksu (DNET/Kb) siirtotapahtumaan jonka lähetät (oletus: %s)</translation>
+        <translation>Pridať poplatok (v DNET za kB) do transakcií ktoré posielate (predvolené: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
-        <translation>Viimeistellään siirtotapahtuma.</translation>
+        <translation>Dokončuje sa transakcia.</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
-        <translation>Pakota turvatila (oletus: %u)</translation>
+        <translation>Vynútiť núdzový režim (predvolené: %u)</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
-        <translation>Löytyi tarpeeksi käyttäjiä, kirjaudutaan ( odotetaan %s )</translation>
+        <translation>Nájdený dostatok používateľov, pospisuje sa ( čakanie %s )</translation>
     </message>
     <message>
         <source>Found enough users, signing ...</source>
-        <translation>Löytyi tarpeeksi käyttäjiä, kirjaudutaan ...</translation>
+        <translation>Nájdený dostatok používateľov, pospisuje sa ...</translation>
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
-        <translation>Louhi kolikoita (oletus: %u)</translation>
+        <translation>Generovať mince (predvolené: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
-        <translation>Kuinka monta lohkoa tarkistetaan käynnistyksessä (oletus: %u, 0 = kaikki)</translation>
+        <translation>Koľko blokov overiť pri spustení (predvolené: %u, 0 = všetky)</translation>
     </message>
     <message>
         <source>Importing...</source>
-        <translation>Tuodaan...</translation>
+        <translation>Importuje sa...</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file</source>
-        <translation>Tuodaan lohkoja ulkoisesta blk000??.dat tiedostosta</translation>
+        <translation>Importovať bloky z externého blk000??.dat súboru</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>Sisällytä IP osoitteet virhelogiin (oletus: %u)</translation>
+        <translation>Zahrnúť IP adresy v ladiacom výstupe (predvolené: %u)</translation>
     </message>
     <message>
         <source>Incompatible mode.</source>
-        <translation>Yhteensopimaton tila.</translation>
+        <translation>Nekompatibilný mód.</translation>
     </message>
     <message>
         <source>Incompatible version.</source>
-        <translation>Yhteensopimaton versio.</translation>
+        <translation>Nekompatibilná verzia.</translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Väärä tai ei alkuperäinen lohko löydetty. Väärä data hakemisto verkolle?</translation>
+        <translation>Nesprávny alebo žiadny genesis blok nájdený. Nesprávny dátový priečinok alebo sieť?</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Tietoa</translation>
+        <translation>Informácia</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Flexinodes Core is shutting down.</source>
-        <translation>Alkuperäisyyden tarkistus epäonnistui. Flexinodes Core sulkeutuu.</translation>
+        <source>Initialization sanity check failed. DraviteCoins Core is shutting down.</source>
+        <translation>Inicializácia kontroly zdravia zlyhala. DraviteCoins Core sa vypína.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
-        <translation>Syöte ei ole pätevä.</translation>
+        <translation>Vstup nie je platný.</translation>
     </message>
     <message>
         <source>InstantX options:</source>
-        <translation>InstantX valinnat:</translation>
+        <translation>Možnosti InstantX:</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
-        <translation>Saldo ei riitä.</translation>
+        <translation>Nedostatok prostriedkov.</translation>
     </message>
     <message>
         <source>Invalid -onion address: '%s'</source>
-        <translation>Virheellinen -onion osoite: '%s'</translation>
+        <translation>Neplatná -onion adresa: '%s'</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
-        <translation>Virheellinen proxyn osoite '%s'</translation>
+        <translation>Neplatná -proxy adresa: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Virheellinen määrä -maxtxfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Neplatná suma pre -maxtxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Virheellinen määrä -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Neplatná suma pre -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Virheellinen määrä -mintxfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Neplatná suma pre -mintxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Virheellinen määrä -maxtxfee=&lt;amount&gt;: '%s' (oltava vähintään %s)</translation>
+        <translation>Neplatná suma pre -paytxfee=&lt;amount&gt;: '%s' (musí byť aspoň %s)</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Virheellinen määrä -paytxfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Neplatná suma pre -paytxfee=&lt;amount&gt;: '%s'</translation>
     </message>
     <message>
         <source>Last successful Obfuscate action was too recent.</source>
-        <translation>Viimeinen onnistunut Obfuscate tapahtuma oli liian äskettäin.</translation>
+        <translation>Posledná Dasksend akcia bola pred chvíľou.</translation>
     </message>
     <message>
         <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
-        <translation>Rajoita allekirjoitusien välimuisti &lt;n&gt; merkintään (oletus: %u)</translation>
+        <translation>Obmedziť veľkosť podpisovej vyrovnávajúcej pamäti na &lt;n&gt; položiek (predvolené: %u)</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Kuuntele JSON-RPC yhteyksiä portissa &lt;port&gt; (oletus: %u tai testiverkossa: %u)</translation>
+        <translation>Počúvať JSON-RPC pripojenia na &lt;port&gt; (predvolené: %u alebo testovacia sieť: %u)</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Kuuntele yhteyksiä portissa &lt;port&gt; (oletus: %u tai testiverkossa: %u)</translation>
+        <translation>Počúvať pripojenia na &lt;port&gt; (predvolené: %u alebo testovacia sieť: %u)</translation>
     </message>
     <message>
         <source>Loading budget cache...</source>
-        <translation>Ladataan budjetti välimuistia...</translation>
+        <translation>Načíta sa vyrovnávacia pamäť rozpočtu...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
-        <translation>Ladataan masternode välimuistia...</translation>
+        <translation>Načíta sa vyrovnávacia pamäť masternode...</translation>
     </message>
     <message>
         <source>Loading masternode payment cache...</source>
-        <translation>Ladataan masternode maksuvälimuistia...</translation>
+        <translation>Načíta sa vyrovnávacia pamäť platieb masternode...</translation>
     </message>
     <message>
         <source>Lock is already in place.</source>
-        <translation>On jo lukittu.</translation>
+        <translation>Zámok je už na mieste.</translation>
     </message>
     <message>
         <source>Lock masternodes from masternode configuration file (default: %u)</source>
-        <translation>Lukitse masternodet niiden asetustiedoston kautta (oletus: %u)</translation>
+        <translation>Zamknúť masternody z konfiguračného súboru masternode (predvolené: %u)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Ylläpidä enintään &lt;n&gt; peers yhteyttä (oletus: %u)</translation>
+        <translation>Udržiavať najviac &lt;n&gt; spojení s inými počítačmi (predvolené: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maksimi per yhteys vastaanotto puskuri, &lt;n&gt;*1000 tavua (oletus: %u)</translation>
+        <translation>Maximálna prijímajúca medzipamäť pre pripojenie, &lt;n&gt;*1000 bajtov (predvolené: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maksimi per yhteys lähetys puskuri, &lt;n&gt;*1000 tavua (oletus: %u)</translation>
+        <translation>Maximálna odosielajúca medzipamäť pre pripojenie, &lt;n&gt;*1000 bajtov (predvolené: %u)</translation>
     </message>
     <message>
         <source>Mixing in progress...</source>
-        <translation>Sekoitus käynnissä...</translation>
+        <translation>Prebieha miešanie...</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Tarvitaan määritellä portti -whitebind: '%s'</translation>
+        <translation>Je potrebné zadať port s -whitebind: '%s'</translation>
     </message>
     <message>
         <source>No Masternodes detected.</source>
-        <translation>Masternodeja ei havaittu.</translation>
+        <translation>Nezistený žiadny Masternode.</translation>
     </message>
     <message>
         <source>No compatible Masternode found.</source>
-        <translation>Yhteensopivaa Masternodea ei löytynyt.</translation>
+        <translation>Nekompatibilný Masternode zdroj.</translation>
     </message>
     <message>
         <source>Not in the Masternode list.</source>
-        <translation>Ei ole Masternode listassa.</translation>
+        <translation>Nie je v zozname Masternode.</translation>
     </message>
     <message>
         <source>Number of automatic wallet backups (default: 10)</source>
-        <translation>Automaattisten lompakon varmistuksien määrä (oletus: 10)</translation>
+        <translation>Počet automatických záloh peňaženky (predvolené: 10)</translation>
     </message>
     <message>
         <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
-        <translation>Hyväksy vain lohkoketju joka täsmää tarkistuspisteisiin (oletus: %u)</translation>
+        <translation>Akceptovať iba reťazce blokov, ktoré sa zhodujú zo zabudovanými kontrolnými bodmi (predvolené: %u)</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>Kytkeydy verkon solmuihin vain &lt;net&gt; (ipv4, ipv6 tai onion)</translation>
+        <translation>Pripojiť iba k uzlom v sieti &lt;net&gt; (ipv4, ipv6, alebo onion)</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Lisää debug lokitiedoston merkinnän alkuun pvm/aika (oletus: %u)</translation>
+        <translation>Na začiatok pripojiť časovú známku k ladiacemu výstupu (predvolené: %u)</translation>
     </message>
     <message>
         <source>Run a thread to flush wallet periodically (default: %u)</source>
-        <translation>Aja säie joka säännöllisesti tallettaa lompakon (oletus: %u)</translation>
+        <translation>Spúšťať vlákno pre pravidelné vyprázdnenie peňaženky (predvolené: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to debug.log file (default: %u)</source>
-        <translation>Lähetä jäljitys/debug tiedot debug.log tiedostoon (default: %u)</translation>
+        <translation>Poslať sledovacie/ladiace informácie do debug.log súboru (predvolené: %u)</translation>
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>Lähetä siirtotapahtumat nolla siirtomaksulla jos mahdollista (oletus: %u)</translation>
+        <translation>Poslať ako transakcie bez poplatku, ak je to možné (predvolené: %u)</translation>
     </message>
     <message>
         <source>Server certificate file (default: %s)</source>
-        <translation>Serverin sertifikaatti tiedosto (oletus: %s)</translation>
+        <translation>Certifikačný súbor servera (predvolené: %s)</translation>
     </message>
     <message>
         <source>Server private key (default: %s)</source>
-        <translation>Serverin yksityisavain (oletus: %s)</translation>
+        <translation>Privátny kľúč servera (predvolené: %s)</translation>
     </message>
     <message>
         <source>Set external address:port to get to this masternode (example: %s)</source>
-        <translation>Aseta ulkoinen osoite:portti tälle masternodelle (esim: %s)</translation>
+        <translation>Nastaviť externú adresu:port ktorý sa dostane sa k tomuto masternode (príklad: %s)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>Aseta avainvarannon koko &lt;n&gt; (oletus: %u)</translation>
+        <translation>Nastaviť veľkosť kľúča fronty na &lt;n&gt; (predvolené: %u)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: %u)</source>
-        <translation>Aseta minimi lohkon koko tavuina (oletus: %u)</translation>
+        <translation>Nastaviť minimálnu veľkosť bloku v bajtoch (predvolené: %u)</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>Aseta säikeiden lukumäärä RPC kutsuille (oletus: %d)</translation>
+        <translation>Nastaviť počet vlákien na obsluhu RPC volaní (predvolené: %d)</translation>
     </message>
     <message>
         <source>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</source>
-        <translation>Asettaa DB_PRIVATE lipun lompakon tietokantaympäristössä (oletus: %u)</translation>
+        <translation>Nastaviť DB_PRIVATE príznak v prostredí peňaženky (predvolené: %u)</translation>
     </message>
     <message>
         <source>Signing timed out.</source>
-        <translation>Allekirjoitus aikaraja.</translation>
+        <translation>Časový limit pre prihlásenie uplynul.</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
-        <translation>Määritä asetustiedosto (oletus: %s)</translation>
+        <translation>Zadať konfiguračný súbor (predvolené: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Määritä yhteyden aikakatkaisu millisekunneissa (minimi: 1, oletus: %d)</translation>
+        <translation>Zadajte časový limit pripojenia v milisekundách (minimum: 1, predvolené: %d)</translation>
     </message>
     <message>
         <source>Specify masternode configuration file (default: %s)</source>
-        <translation>Määritä masternoden asetustiedosto (oletus: %s)</translation>
+        <translation>Zadať konfiguračný súbor masternode (predvolené: %s)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
-        <translation>Määritä pid tiedosto (oletus: %s)</translation>
+        <translation>Zadať pid súbor (predvolené: %s)</translation>
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>Käytä vahvistamattomia vaihtorahoja lähetettäessä siirtotapahtumia (oletus: %u)</translation>
+        <translation>Minúť nepotvrdené zmenu pri posielaní transakcií (predvolené: %u)</translation>
     </message>
     <message>
         <source>Stop running after importing blocks from disk (default: %u)</source>
-        <translation>Keskeytä kun kaikki lohkot tuotu levyltä (oletus: %u)</translation>
+        <translation>Ukončiť činnosť po importovaní blokov z disku (predvolené: %u)</translation>
     </message>
     <message>
         <source>Submitted following entries to masternode: %u / %d</source>
-        <translation>Esitetty seuraavat merkinnät masternodelle: %u / %d</translation>
+        <translation>Položky odoslané na masternode: %u / %d</translation>
     </message>
     <message>
         <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
-        <translation>Esitetty masternodelle, odotetaan lisää merkintöjä ( %u / %d ) %s</translation>
+        <translation>Odoslané na masternode, čaká na viac položiek ( %u / %d ) %s</translation>
     </message>
     <message>
         <source>Submitted to masternode, waiting in queue %s</source>
-        <translation>Esitetty masternodelle, odotetaan jonossa %s</translation>
+        <translation>Odoslané na masternode, čaká vo fronte %s</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
-        <translation>Synkronointi epäonnistui</translation>
+        <translation>Synchronizácia zlyhala</translation>
     </message>
     <message>
         <source>Synchronization finished</source>
-        <translation>Synkronointi valmis</translation>
+        <translation>Synchronizácia dokončená</translation>
     </message>
     <message>
         <source>Synchronizing budgets...</source>
-        <translation>Synkronoidaan budjetit...</translation>
+        <translation>Synchronizujú sa rozpočty...</translation>
     </message>
     <message>
         <source>Synchronizing masternode winners...</source>
-        <translation>Synkronoidaan masternode voittajat...</translation>
+        <translation>Synchronizujú sa masternode víťazi...</translation>
     </message>
     <message>
         <source>Synchronizing masternodes...</source>
-        <translation>Synkronoidaan masternodet...</translation>
+        <translation>Synchronizujú sa masternode...</translation>
     </message>
     <message>
         <source>Synchronizing sporks...</source>
-        <translation>Synkronoidaan sporkit...</translation>
+        <translation>Synchronizujú sa sporky...</translation>
     </message>
     <message>
         <source>This is not a Masternode.</source>
-        <translation>Tämä ei ole Masternode.</translation>
+        <translation>Toto nie je Masternode.</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Yhteyden kynnysaika huonosti käyttäyville peers:lle (oletus: %u)</translation>
+        <translation>Hranica pre odpájanie zle sa správajúcim partnerským uzlom (predvolené: %u)</translation>
     </message>
     <message>
         <source>Use KeePass 2 integration using KeePassHttp plugin (default: %u)</source>
-        <translation>Käytä KeePass 2 integraatiota käyttäen KeePassHttp liitännäistä (oletus: %u)</translation>
+        <translation>Použiť integráciu KeePass 2 s využitím doplnku KeePassHttp (predvolené: %u)</translation>
     </message>
     <message>
         <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
-        <translation>Käytä N erillistä masternodea varojen anonymisointiin (2-8, oletus: %u)</translation>
+        <translation>Použiť N rozdielnych masternode na anonymizovanie zdrojov (2-8, predvolené: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>Käytä UPnP:tä kuunneltavan portin kartoitukseen (oletus: %u)</translation>
+        <translation>Použiť UPnP pre mapovanie počúvajúceho portu (predvolené: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Flexinodes Core to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä Flexinodes Core uudestaan viimeistelyä varten</translation>
+        <source>Wallet needed to be rewritten: restart DraviteCoins Core to complete</source>
+        <translation>Bolo potrebné prepísať peňaženku: k dokončeniu reštartujte DraviteCoins Core</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Varoitus: Ei tuettu argumentti -benchmark jätetty huomiotta, käytä -debug=bench.</translation>
+        <translation>Upozornenie: Nepodporovaný argument -benchmark bol ignorovaný, použite -debug=bench.</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Varoitus: Ei tuettu argumentti -debugnet jätetty huomiotta, käytä -debug=net.</translation>
+        <translation>Upozornenie: Nepodporovaný argument -debugnet bol ignorovaný, použite -debug=net.</translation>
     </message>
     <message>
         <source>Will retry...</source>
-        <translation>Yritetään uudelleen...</translation>
+        <translation>Skúsime znovu...</translation>
     </message>
     <message>
         <source>Invalid masternodeprivkey. Please see documenation.</source>
-        <translation>Virheellinen masternoden yksityisavain (masternodeprivkey). Katso lisätietoja dokumentaatiosta.</translation>
+        <translation>Neplatný masternodeprivkey. Prosím pozrite do dokumentácie.</translation>
     </message>
     <message>
         <source>(must be25791 for mainnet)</source>
-        <translation>(oltava25791 pääverkossa)</translation>
+        <translation>(pre hlavnú sieť musí byť 9999)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>
-        <translation>Satunnaista Masternodea ei löydy.</translation>
+        <translation>Nedá sa nájsť náhodný Masternode.</translation>
     </message>
     <message>
         <source>Can't mix while sync in progress.</source>
-        <translation>Ei voida sekoittaa synkronoinnin aikana.</translation>
+        <translation>Miešanie nefunguje počas synchronizácie.</translation>
     </message>
     <message>
         <source>Could not parse masternode.conf</source>
-        <translation> Ei voitu jäsentää masternode.conf</translation>
+        <translation>Nedá sa analyzovať masternode.conf</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Virheellinen verkkomaski määritelty -whitelist: '%s'</translation>
+        <translation>Nadaná neplatná netmask vo -whitelist: '%s'</translation>
     </message>
     <message>
         <source>Invalid port detected in masternode.conf</source>
-        <translation>Virheellinen portti löytyi masternode.conf :sta</translation>
+        <translation>Zistený neplatný port v masternode.conf</translation>
     </message>
     <message>
         <source>Invalid private key.</source>
-        <translation>Virheellinen yksityisavain.</translation>
+        <translation>Neplatný súkromný kľúč.</translation>
     </message>
     <message>
         <source>Invalid script detected.</source>
-        <translation>Virheellinen scripti havaittu.</translation>
+        <translation>Zistený neplatný skript.</translation>
     </message>
     <message>
         <source>KeePassHttp id for the established association</source>
-        <translation>KeePassHttp tunnus (id) yhdistymiseen</translation>
+        <translation>Identifikátor KeePassHttp pre zavedené priradenie</translation>
     </message>
     <message>
         <source>KeePassHttp key for AES encrypted communication with KeePass</source>
-        <translation>KeePassHttp avain AES salattuun viestintään</translation>
+        <translation>Kľúč KeePassHttp pre šifrovanú AES komunikáciu s KeePass</translation>
     </message>
     <message>
         <source>Keep N DNET anonymized (default: %u)</source>
-        <translation>Pidä N DNET anonymisoituna (oletus: %u)</translation>
+        <translation>Udržiavať N DNET anonymizovaných (predvolené: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>Pidä enintään &lt;n&gt; ei yhdistettyä siirtotapahtumaa muistissa (oletus: %u)</translation>
+        <translation>V pamäti udržiavať najviac &lt;n&gt; nepotvrdených transakcií (predvolené: %u)</translation>
     </message>
     <message>
         <source>Last Obfuscate was too recent.</source>
-        <translation>Viimeisin Obfuscate oli liian äskettäin.</translation>
+        <translation>Posledný Dasksend bol pred chvíľou.</translation>
     </message>
     <message>
         <source>Line: %d</source>
-        <translation>Rivi: %d</translation>
+        <translation>Riadok: %d</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Ladataan osoitteita...</translation>
+        <translation>Načítavanie adries...</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Ladataan lohkoindeksiä...</translation>
+        <translation>Načítavanie zoznamu blokov...</translation>
     </message>
     <message>
         <source>Loading wallet... (%3.2f %%)</source>
-        <translation>Ladataan lompakkoa... (%3.2f %%)</translation>
+        <translation>Načítavanie peňaženky... (%3.2f %%)</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Ladataan lompakkoa...</translation>
+        <translation>Načítavanie peňaženky...</translation>
     </message>
     <message>
         <source>Masternode options:</source>
-        <translation>Masternode valinnat:</translation>
+        <translation>Možnosti Masternode:</translation>
     </message>
     <message>
         <source>Masternode queue is full.</source>
-        <translation>Masternode jono on täysi.</translation>
+        <translation>Fronta Masternode je plná</translation>
     </message>
     <message>
         <source>Masternode:</source>
@@ -4268,279 +4260,279 @@ esimerkiksi: alertnotify=echo %%s | mail -s "FLX Hälytys" admin@foo.com
     </message>
     <message>
         <source>Missing input transaction information.</source>
-        <translation>Puuttuva siirtotapahtuman tieto.</translation>
+        <translation>Chýbajú vstupy transakčnej informácie.</translation>
     </message>
     <message>
         <source>No funds detected in need of denominating.</source>
-        <translation>Denominointia tarvitsevia varoja ei löydy.</translation>
+        <translation>Nedetekované žiadne zdroje pre potreby denominácie.</translation>
     </message>
     <message>
         <source>No matching denominations found for mixing.</source>
-        <translation>Vastaavia denominointeja sekoitukseen ei löydy.</translation>
+        <translation>Nenájdené zhodné denominované zdroje pre miešanie.</translation>
     </message>
     <message>
         <source>Node relay options:</source>
-        <translation>Solmun välitysasetukset:</translation>
+        <translation>Prenosové možnosti uzla:</translation>
     </message>
     <message>
         <source>Non-standard public key detected.</source>
-        <translation>Epästandardi yleinen avain havaittu.</translation>
+        <translation>Detekovaný neštandardný verejný kľúč.</translation>
     </message>
     <message>
         <source>Not compatible with existing transactions.</source>
-        <translation>Ei yhteensopiva olemassa olevien siirtotapahtumien kanssa.</translation>
+        <translation>Nie je kompatibilné s existujúcou transakciou.</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>Ei tarpeeksi tiedostomerkintöjä saatavilla.</translation>
+        <translation>Nedostatok kľúčových slov súboru.</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>Asetukset:</translation>
+        <translation>Možnosti:</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Salasana JSON-RPC yhteyksille</translation>
+        <translation>Heslo pre JSON-rPC spojenia</translation>
     </message>
     <message>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>RPC SSL valinnat: (katso Bitcoin Wikistä SSL-asennuksen ohjeet)</translation>
+        <translation>Možnosti RPC SSL: (Pozri v Bitcoin Wiki pokyny pre SSL nastavenie)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
-        <translation>RPC palvelimen valinnat:</translation>
+        <translation>Možnosti servra RPC:</translation>
     </message>
     <message>
         <source>RPC support for HTTP persistent connections (default: %d)</source>
-        <translation>RPC tuki jatkuville HTTP yhteyksille (oletus: %d)</translation>
+        <translation>Podpora RPC pre trvalé HTTP spojenia (predvolené: %d)</translation>
     </message>
     <message>
         <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
-        <translation>Satunnaisesti pudota 1 joka &lt;n&gt; verkkoviestistä</translation>
+        <translation>Náhodne zahodiť 1 každých &lt;n&gt; sieťových správ</translation>
     </message>
     <message>
         <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
-        <translation>Satunnaisesti sekoita 1 joka &lt;n&gt; verkkoviestistä</translation>
+        <translation>Náhodne prilepiť 1 každých &lt;n&gt; sieťových správ</translation>
     </message>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>Uudelleenrakenna lohkoketjun indeksi nykyisistä blk000??.dat tiedostoista</translation>
+        <translation>Znovu vytvoriť index reťazca blokov zo súčastných blk000??.dat súborov</translation>
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
-        <translation>Vastaanota ja näytä P2P verkon hälytykset (oletus: %u)</translation>
+        <translation>Obdržať a zobraziť sieťové P2P varovania (predvolené: %u)</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>Välitä ja louhi datan kuljetustapahtumia (oletus: %u)</translation>
+        <translation>Prenášať a ťažiť transakcie nosných dát (predvolené: %u)</translation>
     </message>
     <message>
         <source>Relay non-P2SH multisig (default: %u)</source>
-        <translation>Välitä non-P2SH multisig (oletus: %u)</translation>
+        <translation>Prenášať non-P2SH multi-podpis (predvolené: %u)</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Skannaa uudelleen lohkoketju lompakon puuttuvien siirtotapahtumien vuoksi</translation>
+        <translation>Znova prehľadať reťazec blokov pre nájdenie chýbajúcich transakcií peňaženky</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>Skannataan uudelleen...</translation>
+        <translation>Znova prehľadávam...</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Aja taustalla palveluprosessina ja hyväksy komennot</translation>
+        <translation>Bežať na pozadí ako démon a prijímať príkazy</translation>
     </message>
     <message>
         <source>Session not complete!</source>
-        <translation>Istunto ei ole valmis!</translation>
+        <translation>Relácia nie je dokončená!</translation>
     </message>
     <message>
         <source>Session timed out.</source>
-        <translation>Istunnon aikaraja.</translation>
+        <translation>Relácia vypršala.</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Aseta tietokannan välimuistin koko megatavuissa (%d - %d, oletus: %d</translation>
+        <translation>Nastaviť veľkosť pomocnej pamäti databázy v megabajtoch (%d do %d, prednastavené: %d)</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>Aseta lohkon maksimikoko tavuissa (oletus: %d)</translation>
+        <translation>Nastaviť maximálnu veľkosť v bajtoch (predvolené: %d)</translation>
     </message>
     <message>
         <source>Set the masternode private key</source>
-        <translation>Aseta masternoden yksityisavain.</translation>
+        <translation>Nastaviť súkromný kľúč masternode</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Näytä kaikki debuggaus valinnat: (käyttö: --help -help-debug)</translation>
+        <translation>Zobraziť všetky možnosti ladenia (použitie: --help --help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Pienennä debug.log tiedosto käynnistyksen yhteydessä (vakioasetus: 1 kun ei -debug)</translation>
+        <translation>Stlačiť debug.log súbor na spustenie klienta (predvolené: 1, keď nie -debug)</translation>
     </message>
     <message>
         <source>Signing failed.</source>
-        <translation>Allekirjoitus epäonnistui.</translation>
+        <translation>Podpisovanie zlyhalo.</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>Siirtotapahtuman allekirjoitus epäonnistui</translation>
+        <translation>Podpisovanie transakcie zlyhalo</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Määritä datahakemisto</translation>
+        <translation>Zadať dátový adresár</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Määritä lompakkotiedosto (datahakemiston sisällä)</translation>
+        <translation>Zadajte súbor peňaženky (vrámci dátovej zložky)</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Määritä julkinen osoitteesi</translation>
+        <translation>Zadajte Vašu vlastnú verejnú adresu</translation>
     </message>
     <message>
         <source>Synchronization pending...</source>
-        <translation>Synkronointi odottaa...</translation>
+        <translation>Synchronizácia čaká...</translation>
     </message>
     <message>
         <source>This help message</source>
-        <translation>Tämä ohjeviesti</translation>
+        <translation>Táto pomocná správa</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>Tämä on kokeellinen ohjelmisto.</translation>
+        <translation>Toto je experimentálny softvér. </translation>
     </message>
     <message>
         <source>This is intended for regression testing tools and app development.</source>
-        <translation>Tämä on tarkoitettu regression testityökaluille ja ohjelman kehittämiseen.</translation>
+        <translation>Toto je určené pre regresiu testovacích nástrojov and vývojárskych aplikácií.</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Siirtosumma on liian pieni</translation>
+        <translation>Suma transakcie je príliš malá</translation>
     </message>
     <message>
         <source>Transaction amounts must be positive</source>
-        <translation>Siirtosumman tulee olla positiivinen</translation>
+        <translation>Sumy transakcie musia byť kladné</translation>
     </message>
     <message>
         <source>Transaction created successfully.</source>
-        <translation>Siirtotapahtuma luotu onnistuneesti.</translation>
+        <translation>Transakcia úspešne vytvorená</translation>
     </message>
     <message>
         <source>Transaction fees are too high.</source>
-        <translation>Siirtotapahtuman siirtomaksu on liian iso.</translation>
+        <translation>Transakčné poplatky sú príliš vysoké</translation>
     </message>
     <message>
         <source>Transaction not valid.</source>
-        <translation>Siirtotapahtuma ei ole voimassa.</translation>
+        <translation>Neplatná transakcia.</translation>
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>Siirtotapahtuma on liian iso suhteessa siirtomaksujen käytäntöön.</translation>
+        <translation>Transakcia je príliš veľká pre aktuálne podmienky poplatkov</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Siirtosumma on liian iso</translation>
+        <translation>Transakcia je príliš veľká</translation>
     </message>
     <message>
         <source>Transmitting final transaction.</source>
-        <translation>Lähetetään lopullinen siirtotapahtuma.</translation>
+        <translation>Vysiela sa finálna transakcia.</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>Ei voida yhdistää %s tässä tietokoneessa (yhdistäminen palautti virheen %s)</translation>
+        <translation>Na tomto počítači sa nedá vytvoriť väzba %s (vytvorenie väzby vrátilo chybu %s)</translation>
     </message>
     <message>
         <source>Unable to sign spork message, wrong key?</source>
-        <translation>En voida allekirjoittaa spork viestiä, väärä avain?</translation>
+        <translation>Nedá sa podpísať spork správa, žeby zlý kľúč?</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Tuntematon verkkomääritys -onlynet parametrissa: '%s'</translation>
+        <translation>Špecifikovaná neznáma sieť v -onlynet: '%s'</translation>
     </message>
     <message>
         <source>Unknown state: id = %u</source>
-        <translation>Tuntematon tila: id = %u</translation>
+        <translation>Neznámy stav: id = %u</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
-        <translation>Päivitä lompakko uusimpaan formaattiin</translation>
+        <translation>Inovovať peňaženku na posledný formát</translation>
     </message>
     <message>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Käytä OpenSSL:ää (https) JSON-RPC yhteyksille</translation>
+        <translation>Použiť OpenSSL (https) pre JSON-RPC spojenia</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Käytä UPnP:tä kuunneltavan portin kartoitukseen (oletus: 1 kun kuunellaan)</translation>
+        <translation>Skúsiť použiť UPnP pre mapovanie počúvajúceho portu (predvolené: 1 počas počúvania)</translation>
     </message>
     <message>
         <source>Use the test network</source>
-        <translation>Käytä testiverkkoa</translation>
+        <translation>Použiť testovaciu sieť</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Käyttäjätunnus JSON-RPC yhteyksille</translation>
+        <translation>Užívateľské meno pre JSON-RPC spojenia</translation>
     </message>
     <message>
         <source>Value more than Obfuscate pool maximum allows.</source>
-        <translation>Määrä on enemmän kuin Obfuscate varannon maksimi sallii.</translation>
+        <translation>Väčšia hodnota ako dovoľuje fronta Obfuscate.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>Tarkistetaan lohkoja...</translation>
+        <translation>Overovanie blokov</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>Tarkistetaan lompakko...</translation>
+        <translation>Overovanie peňaženky</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
-        <translation>Lompakko %s sijaitsee data hakemiston ulkopuolella %s</translation>
+        <translation>Peňaženka %s je umiestnená mimo dátový adresár %s.</translation>
     </message>
     <message>
         <source>Wallet is locked.</source>
-        <translation>Lompakko on lukittu.</translation>
+        <translation>Peňaženka je zamknutá.</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>Lompakon valinnat:</translation>
+        <translation>Možnosti peňaženky:</translation>
     </message>
     <message>
         <source>Wallet window title</source>
-        <translation>Lompakon ikkunaotsikko</translation>
+        <translation>Nadpis okna peňaženky</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Varoitus</translation>
+        <translation>Upozornenie</translation>
     </message>
     <message>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Varoitus: Tämä versio on vanhentunut, päivitys vaaditaan!</translation>
+        <translation>Upozornenie: Táto verzia je zastaraná, vyžaduje sa aktualizácia!</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
-        <translation>Sinun tulee uudelleenrakentaa tietokanta käyttäen -reindex vaihtaen -txindex</translation>
+        <translation>Potrebujete prebudovať databázu použitím -reindex zmeniť -txindex</translation>
     </message>
     <message>
         <source>Your entries added successfully.</source>
-        <translation>Merkinnnät lisätty onnistuneesti.</translation>
+        <translation>Vaše položky boli úspešne pridané.</translation>
     </message>
     <message>
         <source>Your transaction was accepted into the pool!</source>
-        <translation>Siirtotapahtuma hyväksytty varantoon!</translation>
+        <translation>Vaša transakcia bola pridaná do fronty!</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
-        <translation>Tyhjennetään kaikki siirtotapahtumat lompakosta....</translation>
+        <translation>Vymazať všetky transakcie z peňaženky...</translation>
     </message>
     <message>
         <source>on startup</source>
-        <translation>käynnistyksessä</translation>
+        <translation>pri spustení</translation>
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat lompakkotiedosto vioittunut, pelastaminen epäonnistui</translation>
+        <translation>wallet.dat je poškodený, záchrana zlyhala</translation>
     </message>
 </context>
 </TS>

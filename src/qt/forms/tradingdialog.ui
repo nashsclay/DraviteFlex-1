@@ -181,7 +181,7 @@
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="FLXSupply">
+    <widget class="QLabel" name="DRVSupply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -197,7 +197,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="FLXDemand">
+    <widget class="QLabel" name="DRVDemand">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -432,7 +432,7 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QPushButton" name="BuyFLX">
+    <widget class="QPushButton" name="BuyDRV">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -442,10 +442,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Buy FLX</string>
+      <string>Buy DRV</string>
      </property>
      <property name="icon">
-      <iconset resource="../flexinodes.qrc">
+      <iconset resource="../dravitecoins.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -512,7 +512,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>FLX</string>
+      <string>DRV</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
@@ -1704,10 +1704,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>FLX</string>
+      <string>DRV</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="UnitsInputFLX">
+    <widget class="QLineEdit" name="UnitsInputDRV">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -1741,7 +1741,7 @@
       </font>
      </property>
     </widget>
-    <widget class="QPushButton" name="SellFLXBTN">
+    <widget class="QPushButton" name="SellDRVBTN">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1751,10 +1751,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Sell FLX</string>
+      <string>Sell DRV</string>
      </property>
      <property name="icon">
-      <iconset resource="../flexinodes">
+      <iconset resource="../dravitecoins">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -1777,12 +1777,12 @@
          </font>
         </property>
         <property name="text">
-         <string>FLX Available:</string>
+         <string>DRV Available:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="FLXAvailableLabel">
+       <widget class="QLabel" name="DRVAvailableLabel">
         <property name="palette">
          <palette>
           <active>
@@ -2213,7 +2213,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="labelFLX">
+       <widget class="QLabel" name="labelDRV">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -2221,7 +2221,7 @@
          </font>
         </property>
         <property name="text">
-         <string>FLX</string>
+         <string>DRV</string>
         </property>
        </widget>
       </item>
@@ -2733,7 +2733,7 @@
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="FLXBalanceLabel">
+    <widget class="QLabel" name="DRVBalanceLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2762,7 +2762,7 @@
       </font>
      </property>
      <property name="text">
-      <string>FLX Balance:</string>
+      <string>DRV Balance:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_12">
@@ -2784,7 +2784,7 @@
       <string>BTC Balance:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="FLXAvailableLabel_2">
+    <widget class="QLabel" name="DRVAvailableLabel_2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2813,7 +2813,7 @@
       </font>
      </property>
      <property name="text">
-      <string>FLX Available:</string>
+      <string>DRV Available:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -2832,10 +2832,10 @@
       </font>
      </property>
      <property name="text">
-      <string>FLX Pending:</string>
+      <string>DRV Pending:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="FLXPendingLabel">
+    <widget class="QLabel" name="DRVPendingLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2928,7 +2928,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Bittrex FLX Deposit Address:</string>
+      <string>Bittrex DRV Deposit Address:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="GenDepositBTN">
@@ -2941,10 +2941,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Generate FLX Deposit Address</string>
+      <string>Generate DRV Deposit Address</string>
      </property>
      <property name="icon">
-      <iconset resource="../flexinodes.qrc">
+      <iconset resource="../dravitecoins.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3155,7 +3155,7 @@
        <string notr="true">border: 1px solid #61696c;margin-left:4px;</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnConvertFLX">
+     <widget class="QPushButton" name="btnConvertDRV">
       <property name="geometry">
        <rect>
         <x>260</x>
@@ -3206,7 +3206,7 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="../flexinodes.qrc">:/icons/transaction_1</pixmap>
+       <pixmap resource="../dravitecoins.qrc">:/icons/transaction_1</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -3253,7 +3253,7 @@
       <string>Update API Keys</string>
      </property>
      <property name="icon">
-      <iconset resource="../flexinodes.qrc">
+      <iconset resource="../dravitecoins.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3408,7 +3408,7 @@
   </widget>
  </widget>
  <resources>
-  <include location="../flexinodes.qrc"/>
+  <include location="../dravitecoins.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -776,12 +776,12 @@ QDialog#HelpMessageDialog QScrollBar:vertical, QDialog#HelpMessageDialog QScroll
 border:0;
 }
 
-/* About FLX Dialog */
-QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About FLX Contents */
+/* About DRV Dialog */
+QDialog#AboutDialog QLabel#label, QDialog#AboutDialog QLabel#copyrightLabel, QDialog#AboutDialog QLabel#label_2 { /* About DRV Contents */
 margin-left:10px;
 }
 
-QDialog#AboutDialog QLabel#label_2 { /* Margin for About FLX text */
+QDialog#AboutDialog QLabel#label_2 { /* Margin for About DRV text */
 margin-right:10px;
 }
 
@@ -1134,7 +1134,7 @@ min-width:410px;
 margin-right:20px;
 margin-left:0;
 margin-top:0;
-background-image: url(':/images/flexinodes_logo_horizontal');
+background-image: url(':/images/dravitecoins_logo_horizontal');
 background-repeat:none;
 }
 

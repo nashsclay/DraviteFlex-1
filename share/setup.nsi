@@ -1,4 +1,4 @@
-Name "Flexinodes Core (32-bit)"
+Name "DraviteCoins Core (32-bit)"
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
@@ -6,23 +6,23 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 1.0.0
-!define COMPANY "Flexinodes Core project"
-!define URL http://bit.flexinodess/
+!define COMPANY "DraviteCoins Core project"
+!define URL http://bit.dravitecoinss/
 
 # MUI Symbol Definitions
-!define MUI_ICON "/c/Users/wolfgang/Documents/Privat/Coins/Dev/Flexinodes/flexinodes/share/pixmaps/bitcoin.ico"
-!define MUI_WELCOMEFINISHPAGE_BITMAP "/c/Users/wolfgang/Documents/Privat/Coins/Dev/Flexinodes/flexinodes/share/pixmaps/nsis-wizard.bmp"
+!define MUI_ICON "/c/Users/wolfgang/Documents/Privat/Coins/Dev/DraviteCoins/dravitecoins/share/pixmaps/bitcoin.ico"
+!define MUI_WELCOMEFINISHPAGE_BITMAP "/c/Users/wolfgang/Documents/Privat/Coins/Dev/DraviteCoins/dravitecoins/share/pixmaps/nsis-wizard.bmp"
 !define MUI_HEADERIMAGE
 !define MUI_HEADERIMAGE_RIGHT
-!define MUI_HEADERIMAGE_BITMAP "/c/Users/wolfgang/Documents/Privat/Coins/Dev/Flexinodes/flexinodes/share/pixmaps/nsis-header.bmp"
+!define MUI_HEADERIMAGE_BITMAP "/c/Users/wolfgang/Documents/Privat/Coins/Dev/DraviteCoins/dravitecoins/share/pixmaps/nsis-header.bmp"
 !define MUI_FINISHPAGE_NOAUTOCLOSE
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER "Flexinodes Core"
-!define MUI_FINISHPAGE_RUN $INSTDIR\flexinodes-qt.exe
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER "DraviteCoins Core"
+!define MUI_FINISHPAGE_RUN $INSTDIR\dravitecoins-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
-!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/c/Users/wolfgang/Documents/Privat/Coins/Dev/Flexinodes/flexinodes/share/pixmaps/nsis-wizard.bmp"
+!define MUI_UNWELCOMEFINISHPAGE_BITMAP "/c/Users/wolfgang/Documents/Privat/Coins/Dev/DraviteCoins/dravitecoins/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
 
 # Included files
@@ -48,18 +48,18 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /c/Users/wolfgang/Documents/Privat/Coins/Dev/Flexinodes/flexinodes/flexinodes-${VERSION}-win32-setup.exe
+OutFile /c/Users/wolfgang/Documents/Privat/Coins/Dev/DraviteCoins/dravitecoins/dravitecoins-${VERSION}-win32-setup.exe
 !if "32" == "64"
-InstallDir $PROGRAMFILES64\FLX
+InstallDir $PROGRAMFILES64\DRV
 !else
-InstallDir $PROGRAMFILES\FLX
+InstallDir $PROGRAMFILES\DRV
 !endif
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion ${VERSION}.1
-VIAddVersionKey ProductName "Flexinodes Core"
+VIAddVersionKey ProductName "DraviteCoins Core"
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -73,19 +73,19 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /c/Users/wolfgang/Documents/Privat/Coins/Dev/Flexinodes/flexinodes/release/flexinodes-qt.exe
-    File /oname=COPYING.txt /c/Users/wolfgang/Documents/Privat/Coins/Dev/Flexinodes/flexinodes/COPYING
-    File /oname=readme.txt /c/Users/wolfgang/Documents/Privat/Coins/Dev/Flexinodes/flexinodes/doc/README_windows.txt
+    File /c/Users/wolfgang/Documents/Privat/Coins/Dev/DraviteCoins/dravitecoins/release/dravitecoins-qt.exe
+    File /oname=COPYING.txt /c/Users/wolfgang/Documents/Privat/Coins/Dev/DraviteCoins/dravitecoins/COPYING
+    File /oname=readme.txt /c/Users/wolfgang/Documents/Privat/Coins/Dev/DraviteCoins/dravitecoins/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /c/Users/wolfgang/Documents/Privat/Coins/Dev/Flexinodes/flexinodes/release/flexinodesd.exe
-    File /c/Users/wolfgang/Documents/Privat/Coins/Dev/Flexinodes/flexinodes/release/flexinodes-cli.exe
+    File /c/Users/wolfgang/Documents/Privat/Coins/Dev/DraviteCoins/dravitecoins/release/dravitecoinsd.exe
+    File /c/Users/wolfgang/Documents/Privat/Coins/Dev/DraviteCoins/dravitecoins/release/dravitecoins-cli.exe
     SetOutPath $INSTDIR\doc
-    File /r /c/Users/wolfgang/Documents/Privat/Coins/Dev/Flexinodes/flexinodes/doc\*.*
+    File /r /c/Users/wolfgang/Documents/Privat/Coins/Dev/DraviteCoins/dravitecoins/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
-    # Remove old wxwidgets-based-flexinodes executable and locales:
-    Delete /REBOOTOK $INSTDIR\flexinodes.exe
+    # Remove old wxwidgets-based-dravitecoins executable and locales:
+    Delete /REBOOTOK $INSTDIR\dravitecoins.exe
     RMDir /r /REBOOTOK $INSTDIR\locale
 SectionEnd
 
@@ -95,7 +95,7 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\flexinodes-qt.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\dravitecoins-qt.exe
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
@@ -106,10 +106,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "flexinodes" "URL Protocol" ""
-    WriteRegStr HKCR "flexinodes" "" "URL:FLX"
-    WriteRegStr HKCR "flexinodes\DefaultIcon" "" $INSTDIR\flexinodes-qt.exe
-    WriteRegStr HKCR "flexinodes\shell\open\command" "" '"$INSTDIR\flexinodes-qt.exe" "%1"'
+    WriteRegStr HKCR "dravitecoins" "URL Protocol" ""
+    WriteRegStr HKCR "dravitecoins" "" "URL:DRV"
+    WriteRegStr HKCR "dravitecoins\DefaultIcon" "" $INSTDIR\dravitecoins-qt.exe
+    WriteRegStr HKCR "dravitecoins\shell\open\command" "" '"$INSTDIR\dravitecoins-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -127,7 +127,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\flexinodes-qt.exe
+    Delete /REBOOTOK $INSTDIR\dravitecoins-qt.exe
     Delete /REBOOTOK $INSTDIR\COPYING.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -139,7 +139,7 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMSTARTUP\FLX.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\DRV.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log
@@ -147,7 +147,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "flexinodes"
+    DeleteRegKey HKCR "dravitecoins"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

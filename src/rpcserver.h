@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * FLX RPC command dispatcher.
+ * DRV RPC command dispatcher.
  */
 class CRPCTable
 {

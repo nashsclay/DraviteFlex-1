@@ -1,5 +1,5 @@
 ---
-name: "flexinodes-dmg-signer"
+name: "dravitecoins-dmg-signer"
 suites:
 - "trusty"
 architectures:
@@ -7,10 +7,10 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/FLEXINODES/FLX.SIGS.git"
+- "url": "https://github.com/FLEXINODES/DRV.SIGS.git"
   "dir": "signature"
 files:
-- "flexinodes-osx-unsigned.tar.gz"
+- "dravitecoins-osx-unsigned.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}
@@ -27,11 +27,11 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=flexinodes-osx-unsigned.tar.gz
-  SIGNED=flexinodes-osx-signed.dmg
+  UNSIGNED=dravitecoins-osx-unsigned.tar.gz
+  SIGNED=dravitecoins-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   OSX_VOLNAME="$(cat osx_volname)"
   ./detached-sig-apply.sh ${UNSIGNED} signature/osx
-  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "FLX-Qt" -no-pad -r -dir-mode 0755 -apple -o uncompressed.dmg signed-app
+  ${WRAP_DIR}/genisoimage -no-cache-inodes -D -l -probe -V "DRV-Qt" -no-pad -r -dir-mode 0755 -apple -o uncompressed.dmg signed-app
   ${WRAP_DIR}/dmg dmg uncompressed.dmg ${OUTDIR}/${SIGNED}

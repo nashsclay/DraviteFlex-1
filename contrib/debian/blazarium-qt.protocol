@@ -1,6 +1,6 @@
 [Protocol]
-exec=flexinodes-qt '%u'
-protocol=flexinodes
+exec=dravitecoins-qt '%u'
+protocol=dravitecoins
 input=none
 output=none
 helper=true

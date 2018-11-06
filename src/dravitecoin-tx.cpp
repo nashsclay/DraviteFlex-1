@@ -46,10 +46,10 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Flexinodes Core flexinodes-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("DraviteCoins Core dravitecoins-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
-                               "  flexinodes-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded flexinodes transaction") + "\n" +
-                               "  flexinodes-tx [options] -create [commands]   " + _("Create hex-encoded flexinodes transaction") + "\n" +
+                               "  dravitecoins-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded dravitecoins transaction") + "\n" +
+                               "  dravitecoins-tx [options] -create [commands]   " + _("Create hex-encoded dravitecoins transaction") + "\n" +
                                "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -550,7 +550,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw runtime_error("too few parameters");
 
-            // param: hex-encoded flexinodes transaction
+            // param: hex-encoded dravitecoins transaction
             string strHexTx(argv[1]);
             if (strHexTx == "-") // "-" implies standard input
                 strHexTx = readStdin();

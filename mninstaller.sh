@@ -1,15 +1,15 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='flexinodes.conf'
-CONFIGFOLDER='/root/.flexinodes'
-COIN_DAEMON='flexinodesd'
-COIN_CLI='flexinodes-cli'
+CONFIG_FILE='dravitecoins.conf'
+CONFIGFOLDER='/root/.dravitecoins'
+COIN_DAEMON='dravitecoinsd'
+COIN_CLI='dravitecoins-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_REPO='https://github.com/flexinodes/flexinodes.git'
+COIN_REPO='https://github.com/dravitecoins/dravitecoins.git'
 COIN_TGZ=''
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='Flexinodes'
+COIN_NAME='DraviteCoins'
 COIN_PORT=25793
 RPC_PORT=22789
 

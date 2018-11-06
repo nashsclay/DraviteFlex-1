@@ -64,15 +64,15 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += flexinodesd
+  bin_PROGRAMS += dravitecoinsd
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += flexinodes-cli flexinodes-tx
+  bin_PROGRAMS += dravitecoins-cli dravitecoins-tx
 endif
 
 .PHONY: FORCE
-# flexinodes core #
+# dravitecoins core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   addrman.h \
@@ -180,7 +180,7 @@ obj/build.h: FORCE
 	  $(abs_top_srcdir)
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between flexinodesd and flexinodes-qt
+# server: shared between dravitecoinsd and dravitecoins-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(BOOST_CPPFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -224,7 +224,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between flexinodesd and flexinodes-qt, but only linked
+# wallet: shared between dravitecoinsd and dravitecoins-qt, but only linked
 # when wallet enabled
 
 libbitcoin_wallet_a_CFLAGS = -fPIC
@@ -295,7 +295,7 @@ univalue_libbitcoin_univalue_a_SOURCES = \
   univalue/univalue_escapes.h \
   univalue/univalue.h
 
-# common: shared between flexinodesd, and flexinodes-qt and non-server tools
+# common: shared between dravitecoinsd, and dravitecoins-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   allocators.cpp \
@@ -351,7 +351,7 @@ libbitcoin_util_a_SOURCES += compat/glibc_compat.cpp
 libbitcoin_util_a_SOURCES += compat/glibcxx_compat.cpp
 endif
 
-# cli: shared between flexinodes-cli and flexinodes-qt
+# cli: shared between dravitecoins-cli and dravitecoins-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -361,7 +361,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-flexinodesd_LDADD = \
+dravitecoinsd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -372,40 +372,40 @@ flexinodesd_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-flexinodesd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+dravitecoinsd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-flexinodesd_LDADD += libbitcoin_wallet.a
+dravitecoinsd_LDADD += libbitcoin_wallet.a
 endif
-flexinodesd_SOURCES = flexinodesd.cpp
+dravitecoinsd_SOURCES = dravitecoinsd.cpp
 #
 
 if TARGET_WINDOWS
-flexinodesd_SOURCES += flexinodesd-res.rc
+dravitecoinsd_SOURCES += dravitecoinsd-res.rc
 endif
 
-flexinodesd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-flexinodesd_CPPFLAGS = $(BITCOIN_INCLUDES)
-flexinodesd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+dravitecoinsd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+dravitecoinsd_CPPFLAGS = $(BITCOIN_INCLUDES)
+dravitecoinsd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
-# flexinodes-cli binary #
-flexinodes_cli_LDADD = \
+# dravitecoins-cli binary #
+dravitecoins_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-flexinodes_cli_SOURCES = \
-  flexinodes-cli.cpp
+dravitecoins_cli_SOURCES = \
+  dravitecoins-cli.cpp
 
-flexinodes_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+dravitecoins_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
-# flexinodes-tx binary #
-flexinodes_tx_LDADD = \
+# dravitecoins-tx binary #
+dravitecoins_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -414,15 +414,15 @@ flexinodes_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-flexinodes_tx_SOURCES = flexinodes-tx.cpp
-flexinodes_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+dravitecoins_tx_SOURCES = dravitecoins-tx.cpp
+dravitecoins_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-flexinodes_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+dravitecoins_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-flexinodes_cli_SOURCES += flexinodes-cli-res.rc
+dravitecoins_cli_SOURCES += dravitecoins-cli-res.rc
 endif
-flexinodes_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+dravitecoins_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

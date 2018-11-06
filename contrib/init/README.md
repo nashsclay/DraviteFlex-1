@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: flexinodesd.service
-Upstart: flexinodesd.conf
-OpenRC:  flexinodesd.openrc
-         flexinodesd.openrcconf
-CentOS:  flexinodesd.init
+SystemD: dravitecoinsd.service
+Upstart: dravitecoinsd.conf
+OpenRC:  dravitecoinsd.openrc
+         dravitecoinsd.openrcconf
+CentOS:  dravitecoinsd.init
 
 have been made available to assist packagers in creating node packages here.
 

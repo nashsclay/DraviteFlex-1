@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers 
-// Copyright (c) 2018 The Flexinodes developers
+// Copyright (c) 2018 The DraviteCoins developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -42,7 +42,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-#error "Flexinodes cannot be compiled without assertions."
+#error "DraviteCoins cannot be compiled without assertions."
 #endif
 
 /**
@@ -96,7 +96,7 @@ static void CheckBlockIndex();
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Flexinodes Signed Message:\n";
+const string strMessageMagic = "DraviteCoins Signed Message:\n";
 
 // Internal stuff
 namespace
@@ -2027,7 +2027,7 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("flexinodes-scriptch");
+    RenameThread("dravitecoins-scriptch");
     scriptcheckqueue.Thread();
 }
 

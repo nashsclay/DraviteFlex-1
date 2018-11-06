@@ -1,11 +1,11 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=FLX
-Comment=FLX P2P Cryptocurrency
-Exec=flexinodes-qt %u
+Name=DRV
+Comment=DRV P2P Cryptocurrency
+Exec=dravitecoins-qt %u
 Terminal=false
 Type=Application
-Icon=flexinodes128
-MimeType=x-scheme-handler/flexinodes;
+Icon=dravitecoins128
+MimeType=x-scheme-handler/dravitecoins;
 Categories=Office;Finance;
-Name[en_US]=flexinodes-qt.desktop
+Name[en_US]=dravitecoins-qt.desktop

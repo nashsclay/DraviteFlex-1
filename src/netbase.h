@@ -6,7 +6,7 @@
 #define BITCOIN_NETBASE_H
 
 #if defined(HAVE_CONFIG_H)
-#include "config/flexinodes-config.h"
+#include "config/dravitecoins-config.h"
 #endif
 
 #include "compat.h"

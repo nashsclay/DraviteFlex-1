@@ -41,12 +41,12 @@
         <file alias="tx_input">res/icons/tx_input.png</file>
         <file alias="tx_output">res/icons/tx_output.png</file>
         <file alias="tx_inout">res/icons/tx_inout.png</file>
-        <file alias="unit_flexinodes">res/icons/unit_flexinodes.png</file>
-        <file alias="unit_mflexinodes">res/icons/unit_mflexinodes.png</file>
-        <file alias="unit_uflexinodes">res/icons/unit_uflexinodes.png</file>
-        <file alias="unit_tflexinodes">res/icons/unit_tflexinodes.png</file>
-        <file alias="unit_tmflexinodes">res/icons/unit_tmflexinodes.png</file>
-        <file alias="unit_tuflexinodes">res/icons/unit_tuflexinodes.png</file>
+        <file alias="unit_dravitecoins">res/icons/unit_dravitecoins.png</file>
+        <file alias="unit_mdravitecoins">res/icons/unit_mdravitecoins.png</file>
+        <file alias="unit_udravitecoins">res/icons/unit_udravitecoins.png</file>
+        <file alias="unit_tdravitecoins">res/icons/unit_tdravitecoins.png</file>
+        <file alias="unit_tmdravitecoins">res/icons/unit_tmdravitecoins.png</file>
+        <file alias="unit_tudravitecoins">res/icons/unit_tudravitecoins.png</file>
         <file alias="lock_closed">res/icons/lock_closed.png</file>
         <file alias="lock_open">res/icons/lock_open.png</file>
         <file alias="key">res/icons/key.png</file>
@@ -64,7 +64,7 @@
     </qresource>
     <qresource prefix="/images">
         <file alias="about">res/images/about.png</file>
-        <file alias="flexinodes_logo_horizontal">res/images/flexinodes_logo_horizontal.png</file>
+        <file alias="dravitecoins_logo_horizontal">res/images/dravitecoins_logo_horizontal.png</file>
         <file alias="downArrow">res/images/downArrow.png</file>
         <file alias="downArrow_small">res/images/downArrow_small.png</file>
         <file alias="upArrow_small">res/images/upArrow_small.png</file>

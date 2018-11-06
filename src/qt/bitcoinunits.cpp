@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers 
-// Copyright (c) 2018 The Flexinodes developers
+// Copyright (c) 2018 The DraviteCoins developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -20,18 +20,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(FLX);
-    unitlist.append(mFLX);
-    unitlist.append(uFLX);
+    unitlist.append(DRV);
+    unitlist.append(mDRV);
+    unitlist.append(uDRV);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case FLX:
-    case mFLX:
-    case uFLX:
+    case DRV:
+    case mDRV:
+    case uDRV:
         return true;
     default:
         return false;
@@ -41,12 +41,12 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case FLX:
-        return QString("flexinodes");
-    case mFLX:
-        return QString("mflexinodes");
-    case uFLX:
-        return QString::fromUtf8("uflexinodes");
+    case DRV:
+        return QString("dravitecoins");
+    case mDRV:
+        return QString("mdravitecoins");
+    case uDRV:
+        return QString::fromUtf8("udravitecoins");
     default:
         return QString("???");
     }
@@ -56,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case FLX:
-            return QString("FLX");
-        case mFLX:
-            return QString("mFLX");
-        case uFLX:
-            return QString::fromUtf8("μFLX");
+        case DRV:
+            return QString("DRV");
+        case mDRV:
+            return QString("mDRV");
+        case uDRV:
+            return QString::fromUtf8("μDRV");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case FLX:
-            return QString("tFLX");
-        case mFLX:
-            return QString("mtFLX");
-        case uFLX:
-            return QString::fromUtf8("μtFLX");
+        case DRV:
+            return QString("tDRV");
+        case mDRV:
+            return QString("mtDRV");
+        case uDRV:
+            return QString::fromUtf8("μtDRV");
         default:
             return QString("???");
         }
@@ -83,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case FLX:
-            return QString("FLX");
-        case mFLX:
-            return QString("Milli-FLX (1 / 1" THIN_SP_UTF8 "000)");
-        case uFLX:
-            return QString("Micro-FLX (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case DRV:
+            return QString("DRV");
+        case mDRV:
+            return QString("Milli-DRV (1 / 1" THIN_SP_UTF8 "000)");
+        case uDRV:
+            return QString("Micro-DRV (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case FLX:
-            return QString("TestFLXs");
-        case mFLX:
-            return QString("Milli-TestFLX (1 / 1" THIN_SP_UTF8 "000)");
-        case uFLX:
-            return QString("Micro-TestFLX (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case DRV:
+            return QString("TestDRVs");
+        case mDRV:
+            return QString("Milli-TestDRV (1 / 1" THIN_SP_UTF8 "000)");
+        case uDRV:
+            return QString("Micro-TestDRV (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -109,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case FLX:
+    case DRV:
         return 100000000;
-    case mFLX:
+    case mDRV:
         return 100000;
-    case uFLX:
+    case uDRV:
         return 100;
     default:
         return 100000000;
@@ -123,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case FLX:
+    case DRV:
         return 8;
-    case mFLX:
+    case mDRV:
         return 5;
-    case uFLX:
+    case uDRV:
         return 2;
     default:
         return 0;

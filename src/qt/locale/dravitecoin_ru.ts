@@ -62,12 +62,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your FLX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши адреса FLX для отправки платежей. Всегда проверяйте количество и адрес получателя перед отправкой перевода.</translation>
+        <source>These are your DRV addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши адреса DRV для отправки платежей. Всегда проверяйте количество и адрес получателя перед отправкой перевода.</translation>
     </message>
     <message>
-        <source>These are your FLX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши адреса FLX для приёма платежей. Рекомендуется использовать новый адрес получения для каждой транзакции.</translation>
+        <source>These are your DRV addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши адреса DRV для приёма платежей. Рекомендуется использовать новый адрес получения для каждой транзакции.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,7 +188,7 @@
         <translation>Кошелёк зашифрован</translation>
     </message>
     <message>
-        <source>FLX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your capracoins from being stolen by malware infecting your computer.</source>
+        <source>DRV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your capracoins from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши даши от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>Flexinodes Core</source>
-        <translation>Flexinodes Core</translation>
+        <source>DraviteCoins Core</source>
+        <translation>DraviteCoins Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,8 +255,8 @@
         <translation>&amp;Отправить</translation>
     </message>
     <message>
-        <source>Send coins to a FLX address</source>
-        <translation>Отправить монеты на указанный адрес FLX</translation>
+        <source>Send coins to a DRV address</source>
+        <translation>Отправить монеты на указанный адрес DRV</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -283,12 +283,12 @@
         <translation>Закрыть приложение</translation>
     </message>
     <message>
-        <source>&amp;About Flexinodes Core</source>
-        <translation>О &amp;Flexinodes Core</translation>
+        <source>&amp;About DraviteCoins Core</source>
+        <translation>О &amp;DraviteCoins Core</translation>
     </message>
     <message>
-        <source>Show information about Flexinodes Core</source>
-        <translation>Показать информацию о Flexinodes Core</translation>
+        <source>Show information about DraviteCoins Core</source>
+        <translation>Показать информацию о DraviteCoins Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Настройки...</translation>
     </message>
     <message>
-        <source>Modify configuration options for FLX</source>
-        <translation>Изменить параметры конфигурации FLX</translation>
+        <source>Modify configuration options for DRV</source>
+        <translation>Изменить параметры конфигурации DRV</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>П&amp;одписать сообщение...</translation>
     </message>
     <message>
-        <source>Sign messages with your FLX addresses to prove you own them</source>
-        <translation>Подписать сообщения вашими адресами FLX, чтобы доказать, что вы ими владеете</translation>
+        <source>Sign messages with your DRV addresses to prove you own them</source>
+        <translation>Подписать сообщения вашими адресами DRV, чтобы доказать, что вы ими владеете</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>П&amp;роверить сообщение...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified FLX addresses</source>
-        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определёнными адресами FLX</translation>
+        <source>Verify messages to ensure they were signed with specified DRV addresses</source>
+        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определёнными адресами DRV</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -451,8 +451,8 @@
         <translation>&amp;Параметры командной строки</translation>
     </message>
     <message>
-        <source>Flexinodes Core client</source>
-        <translation>Клиент Flexinodes Core</translation>
+        <source>DraviteCoins Core client</source>
+        <translation>Клиент DraviteCoins Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
@@ -463,8 +463,8 @@
         <translation>Синхронизация дополнительных данных: %p%</translation>
     </message>
     <message>
-        <source>Show the Flexinodes Core help message to get a list with possible FLX command-line options</source>
-        <translation>Показать помощь о Flexinodes Core со списком возможных параметров командной строки</translation>
+        <source>Show the DraviteCoins Core help message to get a list with possible DRV command-line options</source>
+        <translation>Показать помощь о DraviteCoins Core со списком возможных параметров командной строки</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Панель вкладок</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to FLX network</source>
-        <translation><numerusform>%n активное соединение с сетью FLX</numerusform><numerusform>%n активных соединения с сетью FLX</numerusform><numerusform>%n активных соединений с сетью FLX</numerusform><numerusform>%n активных соединений с сетью FLX</numerusform></translation>
+        <source>%n active connection(s) to DRV network</source>
+        <translation><numerusform>%n активное соединение с сетью DRV</numerusform><numerusform>%n активных соединения с сетью DRV</numerusform><numerusform>%n активных соединений с сетью DRV</numerusform><numerusform>%n активных соединений с сетью DRV</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -896,15 +896,15 @@ Address: %4
         <translation>Настройки Obfuscate</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening FLX's configuration screen.</source>
+        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DRV's configuration screen.</source>
         <translation>Obfuscate успешно установлен в режим обычной приватности (%1 и 2 раунда). Вы можете изменить это в любое время, используя окно настроек.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening FLX's configuration screen.</source>
+        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DRV's configuration screen.</source>
         <translation>Obfuscate успешно установлен в режим высокой приватности (%1 и 8 раундов). Вы можете изменить это в любое время, используя окно настроек.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening FLX's configuration screen.</source>
+        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DRV's configuration screen.</source>
         <translation>Obfuscate успешно установлен в режим максимально приватности (%1 и 16 раундов). Вы можете изменить это в любое время, используя окно настроек.</translation>
     </message>
 </context>
@@ -947,8 +947,8 @@ Address: %4
         <translation>Изменение адреса для отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid FLX address.</source>
-        <translation>Введённый адрес "%1" не является правильным адресом FLX.</translation>
+        <source>The entered address "%1" is not a valid DRV address.</source>
+        <translation>Введённый адрес "%1" не является правильным адресом DRV.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -989,8 +989,8 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Flexinodes Core</source>
-        <translation>Flexinodes Core</translation>
+        <source>DraviteCoins Core</source>
+        <translation>DraviteCoins Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -1001,8 +1001,8 @@ Address: %4
         <translation>(%1-бит)</translation>
     </message>
     <message>
-        <source>About Flexinodes Core</source>
-        <translation>О Flexinodes Core</translation>
+        <source>About DraviteCoins Core</source>
+        <translation>О DraviteCoins Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1048,16 +1048,16 @@ Address: %4
         <translation>Добро пожаловать</translation>
     </message>
     <message>
-        <source>Welcome to Flexinodes Core.</source>
-        <translation>Добро пожаловать в Flexinodes Core.</translation>
+        <source>Welcome to DraviteCoins Core.</source>
+        <translation>Добро пожаловать в DraviteCoins Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Flexinodes Core will store its data.</source>
-        <translation>Так как вы впервые запустили программу, вы можете выбрать, где Flexinodes Core будет хранить данные.</translation>
+        <source>As this is the first time the program is launched, you can choose where DraviteCoins Core will store its data.</source>
+        <translation>Так как вы впервые запустили программу, вы можете выбрать, где DraviteCoins Core будет хранить данные.</translation>
     </message>
     <message>
-        <source>Flexinodes Core will download and store a copy of the FLX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Flexinodes Core скачает и сохранит копию цепочки блоков. Как минимум %1ГБ данных будет храниться в этом каталоге и размер данных будет со временем расти. В этом же каталоге будет сохранён кошелёк.</translation>
+        <source>DraviteCoins Core will download and store a copy of the DRV block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>DraviteCoins Core скачает и сохранит копию цепочки блоков. Как минимум %1ГБ данных будет храниться в этом каталоге и размер данных будет со временем расти. В этом же каталоге будет сохранён кошелёк.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1068,8 +1068,8 @@ Address: %4
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
-        <source>Flexinodes Core</source>
-        <translation>Flexinodes Core</translation>
+        <source>DraviteCoins Core</source>
+        <translation>DraviteCoins Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1122,12 +1122,12 @@ Address: %4
         <translation>&amp;Главная</translation>
     </message>
     <message>
-        <source>Automatically start FLX after logging in to the system.</source>
-        <translation>Автоматически запускать FLX после входа в систему.</translation>
+        <source>Automatically start DRV after logging in to the system.</source>
+        <translation>Автоматически запускать DRV после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start FLX on system login</source>
-        <translation>&amp;Запускать FLX при входе в систему</translation>
+        <source>&amp;Start DRV on system login</source>
+        <translation>&amp;Запускать DRV при входе в систему</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1154,8 +1154,8 @@ Address: %4
         <translation>Это пороговое значение, при достижении которого автоматическое перемешивание отключается.</translation>
     </message>
     <message>
-        <source>Amount of FLX to keep anonymized</source>
-        <translation>Сумма постоянно анонимизированных FLX</translation>
+        <source>Amount of DRV to keep anonymized</source>
+        <translation>Сумма постоянно анонимизированных DRV</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1174,8 +1174,8 @@ Address: %4
         <translation>Принимать входящие подключения</translation>
     </message>
     <message>
-        <source>Connect to the FLX network through a SOCKS5 proxy.</source>
-        <translation>Подключаться к сети FLX через прокси SOCKS5.</translation>
+        <source>Connect to the DRV network through a SOCKS5 proxy.</source>
+        <translation>Подключаться к сети DRV через прокси SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1206,8 +1206,8 @@ Address: %4
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>Automatically open the FLX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть порт для клиента FLX на роутере. Работает только в том случае, если Ваш роутер поддерживает UPnP и данная функция включена.</translation>
+        <source>Automatically open the DRV client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для клиента DRV на роутере. Работает только в том случае, если Ваш роутер поддерживает UPnP и данная функция включена.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1258,8 +1258,8 @@ Address: %4
         <translation>&amp;Язык интерфейса:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting FLX.</source>
-        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска FLX.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting DRV.</source>
+        <translation>Здесь можно выбрать язык интерфейса. Настройки вступят в силу после перезапуска DRV.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1347,8 +1347,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Форма</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FLX network after a connection is established, but this process has not completed yet.</source>
-        <translation>Отображаемая информация может быть устаревшей. Ваш кошелёк автоматически синхронизируется с сетью FLX после подключения, но этот процесс пока не завершён.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DRV network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш кошелёк автоматически синхронизируется с сетью DRV после подключения, но этот процесс пока не завершён.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1588,8 +1588,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Неверный адрес платежа %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid FLX address or malformed URI parameters.</source>
-        <translation>Не удалось разобрать URI! Возможно указан некорректный адрес FLX либо параметры URI сформированы неверно.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid DRV address or malformed URI parameters.</source>
+        <translation>Не удалось разобрать URI! Возможно указан некорректный адрес DRV либо параметры URI сформированы неверно.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1674,8 +1674,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter a FLX address (e.g. %1)</source>
-        <translation>Введите адрес FLX (например, %1)</translation>
+        <source>Enter a DRV address (e.g. %1)</source>
+        <translation>Введите адрес DRV (например, %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1764,8 +1764,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Число подключений</translation>
     </message>
     <message>
-        <source>Open the FLX debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть отладочный лог-файл FLX из текущего каталога данных. Для больших лог-файлов эта операция может занять несколько секунд.</translation>
+        <source>Open the DRV debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть отладочный лог-файл DRV из текущего каталога данных. Для больших лог-файлов эта операция может занять несколько секунд.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1972,8 +1972,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Выход:</translation>
     </message>
     <message>
-        <source>Welcome to the FLX RPC console.</source>
-        <translation>Добро пожаловать в RPC-консоль FLX.</translation>
+        <source>Welcome to the DRV RPC console.</source>
+        <translation>Добро пожаловать в RPC-консоль DRV.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2035,8 +2035,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>&amp;Повторно использовать существующий адрес получения (не рекомендуется)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the FLX network.</source>
-        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса. Обратите внимание: сообщение не будет отправлено вместе с платежом через сеть FLX.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DRV network.</source>
+        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса. Обратите внимание: сообщение не будет отправлено вместе с платежом через сеть DRV.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2047,8 +2047,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Необязательная метка для нового адреса получения.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the FLX network.</source>
-        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса.&lt;br&gt;Обратите внимание: сообщение не будет отправлено вместе с платежом через сеть FLX.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DRV network.</source>
+        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса.&lt;br&gt;Обратите внимание: сообщение не будет отправлено вместе с платежом через сеть DRV.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2496,8 +2496,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Заплатить только минимальную комиссию %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid FLX address</source>
-        <translation>Внимание: неверный адрес FLX</translation>
+        <source>Warning: Invalid DRV address</source>
+        <translation>Внимание: неверный адрес DRV</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2519,8 +2519,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Полу&amp;чатель:</translation>
     </message>
     <message>
-        <source>The FLX address to send the payment to</source>
-        <translation>Адрес FLX для отправки на него монет</translation>
+        <source>The DRV address to send the payment to</source>
+        <translation>Адрес DRV для отправки на него монет</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2559,8 +2559,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Сообщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the capracoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the FLX network.</source>
-        <translation>К capracoin: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Обратите внимание: сообщение не будет отправлено через сеть FLX.</translation>
+        <source>A message that was attached to the capracoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DRV network.</source>
+        <translation>К capracoin: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Обратите внимание: сообщение не будет отправлено через сеть DRV.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2586,8 +2586,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Flexinodes Core is shutting down...</source>
-        <translation>Flexinodes Core выключается...</translation>
+        <source>DraviteCoins Core is shutting down...</source>
+        <translation>DraviteCoins Core выключается...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2609,8 +2609,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Вы можете подписывать сообщения своими адресами, чтобы доказать владение ими. Будьте осторожны, не подписывайте что-то неопределённое, так как фишинговые атаки могут обманным путём заставить вас подписать нежелательные сообщения. Подписывайте только те сообщения, с которыми вы согласны вплоть до мелочей.</translation>
     </message>
     <message>
-        <source>The FLX address to sign the message with</source>
-        <translation>Адрес FLX, которым Вы хотите подписать сообщение</translation>
+        <source>The DRV address to sign the message with</source>
+        <translation>Адрес DRV, которым Вы хотите подписать сообщение</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2641,8 +2641,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Скопировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this FLX address</source>
-        <translation>Подписать сообщение, чтобы доказать владение этим адресом FLX</translation>
+        <source>Sign the message to prove you own this DRV address</source>
+        <translation>Подписать сообщение, чтобы доказать владение этим адресом DRV</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2665,12 +2665,12 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Введите ниже адрес для подписи, сообщение (убедитесь, что переводы строк, пробелы, табы и т.п. в точности скопированы) и подпись, чтобы проверить сообщение. Убедитесь, что не скопировали лишнего в подпись, по сравнению с самим подписываемым сообщением, чтобы не стать жертвой атаки "man-in-the-middle".</translation>
     </message>
     <message>
-        <source>The FLX address the message was signed with</source>
-        <translation>Адрес FLX, которым было подписано сообщение</translation>
+        <source>The DRV address the message was signed with</source>
+        <translation>Адрес DRV, которым было подписано сообщение</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified FLX address</source>
-        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом FLX</translation>
+        <source>Verify the message to ensure it was signed with the specified DRV address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом DRV</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2736,8 +2736,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Flexinodes Core</source>
-        <translation>Flexinodes Core</translation>
+        <source>DraviteCoins Core</source>
+        <translation>DraviteCoins Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2748,8 +2748,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Разработчики Bitcoin Core</translation>
     </message>
     <message>
-        <source>The Flexinodes Core developers</source>
-        <translation>Разработчики Flexinodes Core</translation>
+        <source>The DraviteCoins Core developers</source>
+        <translation>Разработчики DraviteCoins Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3326,8 +3326,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Привязаться к указанному адресу и всегда прослушивать только его. Используйте [хост]:порт для IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Flexinodes Core is probably already running.</source>
-        <translation>Не удалось установить блокировку на каталог данных %s. Возможно, Flexinodes Core уже запущен.</translation>
+        <source>Cannot obtain a lock on data directory %s. DraviteCoins Core is probably already running.</source>
+        <translation>Не удалось установить блокировку на каталог данных %s. Возможно, DraviteCoins Core уже запущен.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3382,8 +3382,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Это пре-релизная тестовая сборка - используйте на свой страх и риск - не используйте для добычи или торговых приложений</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Flexinodes Core is probably already running.</source>
-        <translation>Не удалось привязаться к %s на этом компьютере. Возможно, Flexinodes Core уже запущен.</translation>
+        <source>Unable to bind to %s on this computer. DraviteCoins Core is probably already running.</source>
+        <translation>Не удалось привязаться к %s на этом компьютере. Возможно, DraviteCoins Core уже запущен.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
@@ -3614,8 +3614,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Удалить все трансакции из кошелька и при рестарте с помощью -rescan восстановить только те, которые есть в цепочке блоков</translation>
     </message>
     <message>
-        <source>Disable all FLX specific functionality (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Отключить всю функциональность, относящуюся к  FLX (Мастерноды, Obfuscate, InstantX, бюджеты) (0-1, по умолчанию: %u)</translation>
+        <source>Disable all DRV specific functionality (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Отключить всю функциональность, относящуюся к  DRV (Мастерноды, Obfuscate, InstantX, бюджеты) (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3719,7 +3719,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "FLX Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "DRV Alert" admin@foo.com
 </source>
         <translation>Для использования capracoind или опции -server с capracoin-qt, вы должны установить опцию rpcpassword в конфигурационном файле:
 %s
@@ -3730,7 +3730,7 @@ rpcpassword=%s
 Имя и пароль ДОЛЖНЫ различаться.
 Если файл не существует, то создайте его и оставьте права на чтение только для владельца.
 Также рекомендуется включить alertnotify для оповещения о проблемах;
-Например: alertnotify=echo %%s | mail -s "FLX Alert" admin@foo.com
+Например: alertnotify=echo %%s | mail -s "DRV Alert" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3746,8 +3746,8 @@ rpcpassword=%s
         <translation>Внимание: установлено очень большое значение -paytxfee! Комиссия такого размера может быть уплачена при проведении одельной транзакции.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Flexinodes Core will not work properly.</source>
-        <translation>Внимание: пожалуйста, убедитесь что дата и время на Вашем компьютере выставлены правильно! Flexinodes Core не сможет работать корректно, если часы настроены неверно.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong DraviteCoins Core will not work properly.</source>
+        <translation>Внимание: пожалуйста, убедитесь что дата и время на Вашем компьютере выставлены правильно! DraviteCoins Core не сможет работать корректно, если часы настроены неверно.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
@@ -3800,8 +3800,8 @@ rpcpassword=%s
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The Flexinodes Core Developers</source>
-        <translation>Copyright (C) 2014-%i The Flexinodes Core Developers</translation>
+        <source>Copyright (C) 2014-%i The DraviteCoins Core Developers</source>
+        <translation>Copyright (C) 2014-%i The DraviteCoins Core Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3832,8 +3832,8 @@ rpcpassword=%s
         <translation>Ошибка соединения с мастернодой.</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Flexinodes Core</source>
-        <translation>Ошибка загрузки wallet.dat: кошелёк требует более новой версии Flexinodes Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of DraviteCoins Core</source>
+        <translation>Ошибка загрузки wallet.dat: кошелёк требует более новой версии DraviteCoins Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3904,8 +3904,8 @@ rpcpassword=%s
         <translation>Информация</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Flexinodes Core is shutting down.</source>
-        <translation>Проверка на непротиворечивость закончилась неудачно. Flexinodes Core выключается.</translation>
+        <source>Initialization sanity check failed. DraviteCoins Core is shutting down.</source>
+        <translation>Проверка на непротиворечивость закончилась неудачно. DraviteCoins Core выключается.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4156,8 +4156,8 @@ rpcpassword=%s
         <translation>Использовать UPnP для проброса порта (по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Flexinodes Core to complete</source>
-        <translation>Необходимо перезаписать кошелёк: перезапустите Flexinodes Core для завершения операции</translation>
+        <source>Wallet needed to be rewritten: restart DraviteCoins Core to complete</source>
+        <translation>Необходимо перезаписать кошелёк: перезапустите DraviteCoins Core для завершения операции</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>

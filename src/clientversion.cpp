@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both flexinodesd and flexinodes-qt, to make it harder for attackers to
+ * for both dravitecoinsd and dravitecoins-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("Flexinodes Core");
+const std::string CLIENT_NAME("DraviteCoins Core");
 
 /**
  * Client version number

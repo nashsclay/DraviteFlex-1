@@ -1,2 +1,2 @@
-usr/local/bin/flexinodesd usr/bin
-usr/local/bin/flexinodes-cli usr/bin
+usr/local/bin/dravitecoinsd usr/bin
+usr/local/bin/dravitecoins-cli usr/bin

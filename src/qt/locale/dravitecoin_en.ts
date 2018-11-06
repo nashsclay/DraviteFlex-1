@@ -80,12 +80,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your FLX addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your DRV addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your FLX addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your DRV addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+12"/>
-        <source>FLX will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your FLXs from being stolen by malware infecting your computer.</source>
+        <source>DRV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DRVs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FLX&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DRV&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -307,7 +307,7 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>Enter a FLX Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a DRV Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -318,7 +318,7 @@
     </message>
     <message>
         <location line="-355"/>
-        <source>The FLX address to sign the message with</source>
+        <source>The DRV address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -360,7 +360,7 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this FLX address</source>
+        <source>Sign the message to prove you own this DRV address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -391,12 +391,12 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>The FLX address the message was signed with</source>
+        <source>The DRV address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+29"/>
-        <source>Verify the message to ensure it was signed with the specified FLX address</source>
+        <source>Verify the message to ensure it was signed with the specified DRV address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -776,12 +776,12 @@
     <message>
         <location line="-413"/>
         <location line="+853"/>
-        <source>Flexinodes Core</source>
+        <source>DraviteCoins Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-665"/>
-        <source>Send coins to a FLX address</source>
+        <source>Send coins to a DRV address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -801,27 +801,27 @@
     </message>
     <message>
         <location line="+29"/>
-        <source>&amp;About Flexinodes Core</source>
+        <source>&amp;About DraviteCoins Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Flexinodes Core</source>
+        <source>Show information about DraviteCoins Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Modify configuration options for FLX</source>
+        <source>Modify configuration options for DRV</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>Sign messages with your FLX addresses to prove you own them</source>
+        <source>Sign messages with your DRV addresses to prove you own them</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified FLX addresses</source>
+        <source>Verify messages to ensure they were signed with specified DRV addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -846,7 +846,7 @@
     </message>
     <message>
         <location line="+24"/>
-        <source>Open a FLX: URI or payment request</source>
+        <source>Open a DRV: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -871,7 +871,7 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Show the Flexinodes Core help message to get a list with possible FLX command-line options</source>
+        <source>Show the DraviteCoins Core help message to get a list with possible DRV command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -881,12 +881,12 @@
     </message>
     <message>
         <location line="+147"/>
-        <source>Flexinodes Core client</source>
+        <source>DraviteCoins Core client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+182"/>
-        <source>%n active connection(s) to FLX network</source>
+        <source>%n active connection(s) to DRV network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -1461,7 +1461,7 @@ Address: %4
     </message>
     <message>
         <location line="+71"/>
-        <source>The entered address &quot;%1&quot; is not a valid FLX address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid DRV address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1517,7 +1517,7 @@ Address: %4
     </message>
     <message>
         <location line="+0"/>
-        <source>Flexinodes Core</source>
+        <source>DraviteCoins Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1528,7 +1528,7 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-        <source>About Flexinodes Core</source>
+        <source>About DraviteCoins Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1586,17 +1586,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to Flexinodes Core.</source>
+        <source>Welcome to DraviteCoins Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where Flexinodes Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where DraviteCoins Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Flexinodes Core will download and store a copy of the FLX block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>DraviteCoins Core will download and store a copy of the DRV block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1611,7 +1611,7 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>Flexinodes Core</source>
+        <source>DraviteCoins Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1814,8 +1814,8 @@ Address: %4
     </message>
     <message>
         <location line="+16"/>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other FLX addresses after it matures.
-To Add: enter percentage to give and FLX address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other DRV addresses after it matures.
+To Add: enter percentage to give and DRV address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
         <translation type="unfinished"></translation>
@@ -1980,12 +1980,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 10000 FLX</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 DRV</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 10000 FLX</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 DRV</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1995,12 +1995,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 FLX to anonymize 10000 FLX</source>
+        <source>This option is the quickest and will cost about ~0.025 DRV to anonymize 10000 DRV</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 FLX to anonymize 10000 FLX</source>
+        <source>This option is moderately fast and will cost about 0.05 DRV to anonymize 10000 DRV</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2010,7 +2010,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>0.1 FLX per 10000 FLX you anonymize.</source>
+        <source>0.1 DRV per 10000 DRV you anonymize.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2022,17 +2022,17 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="-29"/>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening FLX&apos;s configuration screen.</source>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DRV&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening FLX&apos;s configuration screen.</source>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DRV&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening FLX&apos;s configuration screen.</source>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DRV&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2108,7 +2108,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+33"/>
-        <source>Automatically open the FLX client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the DRV client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2133,12 +2133,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="-179"/>
-        <source>Automatically start FLX after logging in to the system.</source>
+        <source>Automatically start DRV after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start FLX on system login</source>
+        <source>&amp;Start DRV on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2158,7 +2158,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+15"/>
-        <source>Amount of FLX to keep anonymized</source>
+        <source>Amount of DRV to keep anonymized</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2193,7 +2193,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+192"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting FLX.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting DRV.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2209,7 +2209,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+17"/>
-        <source>Connect to the FLX network through a SOCKS5 proxy.</source>
+        <source>Connect to the DRV network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2406,7 +2406,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
         <location line="+10"/>
         <location line="+1015"/>
         <location line="+93"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FLX network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DRV network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2461,7 +2461,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+27"/>
-        <source>0 FLX / 0 Rounds</source>
+        <source>0 DRV / 0 Rounds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2698,7 +2698,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+126"/>
-        <source>URI cannot be parsed! This can be caused by an invalid FLX address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid DRV address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2806,7 +2806,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+113"/>
-        <source>Enter a FLX address (e.g. %1)</source>
+        <source>Enter a DRV address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2995,7 +2995,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+149"/>
-        <source>Open the FLX debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the DRV debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3202,7 +3202,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="-35"/>
-        <source>Welcome to the FLX RPC console.</source>
+        <source>Welcome to the DRV RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3293,12 +3293,12 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="-37"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the FLX network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DRV network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the FLX network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DRV network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3592,7 +3592,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+7"/>
-        <source>0 FLX</source>
+        <source>0 DRV</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3652,18 +3652,18 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="-165"/>
-        <source>If the custom fee is set to 1000 uFLXs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uFLXs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uFLXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uDRVs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uDRVs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uDRVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uFLXs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uFLXs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uFLXs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uDRVs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uDRVs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uDRVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for FLX transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DRV transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3796,7 +3796,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+651"/>
-        <source>Warning: Invalid FLX address</source>
+        <source>Warning: Invalid DRV address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3935,7 +3935,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+18"/>
-        <source>The FLX address to send the payment to</source>
+        <source>The DRV address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3989,7 +3989,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the FLX: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the FLX network.</source>
+        <source>A message that was attached to the DRV: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DRV network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4024,7 +4024,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+43"/>
-        <source>Flexinodes Core is shutting down...</source>
+        <source>DraviteCoins Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4052,7 +4052,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+18"/>
-        <source>The FLX address to sign the message with</source>
+        <source>The DRV address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4094,17 +4094,17 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this FLX address</source>
+        <source>Sign the message to prove you own this DRV address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+106"/>
-        <source>The FLX address the message was signed with</source>
+        <source>The DRV address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified FLX address</source>
+        <source>Verify the message to ensure it was signed with the specified DRV address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4219,7 +4219,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+37"/>
-        <source>Flexinodes Core</source>
+        <source>DraviteCoins Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4239,7 +4239,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+1"/>
-        <source>The Flexinodes Core developers</source>
+        <source>The DraviteCoins Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4947,7 +4947,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     <message>
         <location line="-20"/>
         <location line="+9"/>
-        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 FLX.</source>
+        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 DRV.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5033,7 +5033,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+4"/>
-        <source>Cannot obtain a lock on data directory %s. Flexinodes Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. DraviteCoins Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5058,7 +5058,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+3"/>
-        <source>Disable all FLX specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <source>Disable all DRV specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5108,12 +5108,12 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in FLX/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in DRV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in FLX/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in DRV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5252,13 +5252,13 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;FLX Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;DRV Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Unable to bind to %s on this computer. Flexinodes Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. DraviteCoins Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5268,12 +5268,12 @@ for example: alertnotify=echo %%s | mail -s &quot;FLX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 10000 FLX.</source>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 10000 DRV.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 FLX.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 DRV.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5293,7 +5293,7 @@ for example: alertnotify=echo %%s | mail -s &quot;FLX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Flexinodes Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong DraviteCoins Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5490,7 +5490,7 @@ for example: alertnotify=echo %%s | mail -s &quot;FLX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2015-%i The Flexinodes Core Developers</source>
+        <source>Copyright (C) 2015-%i The DraviteCoins Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5580,7 +5580,7 @@ for example: alertnotify=echo %%s | mail -s &quot;FLX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Flexinodes Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of DraviteCoins Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5645,7 +5645,7 @@ for example: alertnotify=echo %%s | mail -s &quot;FLX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Fee (in FLX/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in DRV/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5720,7 +5720,7 @@ for example: alertnotify=echo %%s | mail -s &quot;FLX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. Flexinodes Core is shutting down.</source>
+        <source>Initialization sanity check failed. DraviteCoins Core is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5810,7 +5810,7 @@ for example: alertnotify=echo %%s | mail -s &quot;FLX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Keep N FLX anonymized (default: %u)</source>
+        <source>Keep N DRV anonymized (default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6440,7 +6440,7 @@ for example: alertnotify=echo %%s | mail -s &quot;FLX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Flexinodes Core to complete</source>
+        <source>Wallet needed to be rewritten: restart DraviteCoins Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6576,7 +6576,7 @@ for example: alertnotify=echo %%s | mail -s &quot;FLX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+12"/>
-        <source>Buy FLX</source>
+        <source>Buy DRV</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6589,7 +6589,7 @@ for example: alertnotify=echo %%s | mail -s &quot;FLX Alert&quot; admin@foo.com
         <location line="-1108"/>
         <location line="+1192"/>
         <location line="+517"/>
-        <source>FLX</source>
+        <source>DRV</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6645,13 +6645,13 @@ for example: alertnotify=echo %%s | mail -s &quot;FLX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+177"/>
-        <source>Sell FLX</source>
+        <source>Sell DRV</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+1036"/>
-        <source>FLX Available:</source>
+        <source>DRV Available:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6681,7 +6681,7 @@ for example: alertnotify=echo %%s | mail -s &quot;FLX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+44"/>
-        <source>FLX Balance:</source>
+        <source>DRV Balance:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6691,7 +6691,7 @@ for example: alertnotify=echo %%s | mail -s &quot;FLX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+51"/>
-        <source>FLX Pending:</source>
+        <source>DRV Pending:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6701,12 +6701,12 @@ for example: alertnotify=echo %%s | mail -s &quot;FLX Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+32"/>
-        <source>Bittrex FLX Deposit Address:</source>
+        <source>Bittrex DRV Deposit Address:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Generate FLX Deposit Address</source>
+        <source>Generate DRV Deposit Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

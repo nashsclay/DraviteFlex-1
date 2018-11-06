@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between flexinodes-cli and flexinodesd)
- * of a given instance of the FLX system.
+ * CBaseChainParams defines the base parameters (shared between dravitecoins-cli and dravitecoinsd)
+ * of a given instance of the DRV system.
  */
 class CBaseChainParams
 {

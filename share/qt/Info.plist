@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>1.0.0, Copyright © 2009-2018 The Bitcoin Core developers, 2014-2018 The Dash and PIVX Core Developers, 2018-2018 The Flexinodes Core developers</string>
+  <string>1.0.0, Copyright © 2009-2018 The Bitcoin Core developers, 2014-2018 The Dash and PIVX Core Developers, 2018-2018 The DraviteCoins Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>1.0.0</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>Flexinodes-Qt</string>
+  <string>DraviteCoins-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.flexinodes.Flexinodes-Qt</string>
+  <string>io.dravitecoins.DraviteCoins-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.flexinodes.FlexinodesPayment</string>
+      <string>io.dravitecoins.DraviteCoinsPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>flexinodes</string>
+        <string>dravitecoins</string>
       </array>
     </dict>
   </array>
@@ -52,9 +52,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.flexinodes.paymentrequest</string>
+      <string>io.dravitecoins.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>Flexinodes payment request</string>
+      <string>DraviteCoins payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -62,10 +62,10 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-flexinodes-payment-request</string>
+        <string>application/x-dravitecoins-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>flexinodespaymentrequest</string>
+          <string>dravitecoinspaymentrequest</string>
         </array>
       </dict>
     </dict>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.flexinodes.paymentrequest</string>
+        <string>io.dravitecoins.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

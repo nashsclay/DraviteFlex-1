@@ -1,19 +1,19 @@
 [Unit]
-Description=FLX's distributed currency daemon
+Description=DRV's distributed currency daemon
 After=network.target
 
 [Service]
-User=flexinodes
-Group=flexinodes
+User=dravitecoins
+Group=dravitecoins
 
 Type=forking
-PIDFile=/var/lib/flexinodesd/flexinodesd.pid
+PIDFile=/var/lib/dravitecoinsd/dravitecoinsd.pid
 
-ExecStart=/usr/bin/flexinodesd -daemon -pid=/var/lib/flexinodesd/flexinodesd.pid \
-          -conf=/etc/flexinodes/flexinodes.conf -datadir=/var/lib/flexinodesd
+ExecStart=/usr/bin/dravitecoinsd -daemon -pid=/var/lib/dravitecoinsd/dravitecoinsd.pid \
+          -conf=/etc/dravitecoins/dravitecoins.conf -datadir=/var/lib/dravitecoinsd
 
-ExecStop=-/usr/bin/flexinodes-cli -conf=/etc/flexinodes/flexinodes.conf \
-         -datadir=/var/lib/flexinodesd stop
+ExecStop=-/usr/bin/dravitecoins-cli -conf=/etc/dravitecoins/dravitecoins.conf \
+         -datadir=/var/lib/dravitecoinsd stop
 
 Restart=always
 PrivateTmp=true
