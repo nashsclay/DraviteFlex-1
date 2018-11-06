@@ -55,7 +55,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 
 static Checkpoints::MapCheckpoints mapCheckpoints =
-    boost::assign::map_list_of(0, uint256("0x"));
+    boost::assign::map_list_of(0, uint256("0x00000377e842c72eb7666b937b09153af325558cd021e5bea4a645a209cc75bb"));
 ;
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
@@ -131,10 +131,10 @@ public:
         genesis.nVersion = 1;
         genesis.nTime = 1541086397;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 0;
+        genesis.nNonce = 3161322;
 
         uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
-        while (genesis.GetHash() > hashTarget)
+       /* while (genesis.GetHash() > hashTarget)
         {
             ++genesis.nNonce;
             if (genesis.nNonce == 0)
@@ -146,15 +146,15 @@ public:
 			{
 				printf("nonce %08u: hash = %s \n", genesis.nNonce, genesis.GetHash().ToString().c_str());
 			}
-        }
+        }*/
 
         hashGenesisBlock = genesis.GetHash();
-        printf("MN nNonce %u\n", genesis.nNonce);
+       /* printf("MN nNonce %u\n", genesis.nNonce);
 	      printf("MN hashGenesisBlock %s\n", hashGenesisBlock.ToString().c_str());
 	      printf("MN hashMerkleRoot %s\n", genesis.hashMerkleRoot.ToString().c_str());
-        printf("MN nTime %u\n", genesis.nTime);
-        assert(hashGenesisBlock == uint256("0x"));
-        assert(genesis.hashMerkleRoot == uint256("0x"));
+        printf("MN nTime %u\n", genesis.nTime);*/
+        assert(hashGenesisBlock == uint256("0x00000377e842c72eb7666b937b09153af325558cd021e5bea4a645a209cc75bb"));
+        assert(genesis.hashMerkleRoot == uint256("0xaf98abaac9007cb9e9e671a306aa5fd6825cdc7b5062789e115afa3564b7c108"));
 
         vSeeds.push_back(CDNSSeedData("0.0.0.0.", "0.0.0.0"));
 
@@ -223,12 +223,12 @@ public:
         nMaxMoneyOut = 10000000000 * COIN;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1529089192;
+        genesis.nTime = 1541086397;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 27257850;
+        genesis.nNonce = 3161322;
 
         hashGenesisBlock = genesis.GetHash();
-        uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
+       /* uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
         while (genesis.GetHash() > hashTarget)
         {
             ++genesis.nNonce;
@@ -246,7 +246,7 @@ public:
 	    printf("TN hashGenesisBlock %s\n", hashGenesisBlock.ToString().c_str());
 	    printf("TN hashMerkleRoot %s\n", genesis.hashMerkleRoot.ToString().c_str());
         printf("TN nTime %u\n", genesis.nTime);*/
-        assert(hashGenesisBlock == uint256("0x00000711a403866ce72d5c3633b93a0269495f34a091a1507bd04cdb71abafe1"));
+        assert(hashGenesisBlock == uint256("0x00000377e842c72eb7666b937b09153af325558cd021e5bea4a645a209cc75bb"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -307,13 +307,13 @@ public:
         nTargetSpacing = 1 * 60;
         bnProofOfWorkLimit = ~uint256(0) >> 1;
         nSubsidyHalvingInterval = 262800;
-        genesis.nTime = 1526435548;
-        genesis.nBits = 0x207fffff;
-        genesis.nNonce = 27257850;
+        genesis.nTime = 1541086397;
+        genesis.nBits = 0x1e0ffff0;
+        genesis.nNonce = 3161322;
 
         hashGenesisBlock = genesis.GetHash();
         uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
-        while (genesis.GetHash() > hashTarget)
+       /* while (genesis.GetHash() > hashTarget)
         {
             ++genesis.nNonce;
             if (genesis.nNonce == 0)
@@ -333,7 +333,7 @@ public:
 
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 22988;
-        assert(hashGenesisBlock == uint256("0x24904b56f3bb5bc48a4973cde58f7c16d8a4a9e78195061c5511b262e35d4a2e"));
+        assert(hashGenesisBlock == uint256("0x00000377e842c72eb7666b937b09153af325558cd021e5bea4a645a209cc75bb"));
 
         vFixedSeeds.clear(); //! Testnet mode doesn't have any fixed seeds.
         vSeeds.clear();      //! Testnet mode doesn't have any DNS seeds.
