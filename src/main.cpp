@@ -2,7 +2,7 @@
 // Copyright (c) 2009-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers
-// Copyright (c) 2018 The DraviteCoins developers
+// Copyright (c) 2018 The DraviteFlex developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -42,7 +42,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-#error "DraviteCoins cannot be compiled without assertions."
+#error "DraviteFlex cannot be compiled without assertions."
 #endif
 
 /**
@@ -96,7 +96,7 @@ static void CheckBlockIndex();
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "DraviteCoins Signed Message:\n";
+const string strMessageMagic = "DraviteFlex Signed Message:\n";
 
 // Internal stuff
 namespace
@@ -1653,11 +1653,18 @@ int64_t GetBlockValue(int nHeight)
 
 }
 
-int64_t GetMasternodePayment(int nHeight, int64_t blockValue, CAmount mnCollateral)
+int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount)
 {
-	int64_t ret = blockValue * (mnCollateral / 10000 / COIN);
+    int64_t ret = 0;
 
-	return ret;
+    if (nHeight == 0) {
+        ret = blockValue * 0;
+    }else if (nHeight > 200) {
+        ret = blockValue / 10 * 7.5; 
+    }else{
+        return blockValue * 0;
+    }
+        return ret;
 }
 
 bool IsInitialBlockDownload()
@@ -2044,7 +2051,7 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("dravitecoins-scriptch");
+    RenameThread("draviteflex-scriptch");
     scriptcheckqueue.Thread();
 }
 

@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between dravitecoins-cli and dravitecoinsd)
+ * CBaseChainParams defines the base parameters (shared between draviteflex-cli and draviteflexd)
  * of a given instance of the DRV system.
  */
 class CBaseChainParams

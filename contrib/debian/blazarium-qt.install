@@ -1,6 +1,6 @@
-usr/local/bin/dravitecoins-qt usr/bin
+usr/local/bin/draviteflex-qt usr/bin
 share/pixmaps/bitcoin32.xpm usr/share/pixmaps
 share/pixmaps/bitcoin16.xpm usr/share/pixmaps
 share/pixmaps/bitcoin128.png usr/share/pixmaps
-debian/dravitecoins-qt.desktop usr/share/applications
-debian/dravitecoins-qt.protocol usr/share/kde4/services/
+debian/draviteflex-qt.desktop usr/share/applications
+debian/draviteflex-qt.protocol usr/share/kde4/services/

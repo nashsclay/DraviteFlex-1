@@ -1,15 +1,15 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='dravitecoins.conf'
-CONFIGFOLDER='/root/.dravitecoins'
-COIN_DAEMON='dravitecoinsd'
-COIN_CLI='dravitecoins-cli'
+CONFIG_FILE='draviteflex.conf'
+CONFIGFOLDER='/root/.draviteflex'
+COIN_DAEMON='draviteflexd'
+COIN_CLI='draviteflex-cli'
 COIN_PATH='/usr/local/bin/'
-COIN_REPO='https://github.com/dravitecoins/dravitecoins.git'
+COIN_REPO='https://github.com/draviteflex/draviteflex.git'
 COIN_TGZ=''
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='DraviteCoins'
+COIN_NAME='DraviteFlex'
 COIN_PORT=25793
 RPC_PORT=22789
 

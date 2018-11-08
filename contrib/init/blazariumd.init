@@ -1,31 +1,31 @@
 #!/bin/bash
 #
-#  dravitecoinsd The DRV core server.
+#  draviteflexd The DRV core server.
 #
 #
 # chkconfig: 345 80 20
-# description: dravitecoinsd
-# processname: dravitecoinsd
+# description: draviteflexd
+# processname: draviteflexd
 #
 
 # Source function library.
 . /etc/init.d/functions
 
-# you can override defaults in /etc/sysconfig/dravitecoinsd, see below
-if [ -f /etc/sysconfig/dravitecoinsd ]; then
-        . /etc/sysconfig/dravitecoinsd
+# you can override defaults in /etc/sysconfig/draviteflexd, see below
+if [ -f /etc/sysconfig/draviteflexd ]; then
+        . /etc/sysconfig/draviteflexd
 fi
 
 RETVAL=0
 
-prog=dravitecoinsd
-# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/dravitecoinsd
-lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/dravitecoinsd}
+prog=draviteflexd
+# you can override the lockfile via BITCOIND_LOCKFILE in /etc/sysconfig/draviteflexd
+lockfile=${BITCOIND_LOCKFILE-/var/lock/subsys/draviteflexd}
 
-# dravitecoinsd defaults to /usr/bin/dravitecoinsd, override with BITCOIND_BIN
-bitcoind=${BITCOIND_BIN-/usr/bin/dravitecoinsd}
+# draviteflexd defaults to /usr/bin/draviteflexd, override with BITCOIND_BIN
+bitcoind=${BITCOIND_BIN-/usr/bin/draviteflexd}
 
-# dravitecoinsd opts default to -disablewallet, override with BITCOIND_OPTS
+# draviteflexd opts default to -disablewallet, override with BITCOIND_OPTS
 bitcoind_opts=${BITCOIND_OPTS}
 
 start() {

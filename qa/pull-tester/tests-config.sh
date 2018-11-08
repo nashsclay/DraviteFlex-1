@@ -3,7 +3,7 @@
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-BUILDDIR="/c/Users/wolfgang/Documents/Privat/Coins/Dev/DraviteCoins/dravitecoins"
+BUILDDIR="/c/Users/wolfgang/Documents/Privat/Coins/Dev/DraviteFlex/draviteflex"
 EXEEXT=".exe"
 
 # These will turn into comments if they were disabled when configuring.
@@ -11,6 +11,6 @@ ENABLE_WALLET=1
 ENABLE_UTILS=1
 ENABLE_BITCOIND=1
 
-REAL_BITCOIND="$BUILDDIR/src/dravitecoinsd${EXEEXT}"
-REAL_BITCOINCLI="$BUILDDIR/src/dravitecoins-cli${EXEEXT}"
+REAL_BITCOIND="$BUILDDIR/src/draviteflexd${EXEEXT}"
+REAL_BITCOINCLI="$BUILDDIR/src/draviteflex-cli${EXEEXT}"
 

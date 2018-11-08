@@ -1,6 +1,6 @@
 [Protocol]
-exec=dravitecoins-qt '%u'
-protocol=dravitecoins
+exec=draviteflex-qt '%u'
+protocol=draviteflex
 input=none
 output=none
 helper=true

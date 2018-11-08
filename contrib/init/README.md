@@ -1,10 +1,10 @@
 Sample configuration files for:
 
-SystemD: dravitecoinsd.service
-Upstart: dravitecoinsd.conf
-OpenRC:  dravitecoinsd.openrc
-         dravitecoinsd.openrcconf
-CentOS:  dravitecoinsd.init
+SystemD: draviteflexd.service
+Upstart: draviteflexd.conf
+OpenRC:  draviteflexd.openrc
+         draviteflexd.openrcconf
+CentOS:  draviteflexd.init
 
 have been made available to assist packagers in creating node packages here.
 

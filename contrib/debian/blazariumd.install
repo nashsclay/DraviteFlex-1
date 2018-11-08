@@ -1,2 +1,2 @@
-usr/local/bin/dravitecoinsd usr/bin
-usr/local/bin/dravitecoins-cli usr/bin
+usr/local/bin/draviteflexd usr/bin
+usr/local/bin/draviteflex-cli usr/bin

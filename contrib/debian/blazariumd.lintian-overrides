@@ -1,2 +1,2 @@
 # Linked code is Expat - only Debian packaging is GPL-2+
-dravitecoinsd: possible-gpl-code-linked-with-openssl
+draviteflexd: possible-gpl-code-linked-with-openssl

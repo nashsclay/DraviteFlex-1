@@ -30,7 +30,7 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     }
     else
     {
-        /* current difficulty formula, dravitecoins - DarkGravity v3, written by Evan Duffield - evan@dashpay.io */
+        /* current difficulty formula, draviteflex - DarkGravity v3, written by Evan Duffield - evan@dashpay.io */
         const CBlockIndex* BlockLastSolved;
         const CBlockIndex* BlockReading;
 

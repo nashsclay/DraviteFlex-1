@@ -10,7 +10,7 @@ import operator
 import os
 import sys
 
-OUT_CPP="qt/dravitecoinsstrings.cpp"
+OUT_CPP="qt/draviteflexstrings.cpp"
 EMPTY=['""']
 
 def parse_po(text):
@@ -74,10 +74,10 @@ f.write("""
 #define UNUSED
 #endif
 """)
-f.write('static const char UNUSED *dravitecoins_strings[] = {\n')
+f.write('static const char UNUSED *draviteflex_strings[] = {\n')
 messages.sort(key=operator.itemgetter(0))
 for (msgid, msgstr) in messages:
     if msgid != EMPTY:
-        f.write('QT_TRANSLATE_NOOP("dravitecoins-core", %s),\n' % ('\n'.join(msgid)))
+        f.write('QT_TRANSLATE_NOOP("draviteflex-core", %s),\n' % ('\n'.join(msgid)))
 f.write('};\n')
 f.close()

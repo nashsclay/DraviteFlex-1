@@ -2,24 +2,24 @@
 
 # backward compatibility for existing gentoo layout
 #
-if [ -d "/var/lib/dravitecoins/.dravitecoins" ]; then
-	BITCOIND_DEFAULT_DATADIR="/var/lib/dravitecoins/.dravitecoins"
+if [ -d "/var/lib/draviteflex/.draviteflex" ]; then
+	BITCOIND_DEFAULT_DATADIR="/var/lib/draviteflex/.draviteflex"
 else
-	BITCOIND_DEFAULT_DATADIR="/var/lib/dravitecoinsd"
+	BITCOIND_DEFAULT_DATADIR="/var/lib/draviteflexd"
 fi
 
-BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/dravitecoins/dravitecoins.conf}
-BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/dravitecoinsd}
-BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/dravitecoinsd.pid}
+BITCOIND_CONFIGFILE=${BITCOIND_CONFIGFILE:-/etc/draviteflex/draviteflex.conf}
+BITCOIND_PIDDIR=${BITCOIND_PIDDIR:-/var/run/draviteflexd}
+BITCOIND_PIDFILE=${BITCOIND_PIDFILE:-${BITCOIND_PIDDIR}/draviteflexd.pid}
 BITCOIND_DATADIR=${BITCOIND_DATADIR:-${BITCOIND_DEFAULT_DATADIR}}
-BITCOIND_USER=${BITCOIND_USER:-dravitecoins}
-BITCOIND_GROUP=${BITCOIND_GROUP:-dravitecoins}
-BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/dravitecoinsd}
+BITCOIND_USER=${BITCOIND_USER:-draviteflex}
+BITCOIND_GROUP=${BITCOIND_GROUP:-draviteflex}
+BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/draviteflexd}
 
-name="DraviteCoins Core Daemon"
+name="DraviteFlex Core Daemon"
 description="DRV crypto-currency p2p network daemon"
 
-command="/usr/bin/dravitecoinsd"
+command="/usr/bin/draviteflexd"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
 		-conf=\"${BITCOIND_CONFIGFILE}\" \
 		-datadir=\"${BITCOIND_DATADIR}\" \
@@ -65,7 +65,7 @@ checkconfig()
 {
 	if ! grep -qs '^rpcpassword=' "${BITCOIND_CONFIGFILE}" ; then
 		eerror ""
-		eerror "ERROR: You must set a secure rpcpassword to run dravitecoinsd."
+		eerror "ERROR: You must set a secure rpcpassword to run draviteflexd."
 		eerror "The setting must appear in ${BITCOIND_CONFIGFILE}"
 		eerror ""
 		eerror "This password is security critical to securing wallets "

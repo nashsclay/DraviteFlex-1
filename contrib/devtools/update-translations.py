@@ -26,7 +26,7 @@ import xml.etree.ElementTree as ET
 # Name of transifex tool
 TX = 'tx'
 # Name of source language file
-SOURCE_LANG = 'dravitecoins_en.ts'
+SOURCE_LANG = 'draviteflex_en.ts'
 # Directory with locale files
 LOCALE_DIR = 'src/qt/locale'
 # Minimum number of messages for translation to be considered at all

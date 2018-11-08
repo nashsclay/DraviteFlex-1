@@ -1,25 +1,25 @@
-# /etc/conf.d/dravitecoinsd: config file for /etc/init.d/dravitecoinsd
+# /etc/conf.d/draviteflexd: config file for /etc/init.d/draviteflexd
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/dravitecoins/dravitecoins.conf"
+#BITCOIND_CONFIGFILE="/etc/draviteflex/draviteflex.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
-#BITCOIND_PIDDIR="/var/run/dravitecoinsd"
+#BITCOIND_PIDDIR="/var/run/draviteflexd"
 
 # What filename to give the pidfile
-#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/dravitecoinsd.pid"
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/draviteflexd.pid"
 
-# Where to write dravitecoinsd data (be mindful that the blockchain is large)
-#BITCOIND_DATADIR="/var/lib/dravitecoinsd"
+# Where to write draviteflexd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/draviteflexd"
 
-# User and group to own dravitecoinsd process
-#BITCOIND_USER="dravitecoins"
-#BITCOIND_GROUP="dravitecoins"
+# User and group to own draviteflexd process
+#BITCOIND_USER="draviteflex"
+#BITCOIND_GROUP="draviteflex"
 
-# Path to dravitecoinsd executable
-#BITCOIND_BIN="/usr/bin/dravitecoinsd"
+# Path to draviteflexd executable
+#BITCOIND_BIN="/usr/bin/draviteflexd"
 
-# Nice value to run dravitecoinsd under
+# Nice value to run draviteflexd under
 #BITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)

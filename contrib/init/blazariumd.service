@@ -3,17 +3,17 @@ Description=DRV's distributed currency daemon
 After=network.target
 
 [Service]
-User=dravitecoins
-Group=dravitecoins
+User=draviteflex
+Group=draviteflex
 
 Type=forking
-PIDFile=/var/lib/dravitecoinsd/dravitecoinsd.pid
+PIDFile=/var/lib/draviteflexd/draviteflexd.pid
 
-ExecStart=/usr/bin/dravitecoinsd -daemon -pid=/var/lib/dravitecoinsd/dravitecoinsd.pid \
-          -conf=/etc/dravitecoins/dravitecoins.conf -datadir=/var/lib/dravitecoinsd
+ExecStart=/usr/bin/draviteflexd -daemon -pid=/var/lib/draviteflexd/draviteflexd.pid \
+          -conf=/etc/draviteflex/draviteflex.conf -datadir=/var/lib/draviteflexd
 
-ExecStop=-/usr/bin/dravitecoins-cli -conf=/etc/dravitecoins/dravitecoins.conf \
-         -datadir=/var/lib/dravitecoinsd stop
+ExecStop=-/usr/bin/draviteflex-cli -conf=/etc/draviteflex/draviteflex.conf \
+         -datadir=/var/lib/draviteflexd stop
 
 Restart=always
 PrivateTmp=true

@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
 // Copyright (c) 2014-2015 The Dash developers
 // Copyright (c) 2015-2017 The PIVX developers 
-// Copyright (c) 2018 The DraviteCoins developers
+// Copyright (c) 2018 The DraviteFlex developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -53,14 +53,14 @@ using namespace boost;
 using namespace std;
 
 const int BITCOIN_IPC_CONNECT_TIMEOUT = 1000; // milliseconds
-const QString BITCOIN_IPC_PREFIX("dravitecoins:");
+const QString BITCOIN_IPC_PREFIX("draviteflex:");
 // BIP70 payment protocol messages
 const char* BIP70_MESSAGE_PAYMENTACK = "PaymentACK";
 const char* BIP70_MESSAGE_PAYMENTREQUEST = "PaymentRequest";
 // BIP71 payment protocol media types
-const char* BIP71_MIMETYPE_PAYMENT = "application/dravitecoins-payment";
-const char* BIP71_MIMETYPE_PAYMENTACK = "application/dravitecoins-paymentack";
-const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/dravitecoins-paymentrequest";
+const char* BIP71_MIMETYPE_PAYMENT = "application/draviteflex-payment";
+const char* BIP71_MIMETYPE_PAYMENTACK = "application/draviteflex-paymentack";
+const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/draviteflex-paymentrequest";
 // BIP70 max payment request size in bytes (DoS protection)
 const qint64 BIP70_MAX_PAYMENTREQUEST_SIZE = 50000;
 
@@ -194,11 +194,11 @@ void PaymentServer::ipcParseCommandLine(int argc, char* argv[])
         if (arg.startsWith("-"))
             continue;
 
-        // If the dravitecoins: URI contains a payment request, we are not able to detect the
+        // If the draviteflex: URI contains a payment request, we are not able to detect the
         // network as that would require fetching and parsing the payment request.
         // That means clicking such an URI which contains a testnet payment request
         // will start a mainnet instance and throw a "wrong network" error.
-        if (arg.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // dravitecoins: URI
+        if (arg.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // draviteflex: URI
         {
             savedPaymentRequests.append(arg);
 
@@ -280,7 +280,7 @@ PaymentServer::PaymentServer(QObject* parent, bool startLocalServer) : QObject(p
     GOOGLE_PROTOBUF_VERIFY_VERSION;
 
     // Install global event filter to catch QFileOpenEvents
-    // on Mac: sent when you click dravitecoins: links
+    // on Mac: sent when you click draviteflex: links
     // other OSes: helpful when dealing with payment request files (in the future)
     if (parent)
         parent->installEventFilter(this);
@@ -296,7 +296,7 @@ PaymentServer::PaymentServer(QObject* parent, bool startLocalServer) : QObject(p
         if (!uriServer->listen(name)) {
             // constructor is called early in init, so don't use "emit message()" here
             QMessageBox::critical(0, tr("Payment request error"),
-                tr("Cannot start dravitecoins: click-to-pay handler"));
+                tr("Cannot start draviteflex: click-to-pay handler"));
         } else {
             connect(uriServer, SIGNAL(newConnection()), this, SLOT(handleURIConnection()));
             connect(this, SIGNAL(receivedPaymentACK(QString)), this, SLOT(handlePaymentACK(QString)));
@@ -310,12 +310,12 @@ PaymentServer::~PaymentServer()
 }
 
 //
-// OSX-specific way of handling dravitecoins: URIs and
+// OSX-specific way of handling draviteflex: URIs and
 // PaymentRequest mime types
 //
 bool PaymentServer::eventFilter(QObject* object, QEvent* event)
 {
-    // clicking on dravitecoins: URIs creates FileOpen events on the Mac
+    // clicking on draviteflex: URIs creates FileOpen events on the Mac
     if (event->type() == QEvent::FileOpen) {
         QFileOpenEvent* fileEvent = static_cast<QFileOpenEvent*>(event);
         if (!fileEvent->file().isEmpty())
@@ -336,7 +336,7 @@ void PaymentServer::initNetManager()
     if (netManager != NULL)
         delete netManager;
 
-    // netManager is used to fetch paymentrequests given in dravitecoins: URIs
+    // netManager is used to fetch paymentrequests given in draviteflex: URIs
     netManager = new QNetworkAccessManager(this);
 
     QNetworkProxy proxy;
@@ -373,7 +373,7 @@ void PaymentServer::handleURIOrFile(const QString& s)
         return;
     }
 
-    if (s.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // dravitecoins: URI
+    if (s.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // draviteflex: URI
     {
 #if QT_VERSION < 0x050000
         QUrl uri(s);
@@ -525,7 +525,7 @@ bool PaymentServer::processPaymentRequest(PaymentRequestPlus& request, SendCoins
             // Append destination address
             addresses.append(QString::fromStdString(CBitcoinAddress(dest).ToString()));
         } else if (!recipient.authenticatedMerchant.isEmpty()) {
-            // Insecure payments to custom dravitecoins addresses are not supported
+            // Insecure payments to custom draviteflex addresses are not supported
             // (there is no good way to tell the user where they are paying in a way
             // they'd have a chance of understanding).
             emit message(tr("Payment request rejected"),

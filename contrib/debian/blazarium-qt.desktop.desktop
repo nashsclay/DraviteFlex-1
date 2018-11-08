@@ -2,10 +2,10 @@
 Encoding=UTF-8
 Name=DRV
 Comment=DRV P2P Cryptocurrency
-Exec=dravitecoins-qt %u
+Exec=draviteflex-qt %u
 Terminal=false
 Type=Application
-Icon=dravitecoins128
-MimeType=x-scheme-handler/dravitecoins;
+Icon=draviteflex128
+MimeType=x-scheme-handler/draviteflex;
 Categories=Office;Finance;
-Name[en_US]=dravitecoins-qt.desktop
+Name[en_US]=draviteflex-qt.desktop
