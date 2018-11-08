@@ -1653,14 +1653,14 @@ int64_t GetBlockValue(int nHeight)
 
 }
 
-int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCount)
+int64_t GetMasternodePayment(int nHeight, int64_t blockValue, CAmount mnCollateral)
 {
-    int64_t ret = 0;
+    int64_t ret = blockValue * (mnCollateral / 10000 / COIN);
 
     if (nHeight == 0) {
         ret = blockValue * 0;
     }else if (nHeight > 200) {
-        ret = blockValue / 10 * 7.5; 
+        ret = blockValue / 10 * 7.5;
     }else{
         return blockValue * 0;
     }
