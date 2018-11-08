@@ -19,12 +19,12 @@ background-color:#fff;
 }
 
 QMenuBar::item {
-background-color:#fff;
+background-color:#FF0000;
 color:#58585a;
 }
 
 QMenuBar::item:selected {
-background-color:#03b313;
+background-color:#800000;
 color: #ffffff
 }
 
@@ -1600,7 +1600,7 @@ QLabel#transactionSumLabel { /* Example of setObjectName for widgets without nam
 color:#333333;
 font-weight:bold;
 }
- 
+
 QLabel#transactionSum { /* Example of setObjectName for widgets without name */
 color:#333333;
 }
