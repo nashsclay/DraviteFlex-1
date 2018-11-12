@@ -59,7 +59,7 @@ font-weight:bold;
 }
 
 QToolBar > QToolButton:checked {
-background-color:#03b313;
+background-color:#800000;
 color:#fff;
 font-weight:bold;
 }
