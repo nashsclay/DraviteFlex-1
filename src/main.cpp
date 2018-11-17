@@ -1621,7 +1621,7 @@ double ConvertBitsToDouble(unsigned int nBits)
 int64_t GetBlockValue(int nHeight)
 {
 
-	if (nHeight == 1) return 150000000 * COIN;
+	if (nHeight == 1) return 525000000 * COIN;
 
 	int64_t nSubsidy = 0;
 

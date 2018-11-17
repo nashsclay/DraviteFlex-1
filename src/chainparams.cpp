@@ -115,8 +115,8 @@ public:
 	      nMasternodeColleteralLimxDev = 4000; //Params().MasternodeColleteralLimxDev()
         nModifierUpdateBlock = 1; // we use the version 2 for dmd
         nMaxMoneyOut = 15000000000 * COIN;
-        nMinMnCollateral = 10000 * COIN;
-        nMaxMnCollateral = 2600000 * COIN;
+        nMinMnCollateral = 10000000 * COIN;
+        nMaxMnCollateral = 260000000 * COIN;
 
         const char* pszTimestamp = "Its time to Flex the Competition";
         CMutableTransaction txNew;
