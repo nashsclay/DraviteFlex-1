@@ -62,12 +62,12 @@
         <translation>Indirizzi di ricezione</translation>
     </message>
     <message>
-        <source>These are your DRV addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Questi sono i tuoi indirizzi DRV per inviare i pagamenti. Controlla sempre l'ammontare e l'indirizzo destinatario prima di inviare i capracoin.</translation>
+        <source>These are your DRVF addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Questi sono i tuoi indirizzi DRVF per inviare i pagamenti. Controlla sempre l'ammontare e l'indirizzo destinatario prima di inviare i capracoin.</translation>
     </message>
     <message>
-        <source>These are your DRV addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Questi sono i tuoi indirizzi di DRV per ricevere i pagamenti. Si raccomanda di usare un nuovo indirizzo di ricezione per ogni operazione.</translation>
+        <source>These are your DRVF addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Questi sono i tuoi indirizzi di DRVF per ricevere i pagamenti. Si raccomanda di usare un nuovo indirizzo di ricezione per ogni operazione.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Portafoglio cifrato</translation>
     </message>
     <message>
-        <source>DRV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your capracoins from being stolen by malware infecting your computer.</source>
-        <translation>DRV adesso si chiuderá per finire il processo di crittografia. Ricorda che crittografare il tuo portafoglio non ti da una protezione totale se il tuo computer é infettato da malware</translation>
+        <source>DRVF will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your capracoins from being stolen by malware infecting your computer.</source>
+        <translation>DRVF adesso si chiuderá per finire il processo di crittografia. Ricorda che crittografare il tuo portafoglio non ti da una protezione totale se il tuo computer é infettato da malware</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -255,8 +255,8 @@
         <translation>&amp;Invia</translation>
     </message>
     <message>
-        <source>Send coins to a DRV address</source>
-        <translation>Spedire capracoin ad un indirizzo DRV</translation>
+        <source>Send coins to a DRVF address</source>
+        <translation>Spedire capracoin ad un indirizzo DRVF</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Opzioni...</translation>
     </message>
     <message>
-        <source>Modify configuration options for DRV</source>
-        <translation>Modifica le opzioni di configurazione di DRV</translation>
+        <source>Modify configuration options for DRVF</source>
+        <translation>Modifica le opzioni di configurazione di DRVF</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Firma il &amp;messaggio...</translation>
     </message>
     <message>
-        <source>Sign messages with your DRV addresses to prove you own them</source>
-        <translation>Firma i messaggi con il tuo indirizzo DRV per dimostrarne che li possiedi</translation>
+        <source>Sign messages with your DRVF addresses to prove you own them</source>
+        <translation>Firma i messaggi con il tuo indirizzo DRVF per dimostrarne che li possiedi</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verifica messaggio...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DRV addresses</source>
-        <translation>Verificare i messaggi per assicurarsi che sono firmati con gli indirizzi specificati di DRV</translation>
+        <source>Verify messages to ensure they were signed with specified DRVF addresses</source>
+        <translation>Verificare i messaggi per assicurarsi che sono firmati con gli indirizzi specificati di DRVF</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -451,8 +451,8 @@
         <translation><numerusform>Processato %n blocco della cronologia transazioni.</numerusform><numerusform>Processati %n blocchi della cronologia transazioni.</numerusform></translation>
     </message>
     <message>
-        <source>Show the DraviteFlex Core help message to get a list with possible DRV command-line options</source>
-        <translation>Mostra il messaggio di aiuto di DraviteFlex Core per ottenere una lista con le possibili opzioni di linea di comando di DRV</translation>
+        <source>Show the DraviteFlex Core help message to get a list with possible DRVF command-line options</source>
+        <translation>Mostra il messaggio di aiuto di DraviteFlex Core per ottenere una lista con le possibili opzioni di linea di comando di DRVF</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -475,8 +475,8 @@
         <translation>Barra degli strumenti "Tabs"</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to DRV network</source>
-        <translation><numerusform>%n connessione attiva alla rete DRV</numerusform><numerusform>%n connessioni attive alla rete DRV</numerusform></translation>
+        <source>%n active connection(s) to DRVF network</source>
+        <translation><numerusform>%n connessione attiva alla rete DRVF</numerusform><numerusform>%n connessioni attive alla rete DRVF</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -865,16 +865,16 @@ Indirizzo: %4
         <translation>Configurazione Obfuscate</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DRV's configuration screen.</source>
+        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DRVF's configuration screen.</source>
         <translation>Dark send è statto correttamente impostato su base (%1 e 2 round). Puoi cambiare questa impostazione in qualsiasi momento tu lo voglia dalla finestra di configurazione.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DRV's configuration screen.</source>
-        <translation>Obfuscate è stata impostata correttamente a elevato (%1 e 8 turni). È possibile modificare in qualsiasi momento aprendo schermata di configurazione di DRV.</translation>
+        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DRVF's configuration screen.</source>
+        <translation>Obfuscate è stata impostata correttamente a elevato (%1 e 8 turni). È possibile modificare in qualsiasi momento aprendo schermata di configurazione di DRVF.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DRV's configuration screen.</source>
-        <translation>Obfuscate è stato correttamente settato al massimo (%1 e 16 rounds). Puoi cambiarlo quando vuoi aprendo la finestra di configurazione di DRV</translation>
+        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DRVF's configuration screen.</source>
+        <translation>Obfuscate è stato correttamente settato al massimo (%1 e 16 rounds). Puoi cambiarlo quando vuoi aprendo la finestra di configurazione di DRVF</translation>
     </message>
 </context>
 <context>
@@ -916,8 +916,8 @@ Indirizzo: %4
         <translation>Modifica indirizzo d'invio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DRV address.</source>
-        <translation>L'indirizzo inserito "%1" non é un indirizzo DRV valido</translation>
+        <source>The entered address "%1" is not a valid DRVF address.</source>
+        <translation>L'indirizzo inserito "%1" non é un indirizzo DRVF valido</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1021,7 +1021,7 @@ Indirizzo: %4
         <translation>Essendo la prima volta nella quale il programma viene lanciato, puoi scegliere dove DraviteFlex Core memorizzerà i propri dati.</translation>
     </message>
     <message>
-        <source>DraviteFlex Core will download and store a copy of the DRV block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>DraviteFlex Core will download and store a copy of the DRVF block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>DraviteFlex Core scaricherà e salverà una copia della blocco catena. Almeno %1GB di dati sarà immagazzinato in questa cartella e aumenterà col tempo. Anche il portafoglio sarà conservato in questa cartella.</translation>
     </message>
     <message>
@@ -1087,12 +1087,12 @@ Indirizzo: %4
         <translation>&amp;Principale</translation>
     </message>
     <message>
-        <source>Automatically start DRV after logging in to the system.</source>
+        <source>Automatically start DRVF after logging in to the system.</source>
         <translation>Esegui automaticamente DraviteFlex Core all'avvio del sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start DRV on system login</source>
-        <translation>&amp;Esegui DRV al login di sistema</translation>
+        <source>&amp;Start DRVF on system login</source>
+        <translation>&amp;Esegui DRVF al login di sistema</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1119,8 +1119,8 @@ Indirizzo: %4
         <translation>Tale importo si comporta come una soglia per spegnere Obfuscate una volta che è raggiunto.</translation>
     </message>
     <message>
-        <source>Amount of DRV to keep anonymized</source>
-        <translation>Quantitá di DRV da mantenere anonima.</translation>
+        <source>Amount of DRVF to keep anonymized</source>
+        <translation>Quantitá di DRVF da mantenere anonima.</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1135,8 +1135,8 @@ Indirizzo: %4
         <translation>Permetti connessioni in entrata</translation>
     </message>
     <message>
-        <source>Connect to the DRV network through a SOCKS5 proxy.</source>
-        <translation>Connetta a la rete DRV attraverso un SOCKS5 proxy</translation>
+        <source>Connect to the DRVF network through a SOCKS5 proxy.</source>
+        <translation>Connetta a la rete DRVF attraverso un SOCKS5 proxy</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1163,8 +1163,8 @@ Indirizzo: %4
         <translation>Rete</translation>
     </message>
     <message>
-        <source>Automatically open the DRV client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Apri automaticamente la porta utilizzata dal client DRV nel router. Funziona solo se il router supporta UPnP ed è attivato.</translation>
+        <source>Automatically open the DRVF client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Apri automaticamente la porta utilizzata dal client DRVF nel router. Funziona solo se il router supporta UPnP ed è attivato.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1215,7 +1215,7 @@ Indirizzo: %4
         <translation>&amp;Lingua Interfaccia Utente:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DRV.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting DRVF.</source>
         <translation>La lingua dell'interfaccia utente può essere impostata qui. Questo settaggio sarà attivo al riavvio del client.</translation>
     </message>
     <message>
@@ -1301,8 +1301,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Modulo</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DRV network after a connection is established, but this process has not completed yet.</source>
-        <translation>Le informazioni visualizzate potrebbero essere datate. Il portafoglio si sincronizza automaticamente con il DRV rete dopo che una connessione viene stabilizzata, ma questo processo non è stato ancora completato.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DRVF network after a connection is established, but this process has not completed yet.</source>
+        <translation>Le informazioni visualizzate potrebbero essere datate. Il portafoglio si sincronizza automaticamente con il DRVF rete dopo che una connessione viene stabilizzata, ma questo processo non è stato ancora completato.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1514,8 +1514,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Invalido indirizzo di pago %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid DRV address or malformed URI parameters.</source>
-        <translation>Impossibile interpretare l'URI! La causa puó essere un indirizzo DRV non valido o parametri URI non corretti.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid DRVF address or malformed URI parameters.</source>
+        <translation>Impossibile interpretare l'URI! La causa puó essere un indirizzo DRVF non valido o parametri URI non corretti.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1596,8 +1596,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Importo</translation>
     </message>
     <message>
-        <source>Enter a DRV address (e.g. %1)</source>
-        <translation>Inserire un indirizzo DRV (e.g. %1)</translation>
+        <source>Enter a DRVF address (e.g. %1)</source>
+        <translation>Inserire un indirizzo DRVF (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1682,7 +1682,7 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Numero di connessioni</translation>
     </message>
     <message>
-        <source>Open the DRV debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the DRVF debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Apri il file log di debug dall'attuale cartella dei dati. Può richiedere un paio di secondi per file di grossa dimensione.</translation>
     </message>
     <message>
@@ -1866,8 +1866,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Uscita:</translation>
     </message>
     <message>
-        <source>Welcome to the DRV RPC console.</source>
-        <translation>Benvenuto nella console RPC DRV</translation>
+        <source>Welcome to the DRVF RPC console.</source>
+        <translation>Benvenuto nella console RPC DRVF</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1921,8 +1921,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>R&amp;iusa un indirizzo di ricezione (non raccomandato)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DRV network.</source>
-        <translation>Messaggio opzionale da allegare alla richiesta di pagamento, che verrà visualizzato quando la richiesta verrà aperta. Nota: il messaggio non sarà inviato insieme al pagamento nel network DRV.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DRVF network.</source>
+        <translation>Messaggio opzionale da allegare alla richiesta di pagamento, che verrà visualizzato quando la richiesta verrà aperta. Nota: il messaggio non sarà inviato insieme al pagamento nel network DRVF.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2338,8 +2338,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Pagare solo la minima commissione di %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid DRV address</source>
-        <translation>ATTENZIONE: Indirizzo DRV non valido</translation>
+        <source>Warning: Invalid DRVF address</source>
+        <translation>ATTENZIONE: Indirizzo DRVF non valido</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2361,8 +2361,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Paga &amp;a:</translation>
     </message>
     <message>
-        <source>The DRV address to send the payment to</source>
-        <translation>L'indirizzo DRV per inviare il pagamento a </translation>
+        <source>The DRVF address to send the payment to</source>
+        <translation>L'indirizzo DRVF per inviare il pagamento a </translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2401,8 +2401,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Messaggio:</translation>
     </message>
     <message>
-        <source>A message that was attached to the capracoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DRV network.</source>
-        <translation>Un messaggio allegato con l'URI capracoin che verrà memorizzato nella transazione per il tuo referente. Nota: questo messaggio non verrà inviato attraverso il network DRV.</translation>
+        <source>A message that was attached to the capracoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DRVF network.</source>
+        <translation>Un messaggio allegato con l'URI capracoin che verrà memorizzato nella transazione per il tuo referente. Nota: questo messaggio non verrà inviato attraverso il network DRVF.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2451,8 +2451,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Puoi firmare messaggi con i tuoi indirizzi in modo da dimostrarne il possesso. Presta attenzione a non firmare dichiarazioni vaghe, attacchi di phishing potrebbero cercare di spingerti ad apporre la tua firma su di esse. Firma solo dichiarazioni completamente dettagliate e delle quali condividi in pieno il contenuto.</translation>
     </message>
     <message>
-        <source>The DRV address to sign the message with</source>
-        <translation>L'indirizzo DRV con cui firmare il messaggio</translation>
+        <source>The DRVF address to sign the message with</source>
+        <translation>L'indirizzo DRVF con cui firmare il messaggio</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2483,8 +2483,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Copia la firma corrente nella clipboard</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DRV address</source>
-        <translation>Firma il mssaggio per dimostrare il possesso di questo indirizzo DRV</translation>
+        <source>Sign the message to prove you own this DRVF address</source>
+        <translation>Firma il mssaggio per dimostrare il possesso di questo indirizzo DRVF</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2507,12 +2507,12 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Inserisci l'indirizzo del firmatario, il messaggio (assicurati di copiare esattamente anche i ritorni a capo, gli spazi, le tabulazioni, etc..) e la firma qui sotto, per verificare il messaggio. Presta attenzione a non vedere nella firma più di quanto non sia riportato nel messaggio stesso, per evitare di cadere vittima di attacchi di tipo man-in-the-middle.</translation>
     </message>
     <message>
-        <source>The DRV address the message was signed with</source>
-        <translation>L'indirizzo DRV con cui era firmato il messaggio</translation>
+        <source>The DRVF address the message was signed with</source>
+        <translation>L'indirizzo DRVF con cui era firmato il messaggio</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DRV address</source>
-        <translation>Verifica il messaggio per assicurarti sia stato firmato con l'indirizzo DRV specificato</translation>
+        <source>Verify the message to ensure it was signed with the specified DRVF address</source>
+        <translation>Verifica il messaggio per assicurarti sia stato firmato con l'indirizzo DRVF specificato</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>

@@ -50,9 +50,9 @@ Var StartMenuGroup
 # Installer attributes
 OutFile /c/Users/wolfgang/Documents/Privat/Coins/Dev/DraviteFlex/draviteflex/draviteflex-${VERSION}-win32-setup.exe
 !if "32" == "64"
-InstallDir $PROGRAMFILES64\DRV
+InstallDir $PROGRAMFILES64\DRVF
 !else
-InstallDir $PROGRAMFILES\DRV
+InstallDir $PROGRAMFILES\DRVF
 !endif
 CRCCheck on
 XPStyle on
@@ -107,7 +107,7 @@ Section -post SEC0001
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
     WriteRegStr HKCR "draviteflex" "URL Protocol" ""
-    WriteRegStr HKCR "draviteflex" "" "URL:DRV"
+    WriteRegStr HKCR "draviteflex" "" "URL:DRVF"
     WriteRegStr HKCR "draviteflex\DefaultIcon" "" $INSTDIR\draviteflex-qt.exe
     WriteRegStr HKCR "draviteflex\shell\open\command" "" '"$INSTDIR\draviteflex-qt.exe" "%1"'
 SectionEnd
@@ -139,7 +139,7 @@ Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk"
     Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk"
-    Delete /REBOOTOK "$SMSTARTUP\DRV.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\DRVF.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log

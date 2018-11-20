@@ -62,12 +62,12 @@
         <translation>Adresa prijatia</translation>
     </message>
     <message>
-        <source>These are your DRV addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto sú Vaše DRV adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
+        <source>These are your DRVF addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto sú Vaše DRVF adresy pre posielanie platieb. Pred poslaním mincí vždy overte sumu a doručovaciu adresu.</translation>
     </message>
     <message>
-        <source>These are your DRV addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto sú Vaše DRV adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
+        <source>These are your DRVF addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto sú Vaše DRVF adresy pre posielanie platieb. Pre každú transakciu sa doporučuje použiť novú doručovaciu adresu.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Peňaženka zašifrovaná</translation>
     </message>
     <message>
-        <source>DRV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your capracoins from being stolen by malware infecting your computer.</source>
-        <translation>DRVCoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť Vaše mince pred krádežou škodlivým softvérom, ktorý napadol váš počítač.</translation>
+        <source>DRVF will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your capracoins from being stolen by malware infecting your computer.</source>
+        <translation>DRVFCoin sa teraz ukončí, aby dokončil proces šifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť Vaše mince pred krádežou škodlivým softvérom, ktorý napadol váš počítač.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -255,8 +255,8 @@
         <translation>&amp;Odoslať</translation>
     </message>
     <message>
-        <source>Send coins to a DRV address</source>
-        <translation>Poslať mince na DRV adresu</translation>
+        <source>Send coins to a DRVF address</source>
+        <translation>Poslať mince na DRVF adresu</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -264,7 +264,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and capracoin: URIs)</source>
-        <translation>Vyžiadať platby (vygeneruje QR kódy a DRV: URI)</translation>
+        <translation>Vyžiadať platby (vygeneruje QR kódy a DRVF: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Možnosti...</translation>
     </message>
     <message>
-        <source>Modify configuration options for DRV</source>
-        <translation>Upraviť možnosti konfigurácie pre DRV</translation>
+        <source>Modify configuration options for DRVF</source>
+        <translation>Upraviť možnosti konfigurácie pre DRVF</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Podpísať &amp;správu...</translation>
     </message>
     <message>
-        <source>Sign messages with your DRV addresses to prove you own them</source>
-        <translation>Podpísať správy s Vašimi DRV adresami ako dôkaz že ich vlastníte</translation>
+        <source>Sign messages with your DRVF addresses to prove you own them</source>
+        <translation>Podpísať správy s Vašimi DRVF adresami ako dôkaz že ich vlastníte</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>Overiť správu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DRV addresses</source>
-        <translation>Overiť správy pre uistenie, že boli podpísané zadanými DRV adresami</translation>
+        <source>Verify messages to ensure they were signed with specified DRVF addresses</source>
+        <translation>Overiť správy pre uistenie, že boli podpísané zadanými DRVF adresami</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -463,8 +463,8 @@
         <translation>Synchronizujú sa ďalšie dáta: %p%</translation>
     </message>
     <message>
-        <source>Show the DraviteCoins Core help message to get a list with possible DRV command-line options</source>
-        <translation>Zobraziť DraviteCoins Core nápovedu k získaniu zoznamu možností príkazového riadku DRV.</translation>
+        <source>Show the DraviteCoins Core help message to get a list with possible DRVF command-line options</source>
+        <translation>Zobraziť DraviteCoins Core nápovedu k získaniu zoznamu možností príkazového riadku DRVF.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Lišta záložiek</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to DRV network</source>
-        <translation><numerusform>%n aktívne spojenie so sieťou DRV</numerusform><numerusform>%n aktívne spojenia so sieťou DRV</numerusform><numerusform>%n aktívnych spojení so sieťou DRV</numerusform></translation>
+        <source>%n active connection(s) to DRVF network</source>
+        <translation><numerusform>%n aktívne spojenie so sieťou DRVF</numerusform><numerusform>%n aktívne spojenia so sieťou DRVF</numerusform><numerusform>%n aktívnych spojení so sieťou DRVF</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -895,16 +895,16 @@ Adresa: %4</translation>
         <translation>Konfigurácia Obfuscate</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DRV's configuration screen.</source>
-        <translation>Obfuscate bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky DRV.</translation>
+        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DRVF's configuration screen.</source>
+        <translation>Obfuscate bol úspešne nastavený na základnú hodnotu (%1 a 2 kolá). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky DRVF.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DRV's configuration screen.</source>
-        <translation>Obfuscate bol úspešne nastavený na vysokú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky DRV.</translation>
+        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DRVF's configuration screen.</source>
+        <translation>Obfuscate bol úspešne nastavený na vysokú hodnotu (%1 a 8 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky DRVF.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DRV's configuration screen.</source>
-        <translation>Obfuscate bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky DRV.</translation>
+        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DRVF's configuration screen.</source>
+        <translation>Obfuscate bol úspešne nastavený na maximálnu hodnotu (%1 a 16 kôl). Toto nastavenie môžete kedykoľvek zmeniť otvorením konfiguračnej obrazovky DRVF.</translation>
     </message>
 </context>
 <context>
@@ -946,8 +946,8 @@ Adresa: %4</translation>
         <translation>Upraviť odosielaciu adresu</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DRV address.</source>
-        <translation>Zadaná adresa "%1" nie je platná DRV adresa.</translation>
+        <source>The entered address "%1" is not a valid DRVF address.</source>
+        <translation>Zadaná adresa "%1" nie je platná DRVF adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1055,8 +1055,8 @@ Adresa: %4</translation>
         <translation>Keďže toto je prvý krát čo spúšťate tento program, môžete vybrať kam bude DraviteCoins Core ukladať svoje dáta.</translation>
     </message>
     <message>
-        <source>DraviteCoins Core will download and store a copy of the DRV block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>DraviteCoins Core stiahne a uloží kópiu reťazca blokov DRV. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
+        <source>DraviteCoins Core will download and store a copy of the DRVF block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>DraviteCoins Core stiahne a uloží kópiu reťazca blokov DRVF. Pri najmenej %1GB dát bude uložených v tejto zložke and bude ďalej rásť. Peňaženka bude tiež uložená v tejto zložke.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1121,12 +1121,12 @@ Adresa: %4</translation>
         <translation>&amp;Hlavné</translation>
     </message>
     <message>
-        <source>Automatically start DRV after logging in to the system.</source>
-        <translation>Automaticky spustiť DRV po prihlásení do systému.</translation>
+        <source>Automatically start DRVF after logging in to the system.</source>
+        <translation>Automaticky spustiť DRVF po prihlásení do systému.</translation>
     </message>
     <message>
-        <source>&amp;Start DRV on system login</source>
-        <translation>&amp;Spusť DRV po prihlásení do systému</translation>
+        <source>&amp;Start DRVF on system login</source>
+        <translation>&amp;Spusť DRVF po prihlásení do systému</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1153,8 +1153,8 @@ Adresa: %4</translation>
         <translation>Táto suma slúži ako hranica pre vypnutie Obfuscate akonáhle je dosiahnutá</translation>
     </message>
     <message>
-        <source>Amount of DRV to keep anonymized</source>
-        <translation>Suma DRV ktorú držať anonymne </translation>
+        <source>Amount of DRVF to keep anonymized</source>
+        <translation>Suma DRVF ktorú držať anonymne </translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1173,8 +1173,8 @@ Adresa: %4</translation>
         <translation>Povoliť prichádzajúce spojenia</translation>
     </message>
     <message>
-        <source>Connect to the DRV network through a SOCKS5 proxy.</source>
-        <translation>Pripojiť sa do siete DRV cez proxy SOCKS5.</translation>
+        <source>Connect to the DRVF network through a SOCKS5 proxy.</source>
+        <translation>Pripojiť sa do siete DRVF cez proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1205,8 +1205,8 @@ Adresa: %4</translation>
         <translation>Sieť</translation>
     </message>
     <message>
-        <source>Automatically open the DRV client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť na smerovači port pre DRV klient. Toto funguje iba ak Váš smerovač  podporuje UPnP a je povolené</translation>
+        <source>Automatically open the DRVF client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť na smerovači port pre DRVF klient. Toto funguje iba ak Váš smerovač  podporuje UPnP a je povolené</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1257,8 +1257,8 @@ Adresa: %4</translation>
         <translation>Jazyk užívateľského rozhrania:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DRV.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského prostredia. Toto nastavenie sa prejaví po reštartovaní DRV.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting DRVF.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského prostredia. Toto nastavenie sa prejaví po reštartovaní DRVF.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1346,8 +1346,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Forma</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DRV network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou DRV akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DRVF network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky zosynchronizuje so sieťou DRVF akonáhle nadviaže spojenie, avšak tento proces ešte nebol dokončený.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1568,7 +1568,7 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
     </message>
     <message>
         <source>Cannot start capracoin: click-to-pay handler</source>
-        <translation>DRV sa nedá spustiť: click-to-pay handler</translation>
+        <translation>DRVF sa nedá spustiť: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1587,8 +1587,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Neplatná adresa platby %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid DRV address or malformed URI parameters.</source>
-        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou DRV adresou, alebo nesprávnym tvarom URI parametrov.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid DRVF address or malformed URI parameters.</source>
+        <translation>URI sa nedá analyzovať! Toto môže byť spôsobené neplatnou DRVF adresou, alebo nesprávnym tvarom URI parametrov.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1673,8 +1673,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Suma</translation>
     </message>
     <message>
-        <source>Enter a DRV address (e.g. %1)</source>
-        <translation>Zadajte DRV adresu (e.g. %1)</translation>
+        <source>Enter a DRVF address (e.g. %1)</source>
+        <translation>Zadajte DRVF adresu (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1763,8 +1763,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Počet pripojení</translation>
     </message>
     <message>
-        <source>Open the DRV debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvoriť denník ladenia DRV zo súčastného adresára. Môže trvať niekoľko sekúnd ak je súbor veľký.</translation>
+        <source>Open the DRVF debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvoriť denník ladenia DRVF zo súčastného adresára. Môže trvať niekoľko sekúnd ak je súbor veľký.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1971,8 +1971,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Von:</translation>
     </message>
     <message>
-        <source>Welcome to the DRV RPC console.</source>
-        <translation>Vitajte v konzole DRV RPC</translation>
+        <source>Welcome to the DRVF RPC console.</source>
+        <translation>Vitajte v konzole DRVF RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2034,8 +2034,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Znovu použiť jestvujúcu prijímaciu adresu (neodporúča sa)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DRV network.</source>
-        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť DRV.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DRVF network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. Poznámka: Správa nebude poslaná spolu s platbou cez sieť DRVF.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2046,8 +2046,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Voliteľný popis ktorý sa pridá k tejto novej prijímajúcej adrese.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DRV network.</source>
-        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť DRV.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DRVF network.</source>
+        <translation>Pripojiť ku vyžiadanej platbe voliteľnú správu, ktorá sa zobrazí, keď bude žiadosť otvorená. &lt;br&gt;Poznámka: Správa nebude poslaná spolu s platbou cez sieť DRVF.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2292,7 +2292,7 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for capracoin transactions than the network can process.</source>
-        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po DRV transakciách väčší ako dokáže sieť DRV spracovať.</translation>
+        <translation>Platenie minimálneho poplatku je v poriadku pokiaľ je objem transakcií menší ako je miesto v bloku. &lt;br /&gt;Buďte opatrný pretože to môže skončiť s nikdy nepotvrdenými transakciami, akonáhle je dopyt po DRVF transakciách väčší ako dokáže sieť DRVF spracovať.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
@@ -2495,8 +2495,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Platiť iba minimálny poplatok %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid DRV address</source>
-        <translation>Upozornenie: Neplatná DRV adresa</translation>
+        <source>Warning: Invalid DRVF address</source>
+        <translation>Upozornenie: Neplatná DRVF adresa</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2518,8 +2518,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Zapla&amp;tiť:</translation>
     </message>
     <message>
-        <source>The DRV address to send the payment to</source>
-        <translation>DRV adresa pre poslanie platby</translation>
+        <source>The DRVF address to send the payment to</source>
+        <translation>DRVF adresa pre poslanie platby</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2558,8 +2558,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Správa:</translation>
     </message>
     <message>
-        <source>A message that was attached to the capracoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DRV network.</source>
-        <translation>Správa ktorá bola pripojená ku capracoin: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť DRV.</translation>
+        <source>A message that was attached to the capracoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DRVF network.</source>
+        <translation>Správa ktorá bola pripojená ku capracoin: URI ktorá sa uchová spolu s transakciou pre Vašu referenciu. Poznámka: Táto správa nebude poslaná cez sieť DRVF.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2586,7 +2586,7 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
     <name>ShutdownWindow</name>
     <message>
         <source>DraviteCoins Core is shutting down...</source>
-        <translation>DRV core sa vypína...</translation>
+        <translation>DRVF core sa vypína...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2608,8 +2608,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Môžete podpísať správy svojou adresou a dokázať, že ju vlastníte. Buďte opatrní a podpíšte len prehlásenia s ktorými plne súhlasíte, nakoľko útoky typu "phishing" Vás môžu lákať k ich podpísaniu.</translation>
     </message>
     <message>
-        <source>The DRV address to sign the message with</source>
-        <translation>DRV adresa na podpísanie správy</translation>
+        <source>The DRVF address to sign the message with</source>
+        <translation>DRVF adresa na podpísanie správy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2640,8 +2640,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Kopírovať práve zvolenú adresu do systémového klipbordu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DRV address</source>
-        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto DRV adresu</translation>
+        <source>Sign the message to prove you own this DRVF address</source>
+        <translation>Podpísať spravu aby ste dokázali, že vlastníte túto DRVF adresu</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2664,12 +2664,12 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Vložte podpisovaciu adresu, správu (uistite sa, že kopírujete ukončenia riadkov, medzery, odrážky, atď. presne) a podpis pod to na overenie adresy. Buďte opatrní a nečítajte ako podpísané viac než je v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu mitm útokom.</translation>
     </message>
     <message>
-        <source>The DRV address the message was signed with</source>
-        <translation>Adresa DRV s ktorou bola podpísaná správa</translation>
+        <source>The DRVF address the message was signed with</source>
+        <translation>Adresa DRVF s ktorou bola podpísaná správa</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DRV address</source>
-        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou DRV adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified DRVF address</source>
+        <translation>Overiť správu pre uistenie, že bola podpísaná zadanou DRVF adresou</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3613,8 +3613,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Vymazať všetky transakcie z peňaženky a pri spustení znova získať z reťazca blokov iba tie získané pomocou -rescan</translation>
     </message>
     <message>
-        <source>Disable all DRV specific functionality (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Vypnúť všetky funkcie špecifické pre DRV (Masternode, Obfuscate, InstantX, Rozpočty) (0-1, predvolené: %u)</translation>
+        <source>Disable all DRVF specific functionality (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Vypnúť všetky funkcie špecifické pre DRVF (Masternode, Obfuscate, InstantX, Rozpočty) (0-1, predvolené: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3718,7 +3718,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "DRV Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "DRVF Alert" admin@foo.com
 </source>
         <translation>Pre použitie možnosti -server pre capracoin-qt, musíte nastaviť rpcpassword v konfiguračnom súbore:
 %s
@@ -3729,7 +3729,7 @@ rpcpassword=%s
 Používateľské meno a heslo NEMÔŽU byť rovnaké.
 Ak súbor neexistuje, vytvoriť na nastaviť práva tak aby ho mohol čítať iba vlastník.
 Tiež sa doporučuje nastaviť alertnotify, aby ste boli upozornený na problém,
-napríklad: alertnotify=echo %%s | mail -s "DRV Upozornenie" admin@foo.com
+napríklad: alertnotify=echo %%s | mail -s "DRVF Upozornenie" admin@foo.com
 </translation>
     </message>
     <message>
@@ -3800,7 +3800,7 @@ napríklad: alertnotify=echo %%s | mail -s "DRV Upozornenie" admin@foo.com
     </message>
     <message>
         <source>Copyright (C) 2014-%i The DraviteCoins Core Developers</source>
-        <translation>Autorské práva (C) 2014-%i Vývojári jadra DRV</translation>
+        <translation>Autorské práva (C) 2014-%i Vývojári jadra DRVF</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>

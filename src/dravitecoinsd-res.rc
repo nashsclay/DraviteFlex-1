@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "DRV"
-            VALUE "FileDescription",    "dravitecoinsd (OSS daemon/client for DRV)"
+            VALUE "CompanyName",        "DRVF"
+            VALUE "FileDescription",    "dravitecoinsd (OSS daemon/client for DRVF)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "dravitecoinsd"
             VALUE "LegalCopyright",     COPYRIGHT_STR

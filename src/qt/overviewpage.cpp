@@ -33,7 +33,7 @@ class TxViewDelegate : public QAbstractItemDelegate
 {
     Q_OBJECT
 public:
-    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::DRV)
+    TxViewDelegate() : QAbstractItemDelegate(), unit(BitcoinUnits::DRVF)
     {
     }
 
@@ -283,7 +283,7 @@ void OverviewPage::setWalletModel(WalletModel* model)
         connect(model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyLabels(bool)));
     }
 
-    // update the display unit, to not use the default ("DRV")
+    // update the display unit, to not use the default ("DRVF")
     updateDisplayUnit();
 }
 
@@ -322,15 +322,15 @@ void OverviewPage::updateDarksendProgress()
     if (!pwalletMain) return;
 
     QString strAmountAndRounds;
-    QString strAnonymizeDRVAmount = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nAnonymizeDRVAmount * COIN, false, BitcoinUnits::separatorAlways);
+    QString strAnonymizeDRVFAmount = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nAnonymizeDRVFAmount * COIN, false, BitcoinUnits::separatorAlways);
 
     if (currentBalance == 0) {
         ui->DarksendProgress->setValue(0);
         ui->DarksendProgress->setToolTip(tr("No inputs detected"));
 
         // when balance is zero just show info from settings
-        strAnonymizeDRVAmount = strAnonymizeDRVAmount.remove(strAnonymizeDRVAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
-        strAmountAndRounds = strAnonymizeDRVAmount + " / " + tr("%n Rounds", "", nDarksendRounds);
+        strAnonymizeDRVFAmount = strAnonymizeDRVFAmount.remove(strAnonymizeDRVFAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
+        strAmountAndRounds = strAnonymizeDRVFAmount + " / " + tr("%n Rounds", "", nDarksendRounds);
 
         ui->labelAmountRounds->setToolTip(tr("No inputs detected"));
         ui->labelAmountRounds->setText(strAmountAndRounds);
@@ -357,20 +357,20 @@ void OverviewPage::updateDarksendProgress()
     CAmount nMaxToAnonymize = nAnonymizableBalance + currentAnonymizedBalance + nDenominatedUnconfirmedBalance;
 
     // If it's more than the anon threshold, limit to that.
-    if (nMaxToAnonymize > nAnonymizeDRVAmount * COIN) nMaxToAnonymize = nAnonymizeDRVAmount * COIN;
+    if (nMaxToAnonymize > nAnonymizeDRVFAmount * COIN) nMaxToAnonymize = nAnonymizeDRVFAmount * COIN;
 
     if (nMaxToAnonymize == 0) return;
 
-    if (nMaxToAnonymize >= nAnonymizeDRVAmount * COIN) {
+    if (nMaxToAnonymize >= nAnonymizeDRVFAmount * COIN) {
         ui->labelAmountRounds->setToolTip(tr("Found enough compatible inputs to anonymize %1")
-                                              .arg(strAnonymizeDRVAmount));
-        strAnonymizeDRVAmount = strAnonymizeDRVAmount.remove(strAnonymizeDRVAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
-        strAmountAndRounds = strAnonymizeDRVAmount + " / " + tr("%n Rounds", "", nDarksendRounds);
+                                              .arg(strAnonymizeDRVFAmount));
+        strAnonymizeDRVFAmount = strAnonymizeDRVFAmount.remove(strAnonymizeDRVFAmount.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
+        strAmountAndRounds = strAnonymizeDRVFAmount + " / " + tr("%n Rounds", "", nDarksendRounds);
     } else {
         QString strMaxToAnonymize = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nMaxToAnonymize, false, BitcoinUnits::separatorAlways);
         ui->labelAmountRounds->setToolTip(tr("Not enough compatible inputs to anonymize <span style='color:red;'>%1</span>,<br>"
                                              "will anonymize <span style='color:red;'>%2</span> instead")
-                                              .arg(strAnonymizeDRVAmount)
+                                              .arg(strAnonymizeDRVFAmount)
                                               .arg(strMaxToAnonymize));
         strMaxToAnonymize = strMaxToAnonymize.remove(strMaxToAnonymize.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
         strAmountAndRounds = "<span style='color:red;'>" +
@@ -541,7 +541,7 @@ void OverviewPage::toggleDarksend()
 
         /* show Darksend configuration if client has defaults set */
 
-        if (nAnonymizeDRVAmount == 0) {
+        if (nAnonymizeDRVFAmount == 0) {
             DarksendConfig dlg(this);
             dlg.setModel(walletModel);
             dlg.exec();

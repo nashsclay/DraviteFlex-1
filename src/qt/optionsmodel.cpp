@@ -62,7 +62,7 @@ void OptionsModel::Init()
 
     // Display
     if (!settings.contains("nDisplayUnit"))
-        settings.setValue("nDisplayUnit", BitcoinUnits::DRV);
+        settings.setValue("nDisplayUnit", BitcoinUnits::DRVF);
     nDisplayUnit = settings.value("nDisplayUnit").toInt();
 
     if (!settings.contains("strThirdPartyTxUrls"))
@@ -76,11 +76,11 @@ void OptionsModel::Init()
     if (!settings.contains("nDarksendRounds"))
         settings.setValue("nDarksendRounds", 2);
 
-    if (!settings.contains("nAnonymizeDRVAmount"))
-        settings.setValue("nAnonymizeDRVAmount", 1000);
+    if (!settings.contains("nAnonymizeDRVFAmount"))
+        settings.setValue("nAnonymizeDRVFAmount", 1000);
 
     nDarksendRounds = settings.value("nDarksendRounds").toLongLong();
-    nAnonymizeDRVAmount = settings.value("nAnonymizeDRVAmount").toLongLong();
+    nAnonymizeDRVFAmount = settings.value("nAnonymizeDRVFAmount").toLongLong();
 
     if (!settings.contains("fShowMasternodesTab"))
         settings.setValue("fShowMasternodesTab", masternodeConfig.getCount());
@@ -147,8 +147,8 @@ void OptionsModel::Init()
 
     if (settings.contains("nDarksendRounds"))
         SoftSetArg("-Darksendrounds", settings.value("nDarksendRounds").toString().toStdString());
-    if (settings.contains("nAnonymizeDRVAmount"))
-        SoftSetArg("-anonymizedraviteflexamount", settings.value("nAnonymizeDRVAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeDRVFAmount"))
+        SoftSetArg("-anonymizedraviteflexamount", settings.value("nAnonymizeDRVFAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }
@@ -228,8 +228,8 @@ QVariant OptionsModel::data(const QModelIndex& index, int role) const
             return settings.value("nThreadsScriptVerif");
         case DarksendRounds:
             return QVariant(nDarksendRounds);
-        case AnonymizeDRVAmount:
-            return QVariant(nAnonymizeDRVAmount);
+        case AnonymizeDRVFAmount:
+            return QVariant(nAnonymizeDRVFAmount);
         case Listen:
             return settings.value("fListen");
         default:
@@ -338,10 +338,10 @@ bool OptionsModel::setData(const QModelIndex& index, const QVariant& value, int 
             settings.setValue("nDarksendRounds", nDarksendRounds);
             emit DarksendRoundsChanged(nDarksendRounds);
             break;
-        case AnonymizeDRVAmount:
-            nAnonymizeDRVAmount = value.toInt();
-            settings.setValue("nAnonymizeDRVAmount", nAnonymizeDRVAmount);
-            emit anonymizeDRVAmountChanged(nAnonymizeDRVAmount);
+        case AnonymizeDRVFAmount:
+            nAnonymizeDRVFAmount = value.toInt();
+            settings.setValue("nAnonymizeDRVFAmount", nAnonymizeDRVFAmount);
+            emit anonymizeDRVFAmountChanged(nAnonymizeDRVFAmount);
             break;
         case CoinControlFeatures:
             fCoinControlFeatures = value.toBool();

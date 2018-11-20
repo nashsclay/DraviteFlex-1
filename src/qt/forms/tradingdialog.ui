@@ -181,7 +181,7 @@
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="DRVSupply">
+    <widget class="QLabel" name="DRVFSupply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -197,7 +197,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="DRVDemand">
+    <widget class="QLabel" name="DRVFDemand">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -432,7 +432,7 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QPushButton" name="BuyDRV">
+    <widget class="QPushButton" name="BuyDRVF">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -442,7 +442,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Buy DRV</string>
+      <string>Buy DRVF</string>
      </property>
      <property name="icon">
       <iconset resource="../draviteflex.qrc">
@@ -512,7 +512,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>DRV</string>
+      <string>DRVF</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
@@ -1704,10 +1704,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>DRV</string>
+      <string>DRVF</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="UnitsInputDRV">
+    <widget class="QLineEdit" name="UnitsInputDRVF">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -1741,7 +1741,7 @@
       </font>
      </property>
     </widget>
-    <widget class="QPushButton" name="SellDRVBTN">
+    <widget class="QPushButton" name="SellDRVFBTN">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1751,7 +1751,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Sell DRV</string>
+      <string>Sell DRVF</string>
      </property>
      <property name="icon">
       <iconset resource="../draviteflex">
@@ -1777,12 +1777,12 @@
          </font>
         </property>
         <property name="text">
-         <string>DRV Available:</string>
+         <string>DRVF Available:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="DRVAvailableLabel">
+       <widget class="QLabel" name="DRVFAvailableLabel">
         <property name="palette">
          <palette>
           <active>
@@ -2213,7 +2213,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="labelDRV">
+       <widget class="QLabel" name="labelDRVF">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -2221,7 +2221,7 @@
          </font>
         </property>
         <property name="text">
-         <string>DRV</string>
+         <string>DRVF</string>
         </property>
        </widget>
       </item>
@@ -2733,7 +2733,7 @@
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="DRVBalanceLabel">
+    <widget class="QLabel" name="DRVFBalanceLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2762,7 +2762,7 @@
       </font>
      </property>
      <property name="text">
-      <string>DRV Balance:</string>
+      <string>DRVF Balance:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_12">
@@ -2784,7 +2784,7 @@
       <string>BTC Balance:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="DRVAvailableLabel_2">
+    <widget class="QLabel" name="DRVFAvailableLabel_2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2813,7 +2813,7 @@
       </font>
      </property>
      <property name="text">
-      <string>DRV Available:</string>
+      <string>DRVF Available:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -2832,10 +2832,10 @@
       </font>
      </property>
      <property name="text">
-      <string>DRV Pending:</string>
+      <string>DRVF Pending:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="DRVPendingLabel">
+    <widget class="QLabel" name="DRVFPendingLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2928,7 +2928,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Bittrex DRV Deposit Address:</string>
+      <string>Bittrex DRVF Deposit Address:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="GenDepositBTN">
@@ -2941,7 +2941,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Generate DRV Deposit Address</string>
+      <string>Generate DRVF Deposit Address</string>
      </property>
      <property name="icon">
       <iconset resource="../draviteflex.qrc">
@@ -3155,7 +3155,7 @@
        <string notr="true">border: 1px solid #61696c;margin-left:4px;</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnConvertDRV">
+     <widget class="QPushButton" name="btnConvertDRVF">
       <property name="geometry">
        <rect>
         <x>260</x>

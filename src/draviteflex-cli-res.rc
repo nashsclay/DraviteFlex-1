@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "DRV"
-            VALUE "FileDescription",    "DRV-cli (OSS RPC client for DRV)"
+            VALUE "CompanyName",        "DRVF"
+            VALUE "FileDescription",    "DRVF-cli (OSS RPC client for DRVF)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "draviteflex-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "draviteflex-cli.exe"
-            VALUE "ProductName",        "DRV-cli"
+            VALUE "ProductName",        "DRVF-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

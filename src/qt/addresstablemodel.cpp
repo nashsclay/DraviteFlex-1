@@ -306,7 +306,7 @@ void AddressTableModel::updateEntry(const QString& address,
     const QString& purpose,
     int status)
 {
-    // Update address book model from DRV core
+    // Update address book model from DRVF core
     priv->updateEntry(address, label, isMine, purpose, status);
 }
 

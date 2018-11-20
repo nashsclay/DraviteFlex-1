@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-# Use the raw transactions API to spend DRVs received on particular addresses,
+# Use the raw transactions API to spend DRVFs received on particular addresses,
 # and send any change back to that same address.
 #
 # Example usage:
@@ -221,9 +221,9 @@ def main():
 
     parser = optparse.OptionParser(usage="%prog [options]")
     parser.add_option("--from", dest="fromaddresses", default=None,
-                      help="addresses to get DRVs from")
+                      help="addresses to get DRVFs from")
     parser.add_option("--to", dest="to", default=None,
-                      help="address to get send DRVs to")
+                      help="address to get send DRVFs to")
     parser.add_option("--amount", dest="amount", default=None,
                       help="amount to send")
     parser.add_option("--fee", dest="fee", default="0.0",

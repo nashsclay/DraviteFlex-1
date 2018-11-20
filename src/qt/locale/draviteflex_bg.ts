@@ -62,12 +62,12 @@
         <translation>Адреси за получаване</translation>
     </message>
     <message>
-        <source>These are your DRV addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Това са вашите DRV адреси за изпращане на плащания. Преди изпращане винаги проверявайте количеството и адреса за получаване на монетите.</translation>
+        <source>These are your DRVF addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са вашите DRVF адреси за изпращане на плащания. Преди изпращане винаги проверявайте количеството и адреса за получаване на монетите.</translation>
     </message>
     <message>
-        <source>These are your DRV addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите DRV адреси за получаване на плащания. Препоръчително е да използвате нов адрес за всяка нова транзакция. </translation>
+        <source>These are your DRVF addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите DRVF адреси за получаване на плащания. Препоръчително е да използвате нов адрес за всяка нова транзакция. </translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Портфейлът е шифриран</translation>
     </message>
     <message>
-        <source>DRV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your capracoins from being stolen by malware infecting your computer.</source>
-        <translation>DRV ще се затвори, за да завърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да ви предпази от кражба на монетите чрез зловреден софтуер инфектирал компютъра ви. </translation>
+        <source>DRVF will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your capracoins from being stolen by malware infecting your computer.</source>
+        <translation>DRVF ще се затвори, за да завърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да ви предпази от кражба на монетите чрез зловреден софтуер инфектирал компютъра ви. </translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -232,7 +232,7 @@
     <name>BitcoinGUI</name>
     <message>
         <source>DraviteFlex Core</source>
-        <translation>DRV Ядро</translation>
+        <translation>DRVF Ядро</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,8 +255,8 @@
         <translation>&amp;Изпращане</translation>
     </message>
     <message>
-        <source>Send coins to a DRV address</source>
-        <translation>Изпращане на монети към DRV адрес</translation>
+        <source>Send coins to a DRVF address</source>
+        <translation>Изпращане на монети към DRVF адрес</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -264,7 +264,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and capracoin: URIs)</source>
-        <translation>Заявка за плащане (генерира QR кодове и DRV: URI)</translation>
+        <translation>Заявка за плащане (генерира QR кодове и DRVF: URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -284,7 +284,7 @@
     </message>
     <message>
         <source>&amp;About DraviteFlex Core</source>
-        <translation>&amp;За DRV ядрото</translation>
+        <translation>&amp;За DRVF ядрото</translation>
     </message>
     <message>
         <source>Show information about DraviteFlex Core</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Опции...</translation>
     </message>
     <message>
-        <source>Modify configuration options for DRV</source>
-        <translation>Промяна на опции за конфигуриране на DRV</translation>
+        <source>Modify configuration options for DRVF</source>
+        <translation>Промяна на опции за конфигуриране на DRVF</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>Подписване на &amp;съобщение...</translation>
     </message>
     <message>
-        <source>Sign messages with your DRV addresses to prove you own them</source>
-        <translation>Подпиши съобщения с твоите DRV адреси за да докажеш че ги притежаваш</translation>
+        <source>Sign messages with your DRVF addresses to prove you own them</source>
+        <translation>Подпиши съобщения с твоите DRVF адреси за да докажеш че ги притежаваш</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Проверка на съобщение...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DRV addresses</source>
-        <translation>Проверете съобщенията, за да сте сигурни че са подписани с определен DRV адрес</translation>
+        <source>Verify messages to ensure they were signed with specified DRVF addresses</source>
+        <translation>Проверете съобщенията, за да сте сигурни че са подписани с определен DRVF адрес</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -444,7 +444,7 @@
     </message>
     <message>
         <source>Open a capracoin: URI or payment request</source>
-        <translation>Отвори DRV: URI или заявка за плащане</translation>
+        <translation>Отвори DRVF: URI или заявка за плащане</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -463,8 +463,8 @@
         <translation>Синхронизиране на допълнителни данни: %p%</translation>
     </message>
     <message>
-        <source>Show the DraviteFlex Core help message to get a list with possible DRV command-line options</source>
-        <translation>Покажи съобщението за помощ на DRV ядрото за да получиш списък на възможните опции за командния ред</translation>
+        <source>Show the DraviteFlex Core help message to get a list with possible DRVF command-line options</source>
+        <translation>Покажи съобщението за помощ на DRVF ядрото за да получиш списък на възможните опции за командния ред</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -487,8 +487,8 @@
         <translation>Лента с инструменти</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to DRV network</source>
-        <translation><numerusform>%n активни връзки към DRV мрежата</numerusform><numerusform>%n активни връзки към DRV мрежата</numerusform></translation>
+        <source>%n active connection(s) to DRVF network</source>
+        <translation><numerusform>%n активни връзки към DRVF мрежата</numerusform><numerusform>%n активни връзки към DRVF мрежата</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -896,16 +896,16 @@ Address: %4
         <translation>Настройка на Obfuscate </translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DRV's configuration screen.</source>
-        <translation>Obfuscate беше успешно настроен на режим основен (%1 и 2 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на DRV.</translation>
+        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DRVF's configuration screen.</source>
+        <translation>Obfuscate беше успешно настроен на режим основен (%1 и 2 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на DRVF.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DRV's configuration screen.</source>
-        <translation>Obfuscate  беше успешно настроен на режим висок (%1 и 8 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на DRV.</translation>
+        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DRVF's configuration screen.</source>
+        <translation>Obfuscate  беше успешно настроен на режим висок (%1 и 8 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на DRVF.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DRV's configuration screen.</source>
-        <translation>Obfuscate беше успешно настроен на режим максимум (%1 и 16 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на DRV.</translation>
+        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DRVF's configuration screen.</source>
+        <translation>Obfuscate беше успешно настроен на режим максимум (%1 и 16 цикъла). Можете да промените тази настройка по всяко време, като отворите конфигурационния прозорец на DRVF.</translation>
     </message>
 </context>
 <context>
@@ -947,8 +947,8 @@ Address: %4
         <translation>Редактиране на адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DRV address.</source>
-        <translation>Въведеният адрес "%1" не е валиден DRV адрес.</translation>
+        <source>The entered address "%1" is not a valid DRVF address.</source>
+        <translation>Въведеният адрес "%1" не е валиден DRVF адрес.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -990,7 +990,7 @@ Address: %4
     <name>HelpMessageDialog</name>
     <message>
         <source>DraviteFlex Core</source>
-        <translation>DRV ядро</translation>
+        <translation>DRVF ядро</translation>
     </message>
     <message>
         <source>version</source>
@@ -1002,7 +1002,7 @@ Address: %4
     </message>
     <message>
         <source>About DraviteFlex Core</source>
-        <translation>За DRV ядрото</translation>
+        <translation>За DRVF ядрото</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1049,15 +1049,15 @@ Address: %4
     </message>
     <message>
         <source>Welcome to DraviteFlex Core.</source>
-        <translation>Добре дошли в ядрото на DRV.</translation>
+        <translation>Добре дошли в ядрото на DRVF.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where DraviteFlex Core will store its data.</source>
-        <translation>Тъй като програмата се стартира за първи път вие може да изберете къде DRV да съхранява своята информация.</translation>
+        <translation>Тъй като програмата се стартира за първи път вие може да изберете къде DRVF да съхранява своята информация.</translation>
     </message>
     <message>
-        <source>DraviteFlex Core will download and store a copy of the DRV block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>DRV ще свали и съхрани копие на DRV регистъра на блокове. Информацията ще заеме поне %1ГБ  пространство и ще нараства с времето. В тази папка ще бъде съхранен и портфейла. </translation>
+        <source>DraviteFlex Core will download and store a copy of the DRVF block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>DRVF ще свали и съхрани копие на DRVF регистъра на блокове. Информацията ще заеме поне %1ГБ  пространство и ще нараства с времето. В тази папка ще бъде съхранен и портфейла. </translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1069,7 +1069,7 @@ Address: %4
     </message>
     <message>
         <source>DraviteFlex Core</source>
-        <translation>DRV ядро</translation>
+        <translation>DRVF ядро</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1122,12 +1122,12 @@ Address: %4
         <translation>&amp;Основни</translation>
     </message>
     <message>
-        <source>Automatically start DRV after logging in to the system.</source>
-        <translation>Автоматично стартиране на DRV след влизане в системата.</translation>
+        <source>Automatically start DRVF after logging in to the system.</source>
+        <translation>Автоматично стартиране на DRVF след влизане в системата.</translation>
     </message>
     <message>
-        <source>&amp;Start DRV on system login</source>
-        <translation>&amp;Стартирне на DRV при влизане в системата.</translation>
+        <source>&amp;Start DRVF on system login</source>
+        <translation>&amp;Стартирне на DRVF при влизане в системата.</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1147,15 +1147,15 @@ Address: %4
     </message>
     <message>
         <source>Obfuscate rounds to use</source>
-        <translation>Използвани DRV цикли</translation>
+        <translation>Използвани DRVF цикли</translation>
     </message>
     <message>
         <source>This amount acts as a threshold to turn off Obfuscate once it's reached.</source>
         <translation>Тази сума действа като праг, за да се изключи Obfuscate, когато той е достигнат.</translation>
     </message>
     <message>
-        <source>Amount of DRV to keep anonymized</source>
-        <translation>Постоянно поддържано количество анонимни DRV монети </translation>
+        <source>Amount of DRVF to keep anonymized</source>
+        <translation>Постоянно поддържано количество анонимни DRVF монети </translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1174,8 +1174,8 @@ Address: %4
         <translation>Разрешени входящи връзки</translation>
     </message>
     <message>
-        <source>Connect to the DRV network through a SOCKS5 proxy.</source>
-        <translation>Свързване с мрежата на DRV чрез SOCKS5 прокси.</translation>
+        <source>Connect to the DRVF network through a SOCKS5 proxy.</source>
+        <translation>Свързване с мрежата на DRVF чрез SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1206,8 +1206,8 @@ Address: %4
         <translation>&amp;Мрежа</translation>
     </message>
     <message>
-        <source>Automatically open the DRV client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отваря порта за DRV клиента в маршрутизатора. Това работи само когато вашият маршрутизатор поддържа UPnP и той е разрешен.</translation>
+        <source>Automatically open the DRVF client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отваря порта за DRVF клиента в маршрутизатора. Това работи само когато вашият маршрутизатор поддържа UPnP и той е разрешен.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1258,8 +1258,8 @@ Address: %4
         <translation>Език на потребителски &amp;изглед :</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DRV.</source>
-        <translation>Тук можете да промените езика на потребителския изглед. Настройката ще влезе в сила след рестартиране на DRV.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting DRVF.</source>
+        <translation>Тук можете да промените езика на потребителския изглед. Настройката ще влезе в сила след рестартиране на DRVF.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1347,8 +1347,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Формуляр</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DRV network after a connection is established, but this process has not completed yet.</source>
-        <translation>Показаната информация може да е остаряла. Вашият портфейл се синхронизира автоматично след изграждането на връзка с DRV мрежата, но този процес все още не е завършен.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DRVF network after a connection is established, but this process has not completed yet.</source>
+        <translation>Показаната информация може да е остаряла. Вашият портфейл се синхронизира автоматично след изграждането на връзка с DRVF мрежата, но този процес все още не е завършен.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1588,8 +1588,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Невалиден адрес за плащане %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid DRV address or malformed URI parameters.</source>
-        <translation>Грешка при анализ на URI! Това може да е следствие от неправилен DRV адрес или неправилно зададени URI параметри.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid DRVF address or malformed URI parameters.</source>
+        <translation>Грешка при анализ на URI! Това може да е следствие от неправилен DRVF адрес или неправилно зададени URI параметри.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1674,8 +1674,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a DRV address (e.g. %1)</source>
-        <translation>Въведете DRV адрес (напр.%1)</translation>
+        <source>Enter a DRVF address (e.g. %1)</source>
+        <translation>Въведете DRVF адрес (напр.%1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1764,8 +1764,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Брой връзки</translation>
     </message>
     <message>
-        <source>Open the DRV debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отваря файла за откриване на грешки на DRV от текущата папка.  За по-големите файлове това може да отнеме няколко секунди.</translation>
+        <source>Open the DRVF debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отваря файла за откриване на грешки на DRVF от текущата папка.  За по-големите файлове това може да отнеме няколко секунди.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1972,8 +1972,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Изход:</translation>
     </message>
     <message>
-        <source>Welcome to the DRV RPC console.</source>
-        <translation>Добре дошли в DRV RPC (Remote Procedure Call) конзолата.</translation>
+        <source>Welcome to the DRVF RPC console.</source>
+        <translation>Добре дошли в DRVF RPC (Remote Procedure Call) конзолата.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2035,8 +2035,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>П&amp;овторно използване на съществуващ адрес за получаване (не се препоръчва)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DRV network.</source>
-        <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. Забележка: съобщението няма да бъде изпратено с плащането по мрежата на DRV.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DRVF network.</source>
+        <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. Забележка: съобщението няма да бъде изпратено с плащането по мрежата на DRVF.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2047,8 +2047,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Възможност да се прикрепи наименование към новия адрес за получаване.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DRV network.</source>
-        <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. &lt;br&gt;Забележка: съобщението няма да бъде изпратено с плащането по мрежата на DRV.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DRVF network.</source>
+        <translation>Възможност  да се прикрепи съобщение към заявката за плащане, което да бъде показано при отваряне на заявката. &lt;br&gt;Забележка: съобщението няма да бъде изпратено с плащането по мрежата на DRVF.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2496,8 +2496,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Плати само минималната такса от %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid DRV address</source>
-        <translation>Внимание: Невалиден DRV адрес</translation>
+        <source>Warning: Invalid DRVF address</source>
+        <translation>Внимание: Невалиден DRVF адрес</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2519,8 +2519,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Плати &amp;На:</translation>
     </message>
     <message>
-        <source>The DRV address to send the payment to</source>
-        <translation>DRV адресът да изпрати плащането към </translation>
+        <source>The DRVF address to send the payment to</source>
+        <translation>DRVF адресът да изпрати плащането към </translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2559,8 +2559,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the capracoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DRV network.</source>
-        <translation>Съобщението което беше прикрепено към capracoin: URI ще бъде запазено с транзакцията за ваше сведение. Забележка: Това съобщение няма да бъде изпратено през DRV мрежата.</translation>
+        <source>A message that was attached to the capracoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DRVF network.</source>
+        <translation>Съобщението което беше прикрепено към capracoin: URI ще бъде запазено с транзакцията за ваше сведение. Забележка: Това съобщение няма да бъде изпратено през DRVF мрежата.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2587,7 +2587,7 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
     <name>ShutdownWindow</name>
     <message>
         <source>DraviteFlex Core is shutting down...</source>
-        <translation>DRV ядрото се изключва...</translation>
+        <translation>DRVF ядрото се изключва...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2609,8 +2609,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Можете да подпишете съобщение като доказателство, че притежавате определен адрес. Бъдете внимателни и не подписвайте съобщения, които биха разкрили лична информация без вашето съгласие.</translation>
     </message>
     <message>
-        <source>The DRV address to sign the message with</source>
-        <translation>DRV адресът да подпише съобщението</translation>
+        <source>The DRVF address to sign the message with</source>
+        <translation>DRVF адресът да подпише съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2641,8 +2641,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Копиране на текущия подпис в системния клипборд</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DRV address</source>
-        <translation>Подпиши съобщението за да докажеш че притежаваш този DRV адрес</translation>
+        <source>Sign the message to prove you own this DRVF address</source>
+        <translation>Подпиши съобщението за да докажеш че притежаваш този DRVF адрес</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2665,12 +2665,12 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Въведете подписания адрес, съобщението (уверете се, че сте копирали редовете, спациите, табовете и другите точно) и подпишете отдолу, за да удостоверите съобщението. Внимавайте да не вмъкнете излишни символи в подписа от това, което е в самото съобщение, за да избегнете риска от злонамерна външа намеса.</translation>
     </message>
     <message>
-        <source>The DRV address the message was signed with</source>
-        <translation>DRV адресът ,с който е подписано съобщението</translation>
+        <source>The DRVF address the message was signed with</source>
+        <translation>DRVF адресът ,с който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DRV address</source>
-        <translation>Проверете съобщението, за да сте сигурни че е подписано с определен DRV адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified DRVF address</source>
+        <translation>Проверете съобщението, за да сте сигурни че е подписано с определен DRVF адрес</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2737,7 +2737,7 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
     <name>SplashScreen</name>
     <message>
         <source>DraviteFlex Core</source>
-        <translation>DRV Ядро</translation>
+        <translation>DRVF Ядро</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2749,7 +2749,7 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
     </message>
     <message>
         <source>The DraviteFlex Core developers</source>
-        <translation>Водещи DRV разработчици</translation>
+        <translation>Водещи DRVF разработчици</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3327,7 +3327,7 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. DraviteFlex Core is probably already running.</source>
-        <translation>Не може да се заключи дата директорията %s. DRV ядрото вече работи.</translation>
+        <translation>Не може да се заключи дата директорията %s. DRVF ядрото вече работи.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3383,7 +3383,7 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
     </message>
     <message>
         <source>Unable to bind to %s on this computer. DraviteFlex Core is probably already running.</source>
-        <translation>Не може да се свърже с %s на този компютър. DRV ядрото най-вероятно вече работи.</translation>
+        <translation>Не може да се свърже с %s на този компютър. DRVF ядрото най-вероятно вече работи.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
@@ -3614,8 +3614,8 @@ https://www.transifex.com/capracoin-crypto/capracoin-wallet-translations/</trans
         <translation>Изтриване на всички транзакции на портфейла и  възстановява само тези части на блок веригата чрез -rescan при стартиране</translation>
     </message>
     <message>
-        <source>Disable all DRV specific functionality (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Изключване на всички специфични DRV функции (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, по подразбиране: %u)</translation>
+        <source>Disable all DRVF specific functionality (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>Изключване на всички специфични DRVF функции (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, по подразбиране: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
@@ -3719,9 +3719,9 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "DRV Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "DRVF Alert" admin@foo.com
 </source>
-        <translation>За използване на capracoind, или the -server опция към capracoin-qt, трябва да зададете rpcpassword в конфигурационния файл: %s Препоръчително е да използвате следната произволна парола: rpcuser=capracoinrpc rpcpassword=%s (не е нужно да запомняте тази парола) Потребителя и паролата НЕ ТРЯБВА да са еднакви. Ако файла не съществува , създайте го с права за само за четене. Препоръчително е да създадете сигнал за уведомяване за да бъдете осведомени при проблем; Пример: alertnotify=echo %%s | mail -s "DRV Alert" admin@foo.com 
+        <translation>За използване на capracoind, или the -server опция към capracoin-qt, трябва да зададете rpcpassword в конфигурационния файл: %s Препоръчително е да използвате следната произволна парола: rpcuser=capracoinrpc rpcpassword=%s (не е нужно да запомняте тази парола) Потребителя и паролата НЕ ТРЯБВА да са еднакви. Ако файла не съществува , създайте го с права за само за четене. Препоръчително е да създадете сигнал за уведомяване за да бъдете осведомени при проблем; Пример: alertnotify=echo %%s | mail -s "DRVF Alert" admin@foo.com 
 </translation>
     </message>
     <message>
@@ -3896,7 +3896,7 @@ for example: alertnotify=echo %%s | mail -s "DRV Alert" admin@foo.com
     </message>
     <message>
         <source>Initialization sanity check failed. DraviteFlex Core is shutting down.</source>
-        <translation>Инициализационната проверка не успешна. DRV ядрото се изключва.</translation>
+        <translation>Инициализационната проверка не успешна. DRVF ядрото се изключва.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4148,7 +4148,7 @@ for example: alertnotify=echo %%s | mail -s "DRV Alert" admin@foo.com
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart DraviteFlex Core to complete</source>
-        <translation>Портфейлът трябва да бъде презаписан: рестартирайте DRV за да завършите</translation>
+        <translation>Портфейлът трябва да бъде презаписан: рестартирайте DRVF за да завършите</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4208,7 +4208,7 @@ for example: alertnotify=echo %%s | mail -s "DRV Alert" admin@foo.com
     </message>
     <message>
         <source>Keep N DNET anonymized (default: %u)</source>
-        <translation>Поддържай N DRV анонимизирани (по подразбиране: %u)</translation>
+        <translation>Поддържай N DRVF анонимизирани (по подразбиране: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>

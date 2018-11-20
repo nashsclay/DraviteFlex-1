@@ -80,12 +80,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your DRV addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your DRVF addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your DRV addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your DRVF addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+12"/>
-        <source>DRV will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DRVs from being stolen by malware infecting your computer.</source>
+        <source>DRVF will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DRVFs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DRV&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DRVF&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -307,7 +307,7 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>Enter a DRV Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a DRVF Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -318,7 +318,7 @@
     </message>
     <message>
         <location line="-355"/>
-        <source>The DRV address to sign the message with</source>
+        <source>The DRVF address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -360,7 +360,7 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this DRV address</source>
+        <source>Sign the message to prove you own this DRVF address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -391,12 +391,12 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>The DRV address the message was signed with</source>
+        <source>The DRVF address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+29"/>
-        <source>Verify the message to ensure it was signed with the specified DRV address</source>
+        <source>Verify the message to ensure it was signed with the specified DRVF address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -781,7 +781,7 @@
     </message>
     <message>
         <location line="-665"/>
-        <source>Send coins to a DRV address</source>
+        <source>Send coins to a DRVF address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -811,17 +811,17 @@
     </message>
     <message>
         <location line="+10"/>
-        <source>Modify configuration options for DRV</source>
+        <source>Modify configuration options for DRVF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>Sign messages with your DRV addresses to prove you own them</source>
+        <source>Sign messages with your DRVF addresses to prove you own them</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified DRV addresses</source>
+        <source>Verify messages to ensure they were signed with specified DRVF addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -846,7 +846,7 @@
     </message>
     <message>
         <location line="+24"/>
-        <source>Open a DRV: URI or payment request</source>
+        <source>Open a DRVF: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -871,7 +871,7 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Show the DraviteCoins Core help message to get a list with possible DRV command-line options</source>
+        <source>Show the DraviteCoins Core help message to get a list with possible DRVF command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -886,7 +886,7 @@
     </message>
     <message numerus="yes">
         <location line="+182"/>
-        <source>%n active connection(s) to DRV network</source>
+        <source>%n active connection(s) to DRVF network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -1461,7 +1461,7 @@ Address: %4
     </message>
     <message>
         <location line="+71"/>
-        <source>The entered address &quot;%1&quot; is not a valid DRV address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid DRVF address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1596,7 +1596,7 @@ Address: %4
     </message>
     <message>
         <location line="+10"/>
-        <source>DraviteCoins Core will download and store a copy of the DRV block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>DraviteCoins Core will download and store a copy of the DRVF block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1814,8 +1814,8 @@ Address: %4
     </message>
     <message>
         <location line="+16"/>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other DRV addresses after it matures.
-To Add: enter percentage to give and DRV address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other DRVF addresses after it matures.
+To Add: enter percentage to give and DRVF address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
         <translation type="unfinished"></translation>
@@ -1980,12 +1980,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 10000 DRV</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 DRVF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 10000 DRV</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 DRVF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1995,12 +1995,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 DRV to anonymize 10000 DRV</source>
+        <source>This option is the quickest and will cost about ~0.025 DRVF to anonymize 10000 DRVF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 DRV to anonymize 10000 DRV</source>
+        <source>This option is moderately fast and will cost about 0.05 DRVF to anonymize 10000 DRVF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2010,7 +2010,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>0.1 DRV per 10000 DRV you anonymize.</source>
+        <source>0.1 DRVF per 10000 DRVF you anonymize.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2022,17 +2022,17 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="-29"/>
-        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DRV&apos;s configuration screen.</source>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DRVF&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DRV&apos;s configuration screen.</source>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DRVF&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DRV&apos;s configuration screen.</source>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DRVF&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2108,7 +2108,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+33"/>
-        <source>Automatically open the DRV client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the DRVF client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2133,12 +2133,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="-179"/>
-        <source>Automatically start DRV after logging in to the system.</source>
+        <source>Automatically start DRVF after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start DRV on system login</source>
+        <source>&amp;Start DRVF on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2158,7 +2158,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+15"/>
-        <source>Amount of DRV to keep anonymized</source>
+        <source>Amount of DRVF to keep anonymized</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2193,7 +2193,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+192"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting DRV.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting DRVF.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2209,7 +2209,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+17"/>
-        <source>Connect to the DRV network through a SOCKS5 proxy.</source>
+        <source>Connect to the DRVF network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2406,7 +2406,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
         <location line="+10"/>
         <location line="+1015"/>
         <location line="+93"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DRV network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DRVF network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2461,7 +2461,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+27"/>
-        <source>0 DRV / 0 Rounds</source>
+        <source>0 DRVF / 0 Rounds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2698,7 +2698,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+126"/>
-        <source>URI cannot be parsed! This can be caused by an invalid DRV address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid DRVF address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2806,7 +2806,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+113"/>
-        <source>Enter a DRV address (e.g. %1)</source>
+        <source>Enter a DRVF address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2995,7 +2995,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+149"/>
-        <source>Open the DRV debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the DRVF debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3202,7 +3202,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="-35"/>
-        <source>Welcome to the DRV RPC console.</source>
+        <source>Welcome to the DRVF RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3293,12 +3293,12 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="-37"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DRV network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DRVF network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DRV network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DRVF network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3592,7 +3592,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+7"/>
-        <source>0 DRV</source>
+        <source>0 DRVF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3652,18 +3652,18 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="-165"/>
-        <source>If the custom fee is set to 1000 uDRVs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uDRVs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uDRVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uDRVFs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uDRVFs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uDRVFs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uDRVs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uDRVs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uDRVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uDRVFs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uDRVFs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uDRVFs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DRV transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DRVF transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3796,7 +3796,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+651"/>
-        <source>Warning: Invalid DRV address</source>
+        <source>Warning: Invalid DRVF address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3935,7 +3935,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+18"/>
-        <source>The DRV address to send the payment to</source>
+        <source>The DRVF address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3989,7 +3989,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the DRV: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DRV network.</source>
+        <source>A message that was attached to the DRVF: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DRVF network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4052,7 +4052,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+18"/>
-        <source>The DRV address to sign the message with</source>
+        <source>The DRVF address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4094,17 +4094,17 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this DRV address</source>
+        <source>Sign the message to prove you own this DRVF address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+106"/>
-        <source>The DRV address the message was signed with</source>
+        <source>The DRVF address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified DRV address</source>
+        <source>Verify the message to ensure it was signed with the specified DRVF address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4947,7 +4947,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     <message>
         <location line="-20"/>
         <location line="+9"/>
-        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 DRV.</source>
+        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 DRVF.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5058,7 +5058,7 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+3"/>
-        <source>Disable all DRV specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
+        <source>Disable all DRVF specific functionality (Masternodes, Darksend, InstantX, Budgeting) (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5108,12 +5108,12 @@ https://www.transifex.com/capracoin-project/capracoin-project-translations</sour
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in DRV/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in DRVF/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in DRV/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in DRVF/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5252,7 +5252,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;DRV Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;DRVF Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
@@ -5268,12 +5268,12 @@ for example: alertnotify=echo %%s | mail -s &quot;DRV Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 10000 DRV.</source>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 10000 DRVF.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 DRV.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 DRVF.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5645,7 +5645,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DRV Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Fee (in DRV/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in DRVF/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5810,7 +5810,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DRV Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Keep N DRV anonymized (default: %u)</source>
+        <source>Keep N DRVF anonymized (default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6576,7 +6576,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DRV Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+12"/>
-        <source>Buy DRV</source>
+        <source>Buy DRVF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6589,7 +6589,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DRV Alert&quot; admin@foo.com
         <location line="-1108"/>
         <location line="+1192"/>
         <location line="+517"/>
-        <source>DRV</source>
+        <source>DRVF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6645,13 +6645,13 @@ for example: alertnotify=echo %%s | mail -s &quot;DRV Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+177"/>
-        <source>Sell DRV</source>
+        <source>Sell DRVF</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+1036"/>
-        <source>DRV Available:</source>
+        <source>DRVF Available:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6681,7 +6681,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DRV Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+44"/>
-        <source>DRV Balance:</source>
+        <source>DRVF Balance:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6691,7 +6691,7 @@ for example: alertnotify=echo %%s | mail -s &quot;DRV Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+51"/>
-        <source>DRV Pending:</source>
+        <source>DRVF Pending:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6701,12 +6701,12 @@ for example: alertnotify=echo %%s | mail -s &quot;DRV Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+32"/>
-        <source>Bittrex DRV Deposit Address:</source>
+        <source>Bittrex DRVF Deposit Address:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Generate DRV Deposit Address</source>
+        <source>Generate DRVF Deposit Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

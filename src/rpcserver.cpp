@@ -300,7 +300,7 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* DRV features */
+        /* DRVF features */
         {"draviteflex", "masternode", &masternode, true, true, false},
         {"draviteflex", "masternodelist", &masternodelist, true, true, false},
         {"draviteflex", "mnbudget", &mnbudget, true, true, false},

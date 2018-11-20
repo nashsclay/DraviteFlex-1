@@ -1,5 +1,5 @@
 [Unit]
-Description=DRV's distributed currency daemon
+Description=DRVF's distributed currency daemon
 After=network.target
 
 [Service]

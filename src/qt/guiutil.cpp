@@ -112,7 +112,7 @@ void setupAddressWidget(QValidatedLineEdit* widget, QWidget* parent)
 #if QT_VERSION >= 0x040700
     // We don't want translators to use own addresses in translations
     // and this is the only place, where this address is supplied.
-    widget->setPlaceholderText(QObject::tr("Enter a DRV address (e.g. %1)").arg("D7VFR83SQbiezrW72hjcWJtcfip5krte2Z"));
+    widget->setPlaceholderText(QObject::tr("Enter a DRVF address (e.g. %1)").arg("D7VFR83SQbiezrW72hjcWJtcfip5krte2Z"));
 #endif
     widget->setValidator(new BitcoinAddressEntryValidator(parent));
     widget->setCheckValidator(new BitcoinAddressCheckValidator(parent));
@@ -129,7 +129,7 @@ void setupAmountWidget(QLineEdit* widget, QWidget* parent)
 
 bool parseBitcoinURI(const QUrl& uri, SendCoinsRecipient* out)
 {
-    // return if URI is not valid or is no DRV: URI
+    // return if URI is not valid or is no DRVF: URI
     if (!uri.isValid() || uri.scheme() != QString(URI_SCHEME))
         return false;
 
@@ -163,7 +163,7 @@ bool parseBitcoinURI(const QUrl& uri, SendCoinsRecipient* out)
             fShouldReturnFalse = false;
         } else if (i->first == "amount") {
             if (!i->second.isEmpty()) {
-                if (!BitcoinUnits::parse(BitcoinUnits::DRV, i->second, &rv.amount)) {
+                if (!BitcoinUnits::parse(BitcoinUnits::DRVF, i->second, &rv.amount)) {
                     return false;
                 }
             }
@@ -198,7 +198,7 @@ QString formatBitcoinURI(const SendCoinsRecipient& info)
     int paramCount = 0;
 
     if (info.amount) {
-        ret += QString("?amount=%1").arg(BitcoinUnits::format(BitcoinUnits::DRV, info.amount, false, BitcoinUnits::separatorNever));
+        ret += QString("?amount=%1").arg(BitcoinUnits::format(BitcoinUnits::DRVF, info.amount, false, BitcoinUnits::separatorNever));
         paramCount++;
     }
 
@@ -586,7 +586,7 @@ CAmountTableWidgetItem::CAmountTableWidgetItem(const CAmount amount) : QTableWid
     QString res;
     if (amount > 0)
     {
-        res = BitcoinUnits::floorWithUnit(BitcoinUnits::DRV, amount);
+        res = BitcoinUnits::floorWithUnit(BitcoinUnits::DRVF, amount);
     }
     else
     {
@@ -610,12 +610,12 @@ bool CAmountTableWidgetItem::operator<(QTableWidgetItem const& item) const
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "DRV.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "DRVF.lnk";
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for DRV.lnk
+    // check for DRVF.lnk
     return boost::filesystem::exists(StartupShortcutPath());
 }
 
@@ -728,7 +728,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a draviteflex.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=DRV\n";
+        optionFile << "Name=DRVF\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

@@ -10,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between draviteflex-cli and draviteflexd)
- * of a given instance of the DRV system.
+ * of a given instance of the DRVF system.
  */
 class CBaseChainParams
 {

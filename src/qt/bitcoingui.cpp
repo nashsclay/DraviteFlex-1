@@ -1026,7 +1026,7 @@ void BitcoinGUI::message(const QString& title, const QString& message, unsigned 
             break;
         }
     }
-    // Append title to "DRV - "
+    // Append title to "DRVF - "
     if (!msgType.isEmpty())
         strTitle += " - " + msgType;
 
