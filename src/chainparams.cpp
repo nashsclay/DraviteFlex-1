@@ -227,26 +227,12 @@ public:
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 3161322;
 
-        hashGenesisBlock = genesis.GetHash();
-       /* uint256 hashTarget = CBigNum().SetCompact(genesis.nBits).getuint256();
-        while (genesis.GetHash() > hashTarget)
-        {
-            ++genesis.nNonce;
-            if (genesis.nNonce == 0)
-            {
-                printf("NONCE WRAPPED, incrementing time");
-                ++genesis.nTime;
-            }
-			if (genesis.nNonce % 10000 == 0)
-			{
-				printf("nonce %08u: hash = %s \n", genesis.nNonce, genesis.GetHash().ToString().c_str());
-			}
-        }
-        /*printf("TN nNonce %u\n", genesis.nNonce);
-	    printf("TN hashGenesisBlock %s\n", hashGenesisBlock.ToString().c_str());
-	    printf("TN hashMerkleRoot %s\n", genesis.hashMerkleRoot.ToString().c_str());
-        printf("TN nTime %u\n", genesis.nTime);*/
+       
         assert(hashGenesisBlock == uint256("0x00000377e842c72eb7666b937b09153af325558cd021e5bea4a645a209cc75bb"));
+
+          vSeeds.push_back(CDNSSeedData("217.69.11.253", "217.69.11.253"));
+          vSeeds.push_back(CDNSSeedData("217.69.10.153", "217.69.10.153"));
+          vSeeds.push_back(CDNSSeedData("217.69.13.191", "217.69.13.191"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
