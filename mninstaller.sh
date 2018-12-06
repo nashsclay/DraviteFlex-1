@@ -10,8 +10,8 @@ COIN_REPO='https://github.com/draviteflex/draviteflex.git'
 COIN_TGZ=''
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 COIN_NAME='DraviteFlex'
-COIN_PORT=25793
-RPC_PORT=22789
+COIN_PORT=22050
+RPC_PORT=22051
 
 NODEIP=$(curl -s4 icanhazip.com)
 

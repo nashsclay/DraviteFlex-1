@@ -98,7 +98,7 @@ public:
         pchMessageStart[2] = 0x24;
         pchMessageStart[3] = 0x42;
         vAlertPubKey = ParseHex("04266db20be5c52b94818e2e41c9def7af38197280c65e813f682adf2ed501ac186022562dbdf2ce3204d07432660fb61ecad8e78b6b8d39c568fb892db8ecb736");
-        nDefaultPort = 25793;
+        nDefaultPort = 22050;
         bnProofOfWorkLimit = ~uint256(0) >> 20;
         bnProofOfStakeLimit = ~uint256(0) >> 16;
         nSubsidyHalvingInterval = 262800;
@@ -227,7 +227,7 @@ public:
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 3161322;
 
-       
+
         assert(hashGenesisBlock == uint256("0x00000377e842c72eb7666b937b09153af325558cd021e5bea4a645a209cc75bb"));
 
           vSeeds.push_back(CDNSSeedData("217.69.11.253", "217.69.11.253"));

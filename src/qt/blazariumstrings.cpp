@@ -205,10 +205,10 @@ static const char UNUSED* draviteflex_strings[] = {
     QT_TRANSLATE_NOOP("draviteflex-core", ""
                                    "You must specify a masternodeprivkey in the configuration. Please see "
                                    "documentation for help."),
-    QT_TRANSLATE_NOOP("draviteflex-core", "(25793 could be used only on mainnet)"),
+    QT_TRANSLATE_NOOP("draviteflex-core", "(22050 could be used only on mainnet)"),
     QT_TRANSLATE_NOOP("draviteflex-core", "(default: %s)"),
     QT_TRANSLATE_NOOP("draviteflex-core", "(default: 1)"),
-    QT_TRANSLATE_NOOP("draviteflex-core", "(must be 25793 for mainnet)"),
+    QT_TRANSLATE_NOOP("draviteflex-core", "(must be 22050 for mainnet)"),
     QT_TRANSLATE_NOOP("draviteflex-core", "<category> can be:\n"),
     QT_TRANSLATE_NOOP("draviteflex-core", "Accept command line and JSON-RPC commands"),
     QT_TRANSLATE_NOOP("draviteflex-core", "Accept connections from outside (default: 1 if no -proxy or -connect)"),
